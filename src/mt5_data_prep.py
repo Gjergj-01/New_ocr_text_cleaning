@@ -1,9 +1,5 @@
-import re 
 import json
-import datasets 
 from datasets import Dataset 
-import difflib
-from difflib import SequenceMatcher
 import nltk
 from rapidfuzz import fuzz
 
@@ -96,8 +92,8 @@ def find_matches(cleaned_sentences, noisy_text):
 
 def main():
     # Load datasets
-    noisy = load_dataset("datasets/ocr_datasets/ita/original_ocr.json")
-    cleaned = load_dataset("datasets/ocr_datasets/ita/cleaned.json")
+    noisy = load_dataset("../datasets/ocr_datasets/ita/original_ocr.json")
+    cleaned = load_dataset("../datasets/ocr_datasets/ita/cleaned.json")
 
     keys = noisy.keys()
     integer_keys = [int(key) for key in keys]
@@ -128,8 +124,8 @@ def main():
     train = Dataset.from_dict(training_dataset)
     val = Dataset.from_dict(evaluation_dataset)
 
-    train.save_to_disk("datasets/t5-datasets/training.json")
-    val.save_to_disk("datasets/t5-datasets/validation.json")
+    train.save_to_disk("../datasets/t5-datasets/training.json")
+    val.save_to_disk("./datasets/t5-datasets/validation.json")
 
     return
     

@@ -12,3 +12,8 @@ SOME Data augmentation suggestions.
 I think we should consider using also the english dataset. All models we are using are trained also on english data, so this 
 shouldn't introduce issues with the italian text, but, I think, it will only make the model more robust and lead to better 
 performances.
+
+
+### Italian OCR datasets
+
+[Datasets](https://drive.google.com/drive/folders/1nbIdLEnXTd2VFUdXcLwYYQ9FpWI3npQ_?usp=drive_link)

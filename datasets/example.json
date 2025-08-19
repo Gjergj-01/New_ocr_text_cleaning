@@ -1,0 +1,12 @@
+[
+    {
+        "in":  "sop a la pa ca la capra campa, sotto la panca la capra crepa",
+        "hyp": "sopra la panca la banca capra, sotto la canta la fanta magra",
+        "ref": "sopra la panca la capra campa, sotto la panca la capra crepa"
+    },
+    {
+        "in": "sopa lo panc la cap campa, sotto la panca la capra crepa",
+        "hyp": "sopra la panca la capra campa, sotta la panca la capra crepa",
+        "ref": "sopra la panca la capra campa, sotto la panca la capra crepa"
+    }
+]

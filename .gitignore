@@ -1,0 +1,3 @@
+datasets/*
+!datasets/LLMAsjudge_instructions.json
+!datasets/example.json

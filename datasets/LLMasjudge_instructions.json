@@ -1,0 +1,9 @@
+{
+    "orig_instructions": "Transform the noisy OCR text given by the user in clean text",
+    "orig_criteria": "criteria: Is the model capable to clean correctly the noisy words?",
+    "orig_score1_description": "The words have not been cleaned and the model also changed words that before were correct",
+    "orig_score2_description": "More than half of noisy words have not been cleaned",
+    "orig_score3_description": "The model cleans correctly more than half of the noisy words",
+    "orig_score4_description": "The model cleans almost all the words, and the wrongly cleaned words are very similar to the correct ones",
+    "orig_score5_description": "The model cleans all the words, the two versions are identical"
+}

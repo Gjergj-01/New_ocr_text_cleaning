@@ -6,9 +6,17 @@ import json
 in_path_file = "datasets/example.json"
 out_path_file = "datasets/scores.json"
 
+#in hyp ref
+
 # Human evaluation domain: [1, 5]
 valuation_coefficient = 5
-human_annotations = [2, 3]
+
+with open('datasets/example.json') as file:
+    in_samples = json.load(file)
+
+human_annotations = [row['human_annotation'] for row in in_samples]
+print(human_annotations)
+
 results = {'human': human_annotations}
 
 rouge_results = get_rouge(in_path_file)

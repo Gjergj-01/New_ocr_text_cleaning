@@ -7,7 +7,7 @@ def get_LLM(model, path_file):
     
     assert((model == "Prometheus") or (model == "Gemini"))
     
-    with open('datasets/LLMAsjudge_instructions.json') as file:
+    with open('datasets/LLMasjudge_instructions.json') as file:
         instructions = json.load(file)
 
     with open(path_file) as file:
@@ -23,7 +23,7 @@ def get_LLM(model, path_file):
 
     if model == "Gemini":
 
-        client = genai.Client(api_key="YOUR_API_KEY")
+        client = genai.Client(api_key="AIzaSyD_RpMJkpEldeHRq0lhwuHifcLLWWPaX2M")
 
         outputs = []
 
@@ -33,7 +33,7 @@ def get_LLM(model, path_file):
             orig_response = d['hyp']
             orig_reference_answer = d['ref']
 
-            print(f"[get_LLM]: elaborating response {orig_response[:50]}...")
+            print(f"[get_LLM]: elaborating response {orig_response}...")
             response = client.models.generate_content(
                 model="gemini-2.0-flash", 
                 contents=f"""
@@ -45,7 +45,9 @@ def get_LLM(model, path_file):
                         2. Compare the response to the reference answer and judge how well it satisfies the rubric.
                         3. Provide a justification for your score based on specific aspects of the response.
                         4. Output the result as follows:
-                        "Feedback: (your explanation) - [SCORE] (a number from 1 to 5)"
+                        "Feedback: (your explanation) --- [SCORE] (a number from 1 to 5)"
+                        
+                        Notice that the sequence "---" must be unique inside the response, as it will be used as separator for the score.
 
                         ### The instruction to evaluate:
                         {orig_instruction}
@@ -68,9 +70,9 @@ def get_LLM(model, path_file):
                         Score 5: {orig_score5_description}
 
                         ### Feedback:""")
-            
-            feedback, score = response.text.split("-")
+            print("[get_LLM] Response: ", response.text)
+            feedback, score = response.text.split("---")
             score = re.search('\d', score).group()
-            outputs.append({"feedback": feedback, "score": int(score)})
+            outputs.append({"in": input, "hyp": orig_response, "ref": orig_reference_answer, "feedback": feedback, "score": int(score)})
     
         return outputs

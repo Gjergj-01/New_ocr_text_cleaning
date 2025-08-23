@@ -3,10 +3,10 @@ from datasets import Dataset
 import nltk
 from rapidfuzz import fuzz
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
-def load_dataset(path):
-    with open(path, "r") as file:
+def load_dataset(file_path):
+    with open(file_path, "r") as file:
         dataset = json.load(file)
     
     return dataset
@@ -92,8 +92,8 @@ def find_matches(cleaned_sentences, noisy_text):
 
 def main():
     # Load datasets
-    noisy = load_dataset("../datasets/ocr_datasets/ita/original_ocr.json")
-    cleaned = load_dataset("../datasets/ocr_datasets/ita/cleaned.json")
+    noisy = load_dataset("../datasets/original_ocr.json")
+    cleaned = load_dataset("../datasets/cleaned.json")
 
     keys = noisy.keys()
     integer_keys = [int(key) for key in keys]
@@ -125,7 +125,11 @@ def main():
     val = Dataset.from_dict(evaluation_dataset)
 
     train.save_to_disk("../datasets/t5-datasets/training.json")
-    val.save_to_disk("./datasets/t5-datasets/validation.json")
+    val.save_to_disk("../datasets/t5-datasets/validation.json")
+
+    train.to_json("../datasets/t5-datasets/training_.json", force_ascii=False)
+    val.to_json("../datasets/t5-datasets/validation_.json", force_ascii=False)
+
 
     return
     

@@ -1,12 +1,788 @@
 [
-    {
-        "in":  "sop a la pa ca la capra campa, sotto la panca la capra crepa",
-        "hyp": "sopra la panca la banca capra, sotto la canta la fanta magra",
-        "ref": "sopra la panca la capra campa, sotto la panca la capra crepa"
-    },
-    {
-        "in": "sopa lo panc la cap campa, sotto la panca la capra crepa",
-        "hyp": "sopra la panca la capra campa, sotta la panca la capra crepa",
-        "ref": "sopra la panca la capra campa, sotto la panca la capra crepa"
-    }
+  {
+    "in": "I. \nComo  andò  che  Maestro  Ciliegia,  Megnamc \ntrovò  un  pezzo  di  legno  che  piangeva  e  rideva  come  un  bambino.",
+    "ref": "I.Come andò che Maestro Ciliegia, falegname\ntrovò un pezzo di legno che piangeva e rideva come un bambino.",
+    "hyp": "Com’è andato che Maestro Ciliegia, trovando un pezzo di legno che piangeva e rideva come un bambino?"
+    ,"human_annotation": 4
+  },
+  {
+    "in": " \n—  C'era  una  volta.... \n—  Un  re!  -diranno  subito  i  miei  piccoli  lettori. \n—  Ko,  ragazzi,  avete  sbagliato.",
+    "ref": "— C’era una volta....\n— Un re!— diranno subito i miei piccoli lettori.— No, ragazzi, avete sbagliato.",
+    "hyp": "— C’era una volta...— Un re!— dirà subito i miei piccoli lettori.— No, ragazzi, avete sbagliato: non c’è mai stato un re." ,"human_annotation": 1
+  },
+  {
+    "in": "  C'era  una  volta \nun  pezzo  di  legno. \nKon  era  un  legno  di  lusso,  ma  un  semplice \npezzo  da  catasta,  di  quelli  che  d' inverno  si  met- \ntono nelle  stufe  e  nei  caminetti  per  accendere \nil  fuoco  e  per  riscaldare  le  stanze.",
+    "ref": "C’era una volta un pezzo di legno.Non era un legno di lusso, ma un semplice pezzo da catasta, di quelli che d’inverno si mettono nelle stufe e nei caminetti per accendere il fuoco e per riscaldare le stanze.",
+    "hyp": "C’era una volta un pezzo di legno.Kon era un legno di lusso, ma un semplice pezzo da catasta, di quelli che d’inverno si mettono nelle stufe e nei caminetti per accendere il fuoco e per riscaldare le stanze.","human_annotation": 4
+  },
+  {
+    "in": " \n\nNon  so  come  andasse,  ma  il  fatto  gli  è  che  un \nbel  giorno' questo  pezzo  di  legno  capitò  nella  bot- \ntega di  un  vecchio  falegname,  il  quale  aveva \nnome  mastr' Antonio,  se  non  che  tutti  lo  chia- \nmavano maestro  Ciliegia,  per  via  della  punta  del \n\nsentì  nna  vocina  sottile  sottile.",
+    "ref": "Non so come andasse, ma il fatto gli è che un bel giorno questo pezzo di legno capitò nella bottega di un vecchio falegname, il quale aveva nome mastr’Antonio, se non che tutti lo chiamavano maestro Ciliegia, per via della punta del <img description>.... sentì una vocina sottile sottile.",
+    "hyp": "Non so come andasse, ma il fatto gli è che un bel giorno questo pezzo di legno capitò nella bottega di un vecchio falegname, il quale aveva nome Mastro Ciliegia, per via della punta del naso.","human_annotation": 1
+  },
+  {
+    "in": " \n\nSUO  naso,  che  era  sempre  lustra  e  paonazza,  come \nuna  ciliegia  matura. \nAppena  maestro  Ciliegia  ebbe  visto  quel  pezzo \ndi  legno,  si  rallegrò  tutto;  e  dandosi  una  fregatina \ndi  mani  per  la  contentezza,  borbottò  a  mezza  voce: \n—  Questo  legno  è  capitato  a  tempo;  voglio \nservirmene  per  fare  una  gamba  di  tavolino.",
+    "ref": "suo naso, che era sempre lustra e paonazza, come una ciliegia matura.Appena maestro Ciliegia ebbe visto quel pezzo di legno, si rallegrò tutto; e dandosi una fregatina di mani per la contentezza, borbottò a mezza voce:\n— Questo legno è capitato a tempo; voglio servirmene per fare una gamba di tavolino.",
+    "hyp": "Suono il campanello.Appena maestro Ciliegia ebbe visto quel pezzo di legno, si rallegrò tutto; e dandosi una fregatina di mani per la contentezza, borbottò a mezza voce:\n— Questo legno è capitato a tempo: voglio servirmene per fare una gamba di tavolino.","human_annotation": 1
+  },
+  {
+    "in": "  — \n\nDetto  fatto,  prese  subito  l'ascia  arrotata  per \ncominciare  a  levargli  la  scorza  e  a  digrossarlo; \nma  quando  fu  lì  per  lasciare  andare  la  prima \nasciata,  rimase  col  braccio  sospeso  in  aria,  per- \nchè sentì  una  vocina  sottile  sottile,  che  disse \nraccomandandosi: \n—  Non  mi  picchiar  tanto  forte!",
+    "ref": "—\nDetto fatto, prese subito l’ascia arrotata per cominciare a levargli la scorza e a digrossarlo; ma quando fu lì per lasciare andare la prima asciata, rimase col braccio sospeso in aria, perchè sentì una vocina sottile sottile, che disse raccomandandosi:\n— Non mi picchiar tanto forte!",
+    "hyp": "— Detto fatto, prese subito l’ascia arrotolata per cominciare a levargli la scorza e a digrossarlo; ma quando fu lì per lasciare andare la prima mandata, rimase col braccio sospeso in aria, perchè sentì una vocina sottile sottile, che disse raccomandandosi:\n— Non mi picchiar tanto forte!","human_annotation": 5
+  },
+  {
+    "in": "  — \nFiguratevi  come  rimase  quel  buon  vecchio  di \nmaestro  Ciliegia! \nGirò  gli  occhi  smarriti  intorno  alla  stanza  per \nvedere  di  dove  mai  poteva  essere  uscita  quella  vo- \ncina, e  non  vide  nessuno",
+    "ref": "—\nFiguratevi come rimase quel buon vecchio di maestro Ciliegia!Girò gli occhi smarriti intorno alla stanza per vedere di dove mai poteva essere uscita quella vocina, e non vide nessuno!",
+    "hyp": "— Figuratevi come rimase quel buon vecchio di maestro Ciliegia?Girò gli occhi smarriti intorno alla stanza per vedere di dove mai poteva essere uscita quella vocina, e non vide nessuno.","human_annotation": 4
+  },
+  {
+    "in": "  !  Guardò  sotto  il  banco, \ne  nessuno  :  guardò  dentro  un  armadio  che  stava \nsempre  chiuso,  e  nessuno;  guardò  nel  corbèllo \ndei  trucioli  e  della  segatura,  e  nessuno;  aprì  l'uscio \ndi  bottega  per  dare  un'occhiata  anche  sulla  strada, \ne  nessuno.",
+    "ref": "Guardò sotto il banco, e nessuno: guardò dentro un armadio che stava sempre chiuso, e nessuno; guardò nel corbello dei trucioli e della segatura, e nessuno; aprì l’uscio di bottega per dare un’occhiata anche sulla strada, e nessuno.",
+    "hyp": "Guardò sotto il banco, e nessuno: guardò dentro un armadio che stava sempre chiuso, e nessuno; guardò nel corbello dei trucioli e della segatura, e nessuno; aprì l’uscio di bottega per dare un’occhiata anche sulla strada, e nessuno.","human_annotation": 5
+  },
+  {
+    "in": "  O  dunque?... \n—  Ho  capito;  —  disse  allora  ridendo  e  gTat- \ntandosi  la  parrucca  —  si  vede  che  quella  vocina \nme  la  son  figurata  io.",
+    "ref": "O dunque?...— Ho capito; — disse allora ridendo e grattandosi la parrucca — si vede che quella vocina me la son figurata io.",
+    "hyp": "O dunque?...― disse allora ridendo, e gettandosi la parrucca, — si vede che quella vocina me l’ho figurata io.","human_annotation": 2
+  },
+  {
+    "in": "  Eimettiamoci  a  lavo- \nrare. — \nE  ripresa  l' ascia  in  mano,  tirò  giù  un  solennis- \nsimo  colpo  sul  pezzo  di  legno.",
+    "ref": "Rimettiamoci a lavorare.—\nE ripresa l’ascia in mano, tirò giù un solennissimo colpo sul pezzo di legno.",
+    "hyp": "E mettetevi a lavare.—\nE presa l’ascia in mano, tirò giù un solenne colpo sulla pezzuola.","human_annotation": 2
+  },
+  {
+    "in": " \n—  Ohi!  tu  m'hai  fatto  male!  —  gridò  ramma- \nricandosi la  solita  vocina. \nQuesta  volta  maestro  Ciliegia  restò  di  stucco, \ncogli  occhi  fuori  del  capo  per  la  paura,  colla  bocca \n\nspalancati  e  colla  lingna  giù  ciondoloni  fino  al \nmento,  come  nn  mascherone  da  fontana.",
+    "ref": "— Ohi!tu m’hai fatto male!— gridò rammaricandosi la solita vocina.Questa volta maestro Ciliegia restò di stucco, cogli occhi fuori del capo per la paura, colla bocca\nspalancata e colla lingua giù ciondoloni fino al mento, come un mascherone da fontana.",
+    "hyp": "— Chi è?— gridò il ciuchino.— Tu mi hai fatto male!— gridò rammaricandosi la solita vocina.Questa volta maestro Ciliegia restò di stucco, cogli occhi fuori del capo per la paura, colla bocca spalancati e con la lingua spenzoloni fino al mento, come non un mascherone da fontana.","human_annotation": 1
+  },
+  {
+    "in": " \nAppena  riebbe  l'uso  della  parola,  cominciò  a \ndire  tremando  e  balbettando  dallo  spavento: \n—  Ma  di  dove  sarà  uscita  questa  vocina  che \nha  detto  ohi  ?...",
+    "ref": "Appena riebbe l’uso della parola, cominciò a dire tremando e balbettando dallo spavento:\n— Ma di dove sarà uscita questa vocina che ha detto ohi?...",
+    "hyp": "Appena ebbe ripreso l’uso della parola, cominciò a dire tremando e balbettando dallo spavento:\n— Ma di dove sarà uscita questa vocina che ha detto ohi?...","human_annotation": 2
+  },
+  {
+    "in": "  Eppure  qui  non  e'  è  anima  viva. \nOhe  sia  per  caso  questo  pezzo  di  legno  che  abbia \nimparato  a  piangere  e  a  lamentarsi  come  un  bam- \nbino?",
+    "ref": "Eppure qui non c’è anima viva.Che sia per caso questo pezzo di legno che abbia imparato a piangere e a lamentarsi come un bambino?",
+    "hyp": "Eppure qui non c’è anima viva.Che sia per caso questo pezzo di legno che ha imparato a piangere e a lamentarsi come un bambino?","human_annotation": 4
+  },
+  {
+    "in": " Io  non  lo  posso  credere.  Questo  legno  eccolo \nqui;  è  un  pezzo  di  legno  da  caminetto,  come  tutti \ngli  altri,  e  a  buttarlo  sul  fuoco,  c'è  da  far  bollire \nuna  pentola  di  fagioli....  O  dunque?",
+    "ref": "Io non lo posso credere.Questo legno eccolo qui; è un pezzo di legno da caminetto, come tutti gli altri, e a buttarlo sul fuoco, c’è da far bollire una pentola di fagioli.... O dunque?",
+    "hyp": "Io non lo posso credere.Questo legno eccolo qui: è un pezzo di legno da caminetto, come tutti gli altri, e a buttarlo sul fuoco, c’è da far bollire una pentola di fagioli...O dunque?" ,"human_annotation": 5
+  },
+  {
+    "in": "  Ohe  ci  sia  na- \nscosto dentro  qualcuno!  Se  c'è  nascosto  qualcuno, \ntanto  peggio  per  lui.  Ora  l'accomodo  io!",
+    "ref": "Che ci sia nascosto dentro qualcuno!Se c’è nascosto qualcuno, tanto peggio per lui.Ora l’accomodo io!",
+    "hyp": "— O che cosa c’è dentro?Chi sa che non ci sia nascosto qualcuno?Se c’è nascosto qualcuno, tanto peggio per lui.Ora l’accomodo io!" ,"human_annotation": 1
+  },
+  {
+    "in": "  — \nE  così  dicendo,  agguantò  con  tutt'  e  due  le \nmani  quel  povero  pezzo  di  legno,  e  si  pose  a \nsbatacchiarlo  senza  carità  contro  le  pareti  della \nstanza.",
+    "ref": "—\nE così dicendo, agguantò con tutt’e due le mani quel povero pezzo di legno, e si pose a sbatacchiarlo senza carità contro le pareti della stanza.",
+    "hyp": "—\nE così dicendo, agguantò con tutt’e due le mani quel povero pezzo di legno, e si pose a sbatacchiarlo senza carità contro le pareti della stanza.","human_annotation": 5
+  },
+  {
+    "in": " \nPoi  si  messe  in  ascolto,  per  sentire  se  c'era \nqualche  vocina  che  si  lamentasse.  Aspettò  due \nminuti,  e  nulla;  cinque  minuti,  e  nulla;  dieci  mi- \nnuti, e  nulla!",
+    "ref": "Poi si messe in ascolto, per sentire se c’era qualche vocina che si lamentasse.Aspettò due minuti, e nulla; cinque minuti, e nulla; dieci minuti, e nulla!",
+    "hyp": "Poi si mise in ascolto, per sentire se c’era qualche vocina che si lamentasse.Aspettò due minuti, e nulla; cinque minuti, e nulla; dieci minuti, e nulla!","human_annotation": 5
+  },
+  {
+    "in": " \n— -  Ho  capito  —  disse  allora  sforzandosi  di  ri- \ndere e  arruffandosi  la  parrucca — si  vede  che  quella \nvocina  che  ha  detto  olii,  me  la  son  figurata  io!",
+    "ref": "— Ho capito — disse allora sforzandosi di ridere e arruffandosi la parrucca — si vede che quella vocina che ha detto ohi, me la son figurata io!",
+    "hyp": "— — Ho capito, — disse allora sforzandosi di ridere e arruffandosi la parrucca: — si vede che quella vocina che ha detto «olii», me la sono figurata io!","human_annotation": 4
+  },
+  {
+    "in": " \nEimettiamoci  a  lavorare.  — \nE  perchè  gli  era  entrato  addosso  una  gran \n\n\npaura,  si  provò  a  canterellare  per  farsi  un  po'  di \ncoraggio.",
+    "ref": "Rimettiamoci a lavorare.—\nE perchè gli era entrato addosso una gran\npaura, si provò a canterellare per farsi un po’ di coraggio.",
+    "hyp": "E mettiti a lavorare.— E perchè gli era entrato addosso una gran paura, si provò a canterellare per farsi un pò di coraggio.","human_annotation": 4
+  },
+  {
+    "in": " \nIntanto,  i^osata  da  una  parte  l'ascia,  prese  in \nmano  la  pialla,  per  piallare  e  tirare  a  pulimento \nil  pezzo  di  legno  ;  ma  nel  mentre  che  lo  piallava \nin  su  e  in  giù,  sentì  la  solita  vocina  che  gli  disse \nridendo  : \n—  Smetti!",
+    "ref": "Intanto, posata da una parte l’ascia, prese in mano la pialla, per piallare e tirare a pulimento il pezzo di legno; ma nel mentre che lo piallava in su e in giù, sentì la solita vocina che gli disse ridendo:\n— Smetti!",
+    "hyp": "Intanto, per evitare di perdere tempo, presa da una parte l’ascia, prese in mano la pialla, per piallare e tirare a pulimento il pezzo di legno; ma nel mentre che lo piallava in su e in giù, sentì la solita vocina che gli disse ridendo:\n— Smetti!","human_annotation": 2
+  },
+  {
+    "in": "  tu  mi  fai  il  pizzicorino  sul  corpo!  — \nQuesta  volta  il  povero  maestro  Ciliegia  cadde \ngiù  come  fulminato.",
+    "ref": "tu mi fai il pizzicorino sul corpo!—\nQuesta volta il povero maestro Ciliegia cadde giù come fulminato.",
+    "hyp": "tu mi fai il pizzicorino sul corpo?— Questa volta il povero maestro Ciliegia cadde giù come fulminato.","human_annotation": 4
+  },
+  {
+    "in": "  Quando  riaprì  gli  occhi,  si \ntrovò  seduto  per  terra. \nIl  suo  viso  pareva  trasfigurito,  e  perfino  la  punta \ndel  naso,  di  paonazza  come  era  quasi  sempre,  gli \nera  diventata  turchina  dalla  gran ",
+    "ref": "Quando riaprì gli occhi, si trovò seduto per terra.Il suo viso pareva trasfigurito, e perfino la punta del naso, di paonazza come era quasi sempre, gli era diventata turchina dalla gran paura.",
+    "hyp": "Quando riaprì gli occhi, si trovò seduto per terra.Il suo viso pareva trasfigurato: perfino la punta del naso, che di solito era di un bel colore roseo, gli era diventata turchina dalla gran paura.","human_annotation": 1
+  },
+  {
+    "in": "IL \nMaestro  Cilirgìa  regala  il  pezzo  di  legno  al  suo  amico  Geppetto, \nil  quale  lo  prende  per  fabbricarsi  un  burattino  maraviglioso, \nche  sappia  ballare,  tirar  di  scherma  e  fare  i  salti  mortali.",
+    "ref": "II.Maestro Ciliegia regala il pezzo di legno al suo amico Geppetto, il quale lo prende per fabbricarsi un burattino maraviglioso, che sappia ballare, tirar di scherma e fare i salti mortali.",
+    "hyp": "Il Maestro Ciliegia regala il pezzo di legno al suo amico Geppetto, il quale lo prende per fabbricarsi un burattino maraviglioso, che sappia ballare, tirare di scherma e fare i salti mortali." ,"human_annotation": 4
+  },
+  {
+    "in": " \nIn  quel  punto  fu  bussato  alla  porta. \n—  Passate  pure,  —  disse  il  falegname,  senza \naver  la  forza  di  rizzarsi  in  piedi.",
+    "ref": "In quel punto fu bussato alla porta.— Passate pure, — disse il falegname, senza aver la forza di rizzarsi in piedi.",
+    "hyp": "In quel punto fu bussato alla porta.— Passate pure, — disse il falegname, senza aver la forza di rizzarsi in piedi." ,"human_annotation": 5
+  },
+  {
+    "in": " \n\nTJn  vecchietto  tutto  arzillo,  il  quale  aveva  nome  Geppetto. \nAllora  entrò  in  bottega  un  vecchietto  tutto  ar- \nzillo, il  quale  aveva  nome  Geppetto  ;  ma  i  ragazzi \ndel  vicinato,  quando  lo  volevano  far  montare  su \n\n\ntutte  le  furie,  lo  cliiamavano  col  soprannome  di \nPolendina,  a  motivo  della  sua  parrucca  gialla, \nche  somigliava  moltissimo  alla  polendina  di  gran- \nturco.",
+    "ref": "<img description>Un vecchietto tutto arzillo, il quale aveva nome Geppetto.Allora entrò in bottega un vecchietto tutto arzillo, il quale aveva nome Geppetto; ma i ragazzi del vicinato, quando lo volevano far montare su\ntutte le furie, lo chiamavano col soprannome di Polendina, a motivo della sua parrucca gialla, che somigliava moltissimo alla polendina di granturco.",
+    "hyp": "Tin vecchietto tutto arzillo, il quale aveva nome Geppetto; allora entrò in bottega un vecchietto tutto arzillo, il quale aveva nome Geppetto: ma i ragazzi del vicinato, quando lo volevano far montare su tutte le furie, lo chiamavano col soprannome di Polendina, a motivo della sua parrucca gialla, che somigliava moltissimo alla polendina di gran turco." ,"human_annotation": 2
+  },
+  {
+    "in": " \nGeppetto  era  bizzosissimo.  Guai  a  chiamarlo \nPolendina  !  Diventava  subito  una  bestia,  e  non \nc'era  più  verso  di  tenerlo.",
+    "ref": "Geppetto era bizzosissimo.Guai a chiamarlo Polendina!Diventava subito una bestia, e non c’era più verso di tenerlo.",
+    "hyp": "Geppetto era bizzosissimo.Guai a chiamarlo Polendina!Diventava subito una bestia, e non c’era più verso di tenerlo." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Buon  giorno,  mastr' Antonio,  —  disse  Gep- \npetto. —  Ohe  cosa  fate  costì  per  terra? \n—  Insegno  l'abbaco  alle  formicole.",
+    "ref": "— Buon giorno, mastr’Antonio, — disse Geppetto.— Che cosa fate costì per terra?— Insegno l’abbaco alle formicole.",
+    "hyp": "— Buon giorno, mastro Antonio, — disse Geppetto.— Che cosa fate costì per terra?— Insegno l’abbaco alle formicole." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Buon  prò  vi  faccia. \n—  Chi  vi  ha  portato  da  me,  compar  Gep- \npetto ? \n—  Le  gambe.  Sappiate,  mastr' Antonio,  che  son \nvenuto  da  voi,  per  chiedervi  un  favore.",
+    "ref": "— Buon pro vi faccia.— Chi vi ha portato da me, compar Geppetto?— Le gambe.Sappiate, mastr’Antonio, che son venuto da voi, per chiedervi un favore.",
+    "hyp": "— Buon pro vi faccia!— Chi vi ha portato da me, compar Geppetto?— Le gambe.Sappiate, maestro Antonio, che son venuto da voi, per chiedervi un favore." ,"human_annotation": 4
+  },
+  {
+    "in": " \n—  Eccomi  qui,  pronto  a  servirvi,  —  replicò  il \nfalegname  rizzandosi  su  i  ginocchi. \n—  Stamani  m'  è  piovuta  nel  cervello  un'idea.",
+    "ref": "— Eccomi qui, pronto a servirvi, — replicò il falegname rizzandosi su i ginocchi.— Stamani m’è piovuta nel cervello un’idea.",
+    "hyp": "— Eccomi qui, pronto a servirvi, — replicò il falegname rizzandosi su i ginocchia.— Stamani m’è piovuta nel cervello un’idea." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Sentiamola. \n—  Ho  pensato  di  fabbricarmi  da  me  un  bel  bu- \nrattino di  legno  :  ma  un  burattino  maraviglioso, \nche  sappia  ballare,  tirar  di  scherma  e  fare  i  salti \nmortali.",
+    "ref": "— Sentiamola.— Ho pensato di fabbricarmi da me un bel burattino di legno: ma un burattino maraviglioso, che sappia ballare, tirar di scherma e fare i salti mortali.",
+    "hyp": "— Sentiamola.— Ho pensato di fabbricarmi da me un bel burattino di legno: ma un burattino maraviglioso, che sappia ballare, tirar di scherma e fare i salti mortali."  ,"human_annotation": 5
+  },
+  {
+    "in": "  Con  questo  burattino  voglio  girare  il \nmondo,  per  buscarmi  un  tozzo  di  pane  e  un  bic- \nchier di  vino:  che  ve  ne  pare",
+    "ref": "Con questo burattino voglio girare il mondo, per buscarmi un tozzo di pane e un bicchier di vino: che ve ne pare?",
+    "hyp": "Con questo burattino voglio girare il mondo, per buscarmi un tozzo di pane e un bicchier di vino: che ve ne pare?" ,"human_annotation": 5
+  },
+  {
+    "in": "! \n—  Bravo  Polendina  !  —  gTidò  la  solita  vocina, \nche  non  si  capiva  di  dove  uscisse. \n\n\nA  sentirsi  cliiainar  Polendina,  compar  Geppetto \ndiventò  rosso  come  un  peperone  dalla  bizza,  e  vol- \ntandosi verso  il  falegname,  gli  disse  imbestialito  : \n—  Percliè  mi  offendete?",
+    "ref": "— Bravo Polendina!— gridò la solita vocina, che non si capiva di dove uscisse.A sentirsi chiamar Polendina, compar Geppetto diventò rosso come un peperone dalla bizza, e voltandosi verso il falegname, gli disse imbestialito:\n— Perchè mi offendete?",
+    "hyp": "— Bravo Polendina!— gridò la solita vocina, che non si capiva da dove uscisse.\nA sentirsi chiamare così, comparve Geppetto tutto rosso dalla bizza, e voltandosi verso il falegname, gli disse imbestialito:\n— Per piacere, mi offende?" ,"human_annotation": 1
+  },
+  {
+    "in": " \n—  Chi  vi  offende? \n—  Mi  avete  detto  Polendina! \n—  Non  sono  stato  io. \n—  Sta'  un  po'  a  vedere  che  sarò  shito  io!",
+    "ref": "— Chi vi offende?— Mi avete detto Polendina!— Non sono stato io.— Sta’ un po’ a vedere che sarò stato io!",
+    "hyp": "— Chi vi offende?— Mi avete detto Polendina!— Non sono stato io.— Stai un pò a vedere che sarò shito io!" ,"human_annotation": 3
+  },
+  {
+    "in": "  Io \ndico  che  siete  stato  voi. \n—  No! \n—  Sì! \n—  No! \n—  Sì!  — \nE  riscaldandosi  sempre  piii,  vennero  dalle  pa- \nrole ai  fatti,  e  acciuffatisi  fra  di  loro,  si  graffia- \nrono, si  morsero  e  si  sbertucciarono.",
+    "ref": "Io dico che siete stato voi.— No!— Sì!— No!— Sì!—\nE riscaldandosi sempre più, vennero dalle parole ai fatti, e acciuffatisi fra di loro, si graffiarono, si morsero e si sbertucciarono.",
+    "hyp": "Io dico che siete stato voi.— No!\n— Sì!\n— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!— No!— Sì!—","human_annotation": 1
+  },
+  {
+    "in": " \nFinito  il  combattimento,  mastr' Antonio  si  trovò \nfra  le  mani  la  parrucca  gialla  di  Geppetto,  e  Gep- \npetto si  accòrse  di  avere  in  bocca  la  parrucca \nbrizzolata  del  falegname.",
+    "ref": "Finito il combattimento, mastr’Antonio si trovò fra le mani la parrucca gialla di Geppetto, e Geppetto si accòrse di avere in bocca la parrucca brizzolata del falegname.",
+    "hyp": "Finito il combattimento, mastr’Antonio si trovò fra le mani la parrucca gialla di Geppetto, e Geppetto si accòrse di avere in bocca la parrucca brizzolata del falegname." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Bendimi  la  mia  parrucca!  —  gridò  ma- \nstr'Antonio. \n—  E  tu  rendimi  la  mia,  e  rifacciamo  la  pace.  — \nI  due  vecchietti,  dopo  aver  ripreso  ognuno  di \nloro  la  propria  parrucca,  si  strinsero  la  mano  e  giu- \nrarono di  rimanere  buoni  amici  per  tutta  la  vita.",
+    "ref": "— Rendimi la mia parrucca!— gridò mastr’Antonio.— E tu rendimi la mia, e rifacciamo la pace.—\nI due vecchietti, dopo aver ripreso ognuno di loro la propria parrucca, si strinsero la mano e giurarono di rimanere buoni amici per tutta la vita.",
+    "hyp": "— Bendimi la mia parrucca!— gridò maestro Antonio.— E tu rendimi la mia, e rifacciamo la pace.— I due vecchietti, dopo aver ripreso ognuno la propria parrucca, si strinsero la mano e giurarono di rimanere buoni amici per tutta la vita.","human_annotation": 4
+  },
+  {
+    "in": " \n—  Dunque,  compar  Geppetto,  —  disse  il  fale- \n\n\ngname  in  segno  di  pace  fatta  —  qua!  è  il  piacer^ \nche  volete  da  me?",
+    "ref": "— Dunque, compar Geppetto, — disse il\nfalegname in segno di pace fatta — qual è il piacere che volete da me?",
+    "hyp": "— Dunque, compar Geppetto, — disse il falegname in segno di pace fatta — qua! è il piacere che volete da me?" ,"human_annotation": 3
+  },
+  {
+    "in": " \n—  Vorrei  un  po'  di  legno  per  fabbricare  il  mio \nburattino;  me  lo  date!  — \nMastr'  Antonio,  tutto  contento,  andò  subito  a \nprendere  sul  banco  quel  pezzo  del  legno  che  era \nstato  cagione  a  lui  di  tante  paure.",
+    "ref": "— Vorrei un po’ di legno per fabbricare il mio burattino; me lo date?Mastr’Antonio, tutto contento, andò subito a prendere sul banco quel pezzo del legno che era stato cagione a lui di tante paure.",
+    "hyp": "— Vorrei un pò di legno per fabbricare il mio burattino; me lo date?—\nMastr’Antonio, tutto contento, andò subito a prendere sul banco quel pezzo del legno che era stato la causa a lui di tante paure." ,"human_annotation": 3
+  },
+  {
+    "in": "  Ma  quando \nfu  lì  per  consegnarlo  all'amico,  il  pezzo  di  legno \ndette  uno  scossone,  e  sgusciandogli  violente- \nmente dalle  mani,  andò  a  battere  con  forza  negli \nstinchi  impresciuttiti  del  povero  Geppetto.",
+    "ref": "Ma quando fu lì per consegnarlo all’amico, il pezzo di legno dette uno scossone, e sgusciandogli violentemente dalle mani, andò a battere con forza negli stinchi impresciuttiti del povero Geppetto.",
+    "hyp": "Ma quando fu lì per consegnarlo all’amico, il pezzo di legno diede uno scossone, e sgusciandogli violentemente dalle mani, andò a battere con forza negli stinchi impresciuttiti del povero Geppetto." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Ah!  gli  è  con  questo  bel  garbo,  mastr' An- \ntonio, che  voi  regalate  la  vostra  roba?  M'avete \nquasi  azzoppito  !...",
+    "ref": "— Ah!gli è con questo bel garbo, mastr’Antonio, che voi regalate la vostra roba?M’avete quasi azzoppito!...",
+    "hyp": "— Ah! gli è con questo bel garbo, mastro Antonio, che voi regalate la vostra roba?M’avete quasi azzoppito!..." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Vi  giuro  che  non  sono  stato  io! \n—  Allora  sarò  stato  io!... \n—  La  colpa  è  tutta  di  questo  legno.... \n—  Lo  so  che  è  del  legno:  ma  siete  voi  che \nme  l'avete  tirato  nelle  gambe!",
+    "ref": "— Vi giuro che non sono stato io!— Allora sarò stato io!...— La colpa è tutta di questo legno....\n— Lo so che è del legno: ma siete voi che me l’avete tirato nelle gambe!",
+    "hyp": "— Vi giuro che non sono stato io!— Allora sarò stato io!...La colpa è tutta di questo legno....Lo so che è del legno: ma siete voi che me l’avete tirato nelle gambe!" ,"human_annotation": 4
+  },
+  {
+    "in": " \n—  Io  non  ve  1'  ho  tirato  ! \n—  Bugiardo! \n—  Geppetto,  non  mi  offendete  :  se  no  vi  chiamo \nPolendina!... \n—  Asino",
+    "ref": "— Io non ve l’ho tirato!— Bugiardo!— Geppetto, non mi offendete: se no vi chiamo Polendina!...— Asino!",
+    "hyp": "— Io non ve l’ho tirato!— Bugiardo!— Geppetto, non mi offendete: se no vi chiamo Polendina!...— Asino" ,"human_annotation": 5
+  },
+  {
+    "in": "  ! \n—  Polendina! \n—  Somaro  ! \n—  Polendina \n\n\nw    —  Brutto  scimmiotto! \n—  Polendina  !  — \nA  sentirsi  chiamar  Polendina  per  la  terza  volta, \nGeppetto  perse  il  lume  degli  occhi,  si  avventò  sul \nfalegname  e  lì  se  ne  dettero  un  sacco  e  una  sporta.",
+    "ref": "— Polendina!— Somaro!— Polendina!— Brutto scimmiotto!— Polendina!—\nA sentirsi chiamar Polendina per la terza volta, Geppetto perse il lume degli occhi, si avventò sul falegname e lì se ne dettero un sacco e una sporta.",
+    "hyp": "— Polendina?— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina!— Somaro!— Polendina" ,"human_annotation": 1
+  },
+  {
+    "in": " \nA  battaglia  finita,  mastr' Antonio  si  trovò  due \ngraffi  di  più  sul  naso,  e  quell'altro  due  bottoni \ndi  meno  al  giubbetto.",
+    "ref": "A battaglia finita, mastr’Antonio si trovò due graffi di più sul naso, e quell’altro due bottoni di meno al giubbetto.",
+    "hyp": "A battaglia finita, mastro Antonio si trovò due graffi in più sul naso, e quell’altro due bottoni di meno al giubbetto." ,"human_annotation": 4
+  },
+  {
+    "in": "  Pareggiati  in  questo  modo \ni  loro  conti,  si  strinsero  la  mano  e  giurarono  di \nrimanere  buoni  amici  per  tutta  la  vita.",
+    "ref": "Pareggiati in questo modo i loro conti, si strinsero la mano e giurarono di rimanere buoni amici per tutta la vita.",
+    "hyp": "Pareggiati in questo modo i loro conti, si strinsero la mano e giurarono di rimanere buoni amici per tutta la vita." ,"human_annotation": 5
+  },
+  {
+    "in": "IH. \nGeppetto,  tornato  a  casa,  comincia  subito  a  fabbricarsi  il  bu- \nrattino e  gli  mette  il  nome  di  Pinocchio.",
+    "ref": "III.Geppetto, tornato a casa, comincia subito a fabbricarsi il burattino e gli mette il nome di Pinocchio.",
+    "hyp": "IH.\nGeppetto, tornato a casa, comincia subito a fabbricarsi il burattino e gli mette il nome di Pinocchio." ,"human_annotation": 4
+  },
+  {
+    "in": "  Prime  monellerie \ndel  burattino. \nLa  casa  di  Geppetto  era  una  stanzina  terrena, \nche  pigliava  luce  da  un  sottoscala.",
+    "ref": "Prime monellerie del burattino.La casa di Geppetto era una stanzina terrena, che pigliava luce da un sottoscala.",
+    "hyp": "Prime monellerie del burattino.La casa di Geppetto era una stanzina terrena, che pigliava luce da un sottoscala." ,"human_annotation": 5
+  },
+  {
+    "in": "  La  mobilia \nnon  poteva  esser  più  semplice:  una  seggiola  cat- \ntiva, un  letto  poco  buono  e  un  tavolino  tutto \nrovinato.",
+    "ref": "La mobilia non poteva esser più semplice: una seggiola cattiva, un letto poco buono e un tavolino tutto rovinato.",
+    "hyp": "La mobilia non poteva esser più semplice: una seggiola cattiva, un letto poco buono e un tavolino tutto rovinato." ,"human_annotation": 5
+  },
+  {
+    "in": "  Nella  parete  di  fondo  si  vedeva  un \ncaminetto  col  fuoco  acceso  ;  ma  il  fuoco  era \ndipinto,  e  accanto  al  fuoco  e'  era  dipinta  un  pen- \ntola che  bolliva  allegramente  e  mandava  fuori \nuna  nuvola  di  fumo,  che  pareva  fumo  davvero.",
+    "ref": "Nella parete di fondo si vedeva un caminetto col fuoco acceso; ma il fuoco era dipinto, e accanto al fuoco c’era dipinta una pentola che bolliva allegramente e mandava fuori una nuvola di fumo, che pareva fumo davvero.",
+    "hyp": "Nella parete di fondo si vedeva un caminetto coll’archetto acceso;ma il fuoco era dipinto, e accanto al fuoco c’era dipinta una pentola che bolliva allegramente e mandava fuori una nuvola di fumo, che pareva vero fumo davvero.","human_annotation": 2
+  },
+  {
+    "in": " \nAppena  entrato  in  casa,  Geppetto  prese  subito \ngli  arnesi  e  si  pose  a  intagliare  e  a  fabbricare \nil  suo  burattino.",
+    "ref": "Appena entrato in casa, Geppetto prese subito gli arnesi e si pose a intagliare e a fabbricare il suo burattino.",
+    "hyp": "Appena entrato in casa, Geppetto prese subito gli arnesi e si pose a intagliare e a fabbricare il suo burattino." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Che  nome  gli  metterò  ?  —  disse  fra  sé  e \nsé.  —  Lo  voglio  chiamar  Pinocchio.  Questo  nome \ngli  porterà  fortuna.",
+    "ref": "— Che nome gli metterò?— disse fra sè e sè.— Lo voglio chiamar Pinocchio.Questo nome gli porterà fortuna.",
+    "hyp": "— Che nome gli metterò?— disse fra sè e sè.— Lo voglio chiamare Pinocchio.Questo nome gli porterà fortuna." ,"human_annotation": 4
+  },
+  {
+    "in": "  Ho  conosciuto  una  famiglia \nintera  di  Pinocchi:  Pinocchio  il  padre,  Pinocchia \nla  madre  e  Pinocchi  i  ragazzi,  e  tutti  se  la  pas- \nsavano bene.",
+    "ref": "Ho conosciuto una famiglia intera di Pinocchi: Pinocchio il padre, Pinocchia la madre e Pinocchi i ragazzi, e tutti se la passavano bene.",
+    "hyp": "Ho conosciuto una famiglia intera di Pinocchi:Pinocchio il padre, Pinocchia la madre e Pinocchi i ragazzi, e tutti se la passavano bene." ,"human_annotation": 5
+  },
+  {
+    "in": "  Il  più  ricco  di  loro  chiedeva  l' ele- \nmosina?^ \n\nQuando  ebbe  trovato  il  nome  al  suo  burattino, \nallora  cominciò  a  lavorare  a  buono,  e  gli  fece \nsubito  i  capelli,  poi  la  fronte,  poi  gli  occhi.",
+    "ref": "Il più ricco di loro chiedeva l’elemosina.Quando ebbe trovato il nome al suo burattino, allora cominciò a lavorare a buono, e gli fece subito i capelli, poi la fronte, poi gli occhi.",
+    "hyp": "Quando ebbe trovato il nome al suo burattino, allora cominciò a lavorare a buon mercato, e gli fece subito i capelli, poi la fronte, poi gli occhi." ,"human_annotation": 1
+  },
+  {
+    "in": " \nFatti  gli  occhi,  figuratevi  la  sua  maraviglia \n\nPiù  lo  ritagliava  e  lo  scorciva,  e  più  quel  naso \nimpertinente  diventava  Inngo.",
+    "ref": "Fatti gli occhi, figuratevi la sua maraviglia <img description>Più lo ritagliava e lo scorciva, e più quel naso impertinente diventava lungo.",
+    "hyp": "Fatti gli occhi, figuratevi la sua maraviglia: più lo ritagliava e lo scorciva, e più quel naso impertinente diventava In-\ngò." ,"human_annotation": 2
+  },
+  {
+    "in": " \nquando  si  accòrse  che  gli  occhi  si  movevano  e \nche  lo  guardavano  fìsso  fìsso. \nGeppetto  vedendosi  guardare  da  quei  due  oc- \nchi di  legno,  se  n'ebbe  quasi  per  male,  e  disse \ncon  accento  risentito: \n—  Occhiacci  di  legno,  perchè  mi  guardate",
+    "ref": "quando si accòrse che gli occhi si muovevano e che lo guardavano fisso fisso.Geppetto, vedendosi guardare da quei due occhi di legno, se n’ebbe quasi per male, e disse con accento risentito:\n— Occhiacci di legno, perchè mi guardate?",
+    "hyp": "Quando si accòrse che gli occhi si muovevano e che lo guardavano fisso fisso.\nGeppetto vedendosi guardare da quegli occhi di legno, se ne ebbe quasi per male, e disse con accento risentito:\n— Occhiacci di legno, perché mi guardate?" ,"human_annotation": 4
+  },
+  {
+    "in": "  ?  — \nNessuno  rispose. \nAllora,  dopo  gli  occhi  gli  fece  il  naso;  ma  il \nnaso,  appena  fatto,  cominciò  a  crescere:  e  ere- \n\n\nsci,  cresci,  cresci,  diventò  in  pochi  minuti  un  na- \nsone elle  non  finiva  mai.",
+    "ref": "—\nNessuno rispose.Allora, dopo gli occhi, gli fece il naso; ma il naso, appena fatto, cominciò a crescere: e\ncresci, cresci, cresci diventò in pochi minuti un nasone che non finiva mai.",
+    "hyp": "— Nessuno rispose.Allora, dopo gli occhi gli fece il naso; ma il naso, appena fatto, cominciò a crescere: e crescendo, crebbe sempre di più, fino a diventare in pochi minuti una nuvola che non finiva mai.","human_annotation": 2
+  },
+  {
+    "in": " \nIl  povero  Geppetto  si  affaticava  a  ritagliarlo  ; \nma  più  lo  ritagliava  e  lo  scorciva,  e  più  quel \nnaso  impertinente  diventava  lungo.",
+    "ref": "Il povero Geppetto si affaticava a ritagliarlo; ma più lo ritagliava e lo scorciva, e più quel naso impertinente diventava lungo.",
+    "hyp": "Il povero Geppetto si affaticò a ritagliarlo; ma più lo ritagliava e lo scorciava, e più quel naso impertinente diventava lungo.","human_annotation": 5
+  },
+  {
+    "in": " \nDopo  il  naso  gli  fece  la  bocca. \nLa  bocca  non  era  ancora  finita  di  fare,  che  co- \nminciò subito  a  ridere  e  a  canzonarlo.",
+    "ref": "Dopo il naso, gli fece la bocca.La bocca non era ancora finita di fare, che cominciò subito a ridere e a canzonarlo.",
+    "hyp": "Dopo il naso gli fece la bocca.La bocca non era ancora finita di fare, che cominciò subito a ridere e a canzonarlo.","human_annotation": 5
+  },
+  {
+    "in": " \n—  Smetti  di  ridere  !  —  disse  Geppetto  imper- \nmalito; ma  fu  come  dire  al  muro. \n—  Smetti  di  ridere,  ti  ripeto",
+    "ref": "— Smetti di ridere!— disse Geppetto impermalito; ma fu come dire al muro.— Smetti di ridere, ti ripeto!",
+    "hyp": "— Smetti di ridere! — disse Geppetto irritato: ma fu come dire al muro.— Smetti di ridere, ti ripeto!","human_annotation": 4
+  },
+  {
+    "in": "  !  —  urlò  con  voce \nminacciosa. \nAllora  la  bocca  smesse  di  ridere,  ma  cacciò \nfuori  tutta  la  lingua. \nGejjpetto,  per  non  guastare  i  fatti  suoi,  finse \ndi  non  avvedersene,  e  continuò  a  lavorare.",
+    "ref": "— urlò con voce minacciosa.Allora la bocca smesse di ridere, ma cacciò fuori tutta la lingua.Geppetto, per non guastare i fatti suoi, finse di non avvedersene, e continuò a lavorare.",
+    "hyp": "— gridò con voce minacciosa.— All’udire questo grido, la bocca smise di ridere, ma cacciò fuori tutta la lingua.Geppetto, per non guastare i fatti suoi, finse di non avvedersene, e continuò a lavorare." ,"human_annotation": 1
+  },
+  {
+    "in": "  Dopo \nla  bocca  gli  fece  il  mento,  poi  il  collo,  poi  le \nspalle,  lo  stomaco,  le  braccia  e  le  mani. \nAppena  finite  le  mani,  Geppetto  sentì  portarsi \nvia  la  parrucca  dal  capo.",
+    "ref": "Dopo la bocca, gli fece il mento, poi il collo, le spalle, lo stomaco, le braccia e le mani.Appena finite le mani, Geppetto sentì portarsi via la parrucca dal capo.",
+    "hyp": "Dopo la bocca gli fece il mento, poi il collo, poi le spalle, lo stomaco, le braccia e le mani.Appena finite le mani, Geppetto sentì portarsi via la parrucca dal capo.","human_annotation": 5
+  },
+  {
+    "in": "  Si  voltò  in  su,  e  che \ncosa  vide?  Vide  la  sua  parrucca  gialla  in  mano \ndel  burattino. \n—  Pinocchio  !...  rendimi  subito  la  mia  par- \nrucca !",
+    "ref": "Si voltò in su, e che cosa vide?Vide la sua parrucca gialla in mano del burattino.— Pinocchio!...rendimi subito la mia parrucca!",
+    "hyp": "Si voltò in su, e che cosa vide? Vide la sua parrucca gialla in mano del burattino.— Pinocchio!... rendimi subito la mia parrucca!" ,"human_annotation": 5
+  },
+  {
+    "in": "  — \nE  Pinocchio,  invece  di  rendergli  la  parrucca, \nse  la  messe  in  cai30  per  sé,  rimanendovi  sotto \nmezzo  affogato.",
+    "ref": "—\nE Pinocchio, invece di rendergli la parrucca, se la messe in capo per sè, rimanendovi sotto mezzo affogato.",
+    "hyp": "—\nE Pinocchio, invece di rendergli la parrucca, se la mise in capo per sè, rimanendovi sotto mezzo affogato." ,"human_annotation": 4
+  },
+  {
+    "in": " \n\nA  quel  garbo  insolente  e  derisorio,  Geppetto \nsi  fece  tristo  e  melanconico,  come  non  era  stato \nmai  in  vita  sua:  e  voltandosi  verso  Pinocchio, \ngli  disse: \n—  Birba  d' un  figliuolo",
+    "ref": "A quel garbo insolente e derisorio, Geppetto si fece tristo e melanconico, come non era stato mai in vita sua: e voltandosi verso Pinocchio, gli disse:\n— Birba d’un figliuolo!",
+    "hyp": "A quel garbo insolente e derisorio, Geppetto si fece triste e malinconico, come non era mai stato in vita sua: e voltandosi verso Pinocchio, gli disse:\n— Birba d’un figliuolo!"  ,"human_annotation": 5
+  },
+  {
+    "in": "  !  Non  sei  ancora  finito \n\n\nE  Pinocciiio,  invece  di  rendergli  la  parrucca,  se  la  messe \nin  capo  per  sé.... \ndi  fare,  e  già  cominci  a  mancar  di  rispetto  a  tuo \npadre!",
+    "ref": "Non sei ancora finito <img description>E Pinocchio, invece di rendergli la parrucca, se la messe in capo per sè.... di fare, e già cominci a mancar di rispetto a tuo padre!",
+    "hyp": "Non sei ancora finito...E Pinocchio, invece di rendergli la parrucca, se la mise in capo per sé...di fare, e già cominci a mancar di rispetto a tuo padre?","human_annotation": 4
+  },
+  {
+    "in": "  Male,  ragazzo  mio,  male!  — \nE  si  rasciugò  una  lacrima. \nEestavano  sempre  da  fare  le  gambe  e  i  piedi. \nQuando  Geppetto  ebbe  finito  di  fargli  i  piedi, \nsentì  arrivarsi  un  talcio  sulla  punta  del  naso.",
+    "ref": "Male, ragazzo mio, male!—\nE si rasciugò una lacrima.Restavano sempre da fare le gambe e i piedi.Quando Geppetto ebbe finito di fargli i piedi, sentì arrivarsi un calcio sulla punta del naso.",
+    "hyp": "Male, ragazzo mio, male!—\nE si rasciugò una lacrima.Estavano sempre da fare le gambe e i piedi.Quando Geppetto ebbe finito di fargli i piedi, sentì arrivarsi un taleccio sulla punta del naso.","human_annotation": 4
+  },
+  {
+    "in": " \n\n\n—  Me  lo  merito  —  disse  allora  fra  sé.  —  Do- \nvevo pensarci  prima  !  Ormai  è  tardi  !  — \nPoi  prese  il  burattino  sotto  le  braccia  e  lo  posò \nin  terra,  sul  pavimento  della  stanza,  per  farlo \ncamminare.",
+    "ref": "— Me lo merito!— disse allora fra sè.— Dovevo pensarci prima!Ormai è tardi!—\nPoi prese il burattino sotto le braccia e lo posò in terra, sul pavimento della stanza, per farlo camminare.",
+    "hyp": "— Me lo merito — disse allora fra sè.— Dovevo pensarci prima!Ormai è tardi!— Poi prese il burattino sotto le braccia e lo posò in terra, sul pavimento della stanza, per farlo camminare." ,"human_annotation": 4
+  },
+  {
+    "in": " \nPinocchio  aveva  le  gambe  aggrancliite  e  non \nsapeva  muoversi,  e  Geppetto  lo  conduceva  per \n\n—  Piglialo!",
+    "ref": "Pinocchio aveva le gambe aggranchite e non sapeva muoversi, e Geppetto lo conduceva per <img description>— Piglialo!",
+    "hyp": "Pinocchio aveva le gambe agganciate e non sapeva muoversi, e Geppetto lo conduceva per\n— Prendilo!","human_annotation": 3
+  },
+  {
+    "in": "  piglialo!  —  urlava  Geppetto. \nla  mano  per  insegnargli  a  mettere  un  passo  die- \ntro l'altro. \nQuando  le  gambe  gli  si  furono  sgranchite.  Pi- \nnocchio cominciò  a  camminare  da  sé  e  a  correre \nper  la  stanza;  finché,  infilata  la  porta  di  casa, \nsaltò  nella  strada  e  si  détte  a  scappare.",
+    "ref": "piglialo!— urlava Geppetto.la mano per insegnargli a mettere un passo dietro l’altro.Quando le gambe gli si furono sgranchite, Pinocchio cominciò a camminare da sè e a correre per la stanza; finchè, infilata la porta di casa, saltò nella strada e si dètte a scappare.",
+    "hyp": "Pinocchio, sentendosi mancare il respiro, fece uno sforzo per gridare: ma non ci riuscì.\nE Pinocchio, quando ebbe ripreso fiato, disse al suo povero babbo:\n— Che cosa ho fatto?... che cosa ho fatto?...\nPinocchio, sentendosi mancare il respiro, fece uno sforzo per gridare: ma non ci riuscì.","human_annotation": 1
+  },
+  {
+    "in": " \nE  il  povero  Geppetto  a  corrergli  dietro  senza \npoterlo  raggiungere,  perché  quel  bii'ichino  di  Pi- \n\n\nnocchio  andava  a  salti  come  nna  lepre,  e  bat- \ntendo i  suoi  piedi  di  legno  sul  lastrico  della \nstrada,  faceva  un  fracasso  come  venti  paia  di \nzoccoli  da  contadini.",
+    "ref": "E il povero Geppetto a corrergli dietro senza poterlo raggiungere, perchè quel birichino di\nPinocchio andava a salti come una lepre, e battendo i suoi piedi di legno sul lastrico della strada, faceva un fracasso, come venti paia di zoccoli da contadini.",
+    "hyp": "E il povero Geppetto a corrergli dietro senza poterlo raggiungere, perchè quel burattino di Pinocchio andava a salti come una lepre, battendo coi suoi piedi di legno sul lastrico della strada, faceva un fracasso come venti paia di zoccoli da contadini.","human_annotation": 4
+  },
+  {
+    "in": " \n—  Piglialo  !  piglialo  !  —  urlava  Geppetto  ;  ma \nla  gente  che  era  per  la  via,  vedendo  questo  bu- \nrattino di  legno,  che  correva  come  un  barbero, \nsi  fermava  incantata  a  guardarlo,  e  rideva,  ri- \ndeva e  rideva,  da  non  poterselo  figurare.",
+    "ref": "— Piglialo!piglialo!— urlava Geppetto; ma la gente che era per la via, vedendo questo burattino di legno, che correva come un barbero, si fermava incantata a guardarlo, e rideva, rideva e rideva, da non poterselo figurare.",
+    "hyp": "— Piglialo!Piglialo!— gridava Geppetto; ma la gente che era per la via, vedendolo correre come un burattino, si fermava incantata a guardarlo, e rideva, rideva e rideva, da non potersi figurare.","human_annotation": 4
+  },
+  {
+    "in": " \nAlla  fine,  e  per  bidona  fortuna,  capitò  un  ca- \nrabiniere il  quale,  sentendo  tutto  quello  schia- \nmazzo, e  credendo  si  trattasse  di  un  puledro  che \navesse  levata  la  mano  al  padrone,  si  piantò  co- \nraggiosamente a  gambe  larghe  in  mezzo  alla \nstrada,  con  F  animo  risoluto  di  fermarlo  e  di  im- \npedire il  caso  di  maggiori  disgrazie.",
+    "ref": "Alla fine, e per buona fortuna, capitò un carabiniere il quale, sentendo tutto quello schiamazzo, e credendo si trattasse di un puledro che avesse levata la mano al padrone, si piantò coraggiosamente a gambe larghe in mezzo alla strada, con l’animo risoluto di fermarlo e di impedire il caso di maggiori disgrazie.",
+    "hyp": "Alla fine, e per bona fortuna, capitò un carbiniere il quale, sentendo tutto quello schermaccio, e credendo si trattasse di un puledro che avesse levata la mano al padrone, si piantò coraggiosamente a gambe larghe in mezzo alla strada, con tanto fànto di fermarlo e di impedire il caso di maggiori disgrazie.","human_annotation": 3
+  },
+  {
+    "in": " \nMa  Pinocchio,  quando  si  avvide  da  lontano \ndel  carabiniere,  che  barricava  tutta  la  strada., \ns'ingegnò  di  passargli,  per  sorpresa,  framezzo \nalle  gambe,  e  invece  fece  fiasco.",
+    "ref": "Ma Pinocchio, quando si avvide da lontano del carabiniere, che barricava tutta la strada, s’ingegnò di passargli, per sorpresa, frammezzo alle gambe, e invece fece fiasco.",
+    "hyp": "Ma Pinocchio, quando si avvide da lontano del carabiniere, che barricava tutta la strada, s’ingegnò di passargli, per sorpresa, fra le gambe, e invece fece fiasco.","human_annotation": 5
+  },
+  {
+    "in": " \nIl  carabiniere,  senza  punto  smuoversi  lo  ac- \nciuffò pulitamente  per  il  naso  (era  un  nasone \nspropositato,  che  pareva  fatto  apposta  per  essere \nacchiappato  dai  carabinieri)  e  lo  riconsegnò  nelle \nproprie  mani  di  Geppetto;  il  quale,  a  titolo  di \ncorrezione,  voleva  dargli  subito  una  buona  tira- \ntina d'orecchi.",
+    "ref": "Il carabiniere, senza punto smuoversi, lo acciuffò pulitamente per il naso (era un nasone spropositato, che pareva fatto apposta per essere acchiappato dai carabinieri) e lo riconsegnò nelle proprie mani di Geppetto; il quale, a titolo di correzione, voleva dargli subito una buona tiratina d’orecchi.",
+    "hyp": "Il carabiniere, senza punto smuoversi lo acciuffò pulitamente per il naso (era un nasone spropositato, che pareva fatto apposta per essere acchiappato dai carabinieri) e lo riconsegnò nelle proprie mani di Geppetto; il quale, a titolo di correzione, voleva dargli subito una buona tiratina d’orecchi.","human_annotation": 5
+  },
+  {
+    "in": "  Ma  figuratevi  come  rimase,  quan- \n\n\ndo  nel  cercargli  gli  orecchi  non  gli  riuscì  di  po- \nterli trovare:  e  sapete  perchè?",
+    "ref": "Ma figuratevi come rimase,\nquando nel cercargli gli orecchi, non gli riuscì di poterli trovare: e sapete perchè?",
+    "hyp": "Ma figuratevi come rimase, quando nel cercargli gli orecchi non gli riuscì di poterglieli trovare: e sapete perchè?","human_annotation": 4
+  },
+  {
+    "in": "  perchè,  nella  furia \ndi  scolpirlo,  si  era  dimenticato  di  farglieli. \n\n^wevxc \n\nLo  acciuffò  pulitamente  per  il  naso.... \nAllora  lo  prese  per  la  collottola,  e,  mentre  lo \nriconduceva  indietro,  gli  disse  tentennando  mi- \nnacciosamente il  capo: \n—  Andiamo  subito  a  casa.",
+    "ref": "perchè, nella furia di scolpirlo, si era dimenticato di farglieli.<img description>Lo acciuffò pulitamente per il naso....\nAllora lo prese per la collottola, e, mentre lo riconduceva indietro, gli disse tentennando minacciosamente il capo:\n— Andiamo subito a casa.",
+    "hyp": "perché, nella furia di scolpirlo, s’era dimenticato di farglieli.\n— Lo acciuffò pulitamente per il naso...Allora lo prese per la collottola, e, mentre lo riconduceva indietro, gli disse tentennando minacciosamente il capo:\n— Andiamo subito a casa.","human_annotation": 3
+  },
+  {
+    "in": "  Quando  saremo  a \ncasa,  non  dubitare  che  faremo  i  nostri  conti!  — • \n\n\nPinocchio,  a  questa  antilona,  si  buttò  per  terra, \ne  non  volle  più  camminare.",
+    "ref": "Quando saremo a casa, non dubitare che faremo i nostri conti!—\nPinocchio, a questa antifona, si buttò per terra, e non volle più camminare.",
+    "hyp": "Quando saremo a casa, non dubitare che faremo i nostri conti!— Pinocchio, a questa antolona, si buttò per terra, e non volle più camminare.","human_annotation": 4
+  },
+  {
+    "in": "  Intanto  i  curiosi  e \ni  bighelloni  principiavano  a  fermarsi  lì  dintorno \ne  a  far  capannello. \nOhi  ne  diceva  una,  chi  un'altra.",
+    "ref": "Intanto i curiosi e i bighelloni principiavano a fermarsi lì dintorno e a far capannello.Chi ne diceva una, chi un’altra.",
+    "hyp": "Intanto i curiosi e i bighelloni cominciavano a fermarsi lì dintorno e a far capannello.Ohi ne diceva una, chi un’altra.","human_annotation": 3
+  },
+  {
+    "in": " \n—  Povero  burattino  !  —  dicevano  alcuni  —  ha \nragione  a  non  voler  tornare  a  casa!  Ohi  lo  sa  come \n10  picchierebbe  quelP  omaccio  di  Geppetto  !...",
+    "ref": "— Povero burattino!— dicevano alcuni — ha ragione a non voler tornare a casa!Chi lo sa come lo picchierebbe quell’omaccio di Geppetto!...",
+    "hyp": "— Povero burattino!— dicono alcuni — ha ragione a non voler tornare a casa?Ohi lo sa come picchierebbe quell’omaccio di Geppetto!...","human_annotation": 3
+  },
+  {
+    "in": "  — \nE  gli  altri  soggiungevano  malignamente: \n—  Quel  Geppetto  pare  un  galantuomo  !  ma  è \nun  vero  tiranno,  coi  ragazzi!",
+    "ref": "—\nE gli altri soggiungevano malignamente:\n— Quel Geppetto pare un galantuomo!ma è un vero tiranno coi ragazzi!",
+    "hyp": "—\nE gli altri soggiungevano malignamente:\n— Quell’Omino pare un galantuomo!ma è un vero tirano, coi ragazzi!","human_annotation": 3
+  },
+  {
+    "in": "  Se  gli  lasciano  quel \npovero  burattino  fra  le  mani,  è  capacissimo  di \nfarlo  a  pezzi  !  — \nInsomma,  tanto  dissero  e  tanto  fecero,  che  il \ncarabiniere  rimesse  in  libertà  Pinocchio,  e  con- \ndusse in  prigione  quel  pover'uomo  di  Geppetto.",
+    "ref": "Se gli lasciano quel povero burattino fra le mani, è capacissimo di farlo a pezzi!—\nInsomma, tanto dissero e tanto fecero, che il carabiniere rimise in libertà Pinocchio, e condusse in prigione quel pover’uomo di Geppetto.",
+    "hyp": "Se gli lasciano quel povero burattino tra le mani, è capacissimo di farlo a pezzi!—Insomma, tanto dissero e tanto fecero, che il carabiniere rimise in libertà Pinocchio, e condusse in prigione quell’uomo di Geppetto.","human_annotation": 4
+  },
+  {
+    "in": " \n11  quale  non  avendo  parole  lì  per  lì  per  difen- \ndersi, piangeva  come  un  vitellino,  e  neir  avviarsi \nverso  il  carcere,  balbettava  singhiozzando: \n—  Sciagurato  figliuolo",
+    "ref": "Il quale non avendo parole lì per lì per difendersi, piangeva come un vitellino, e nell’avviarsi verso il carcere, balbettava singhiozzando:\n— Sciagurato figliuolo!",
+    "hyp": "«Che cosa fai?» domandò Pinocchio.«Voglio andare anch’io» rispose il burattino, «e vedere se trovo anche io qualche bel tesoro.»","human_annotation": 1
+  },
+  {
+    "in": "  !  E  i)ensare  che  ho  pe- \nnato tanto  a  farlo  un  burattino  per  bene!  Ma \nmi  sta  il  dovere  !  Dovevo  pensarci  prima  !...",
+    "ref": "E pensare che ho penato tanto a farlo un burattino per bene!Ma mi sta il dovere!Dovevo pensarci prima!...",
+    "hyp": "E pensare che ho pensato tanto a fare un burattino per bene!Ma mi sta il dovere!Dovevo pensarci prima!...","human_annotation": 5
+  },
+  {
+    "in": "IV. \nLa  storia  di  Pinocchio  col  Grillo-parlante,  dove  si  vede  come \ni  ragazzi  cattivi  lianno  a  iioja  di  sentirsi  correggere  da  chi \nne  sa  più  di  loro.",
+    "ref": "IV.La storia di Pinocchio col Grillo-parlante, dove si vede come i ragazzi cattivi hanno a noia di sentirsi correggere da chi ne sa più di loro.",
+    "hyp": "IV.\nLa storia di Pinocchio col Grillo-parlante, dove si vede come i ragazzi cattivi hanno sempre a noia di sentirsi correggere da chi ne sa più di loro." ,"human_annotation": 3
+  },
+  {
+    "in": " \nVi  dirò  dunque,  ragazzi,  che  mentre  il  povero \nGeppetto  era  condotto  senza  sua  colica  in  pri- \ngione, quel  monello  di  Pinocchio,  rimasto  libero \ndalle  grinfie  del  carabiniere,  se  la  dava  a  gambe \ngiù  attraverso  ai  campi,  i)er  far  più  presto  a  tor- \nnarsene a  casa;  e  nella  gran  furia  del  correre \nsaltava  greppi  altissimi,  siepi  di  pruni  e  fossi \npieni  d' acqua,  tale  e  quale  come  avrebbe  potuto \nfare  lui  capretto  o  un  leprottino  inseguito  dai \ncacciatori.",
+    "ref": "Vi dirò dunque, ragazzi, che mentre il povero Geppetto era condotto senza sua colpa in prigione, quel monello di Pinocchio, rimasto libero dalle grinfie del carabiniere, se la dava a gambe giù attraverso ai campi, per far più presto a tornarsene a casa; e nella gran furia del correre saltava greppi altissimi, siepi di pruni e fossi pieni d’acqua, tale e quale come avrebbe potuto fare un capretto o un leprottino inseguito dai cacciatori.",
+    "hyp": "Vi dirò dunque, ragazzi, che mentre il povero Geppetto era condotto senza sua colpa in prigione, quel monello di Pinocchio, rimasto libero dalle grinfie del carabiniere, se la dava a gambe per far più presto a tornarsene a casa; e nella gran furia del correre saltava greppi altissimi, siepi di pruni e fossi pieni d’acqua, tale e quale come avrebbe potuto fare lui capretto o un leprottino inseguito dai cacciatori.","human_annotation": 2
+  },
+  {
+    "in": " \nGiunto  dinanzi  a  casa,  trovò  l'uscio  di  strada \nsocchiuso.  Lo  spinse,  entrò  dentro,  e  appena  ebbe \nmesso  tanto  di  i)aletto,  si  gettò  a  sedere  per \nterra,  lasciando  andare  un  gran  sospirone  di  con- \ntentezza.",
+    "ref": "Giunto dinanzi a casa, trovò l’uscio di strada socchiuso.Lo spinse, entrò dentro, e appena ebbe messo tanto di paletto, si gettò a sedere per terra, lasciando andare un gran sospirone di contentezza.",
+    "hyp": "Giunto dinanzi a casa, trovò l’uscio di strada socchiuso.Lo spinse, entrò dentro, e appena ebbe messo tanto di letto, si gettò a sedere per terra, lasciando andare un gran sospiro di contentezza." ,"human_annotation": 5
+  },
+  {
+    "in": " \nMa  quella  contentezza  durò  poco,  perchè  sentì \nnella  stanza  qualcuno  che  fece: \n—  Cri-cri-cri  ! \n\n\n—  Olii  è  che  mi  chiama?",
+    "ref": "Ma quella contentezza durò poco, perchè sentì nella stanza qualcuno che fece:\n— Crì-crì-crì!— Chi è che mi chiama?",
+    "hyp": "Ma quella contentezza durò poco, perchè sentì nella stanza qualcuno che fece:\n— Cricrì cri!\n— È che mi chiama?","human_annotation": 3
+  },
+  {
+    "in": "  —  disse  Pinocchio \ntutto  impaurito. \n—  Sono  io  !  ^- \nPinocchio  si  voltò,  e 'vide  un  grosso  grillo  che \nsaliva  lentamente  su  su  per  il  muro.",
+    "ref": "— disse Pinocchio tutto impaurito.— Sono io!—\nPinocchio si voltò, e vide un grosso Grillo che saliva lentamente su su per il muro.",
+    "hyp": "— disse Pinocchio tutto impaurito.— Sono io!^ —\nPinocchio si voltò, e vide un grosso grillo che saliva lentamente su su per il muro.","human_annotation": 4
+  },
+  {
+    "in": " \n—  Dimmi,  Grillo,  e  tu  chi  sei  I \n—  Io  sono  il  Grillo-parlante,  e  abito  in  que- \nsta stanza  da  più  di  cent'anni.",
+    "ref": "— Dimmi, Grillo, e tu chi sei?— Io sono il Grillo-parlante, e abito in questa stanza da più di cent’anni.",
+    "hyp": "— Dimmi, Grillo, e tu chi sei?―Io sono il Grillo-parlante, e abito in questa stanza da più di cent’anni." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Oggi  però  questa  stanza  è  mia,  —  disse \nil  burattino  ^  e  se  vuoi  farmi  uh  vero  pia- \ncere, vattene  subito,  senza  nemmeno  voltarsi  in- \ndietro.",
+    "ref": "— Oggi però questa stanza è mia, — disse il burattino — e se vuoi farmi un vero piacere, vattene subito, senza nemmeno voltarsi indietro.",
+    "hyp": "— Oggi però questa stanza è mia, — disse il burattino e se vuoi farmi un piacere, vattene subito, senza nemmeno voltarti indietro.","human_annotation": 3
+  },
+  {
+    "in": " \n—  Io  non  me  ne  anderò  di  qui,  —  rispose  il \nGrillo  —  se  prima  non  ti  avrò  detto  una  gran \nverità. \n—  Dimmela,  e  spicciati.",
+    "ref": "— Io non me ne anderò di qui, — rispose il Grillo — se prima non ti avrò detto una gran verità.— Dimmela, e spicciati.",
+    "hyp": "— Io non me ne andrò di qui, — rispose il Grillo — se prima non mi avrai detto una gran verità.— Dimmela, e spicciati.","human_annotation": 3
+  },
+  {
+    "in": " \n—  Guai  a  quei  ragazzi  che  si  ribellano  ai  loro \ngenitori,  e  che  abbandonano  capricciosamente \nla  casa  paterna.",
+    "ref": "— Guai a quei ragazzi che si ribellano ai loro genitori, e che abbandonano capricciosamente la casa paterna.",
+    "hyp": "— Guai a quei ragazzi che si ribellano ai loro genitori, e che abbandonano capricciosamente la casa paterna.","human_annotation": 5
+  },
+  {
+    "in": "  Xon  avranno  mai  bene  in  que- \nsto mondo;  e  prima  o  poi  dovranno  pentirsene \namaramente. \n—  Canta  pure.  Grillo  mio,  come  ti  pare  e  piace: \nma  io  so  che  domani,  all'  alba,  voglio  andarmene \ndi  qui,  perchè  se  rimango  qui,  avverrà  a  me \nquel  che  avviene  a  tutti  gli  altri  ragazzi,  vale \na  dire  mi  manderanno  a  scuola,  e  per  amore  o \nper  forza  mi  toccherà  a  studiare;  e  io,  a  dirtela \n\n\niu  confidenza,  di  studiare  non  ho  punta  voglia \ne  mi  diverto  più  a  correre  dietro  alle  farfalle  e \na  salire  su  per  gli  alberi  a  prendere  gii  uccel- \nlini di  nido.",
+    "ref": "Non avranno mai bene in questo mondo; e prima o poi dovranno pentirsene amaramente.— Canta pure, Grillo mio, come ti pare e piace: ma io so che domani, all’alba, voglio andarmene di qui, perchè se rimango qui, avverrà a me quel che avviene a tutti gli altri ragazzi, vale a dire mi manderanno a scuola, e per amore o per forza mi toccherà studiare; e io, a dirtela\nin confidenza, di studiare non ho punto voglia e mi diverto più a correre dietro alle farfalle e a salire su per gli alberi a prendere gli uccellini di nido.",
+    "hyp": "Xon avranno mai bene in questo mondo?E prima o poi dovranno pentirsene amaramente.― Canta pure.Grillo mio, come ti pare e piace: ma io so che domani, all’alba, voglio andarmene di qui, perchè se rimango qui, avverrà a me quel che avviene a tutti gli altri ragazzi, vale a dire mi manderanno a scuola, e per amore o per forza mi toccherà a studiare; e io, a dirtela confidenzialmente, di studiare non ho punto voglia e mi diverto più a correre dietro alle farfalle e a salire su per gli alberi a prendere gli uccellini di nido.","human_annotation": 3
+  },
+  {
+    "in": " \n—  Povero  grullerello!- Ma  non  sai  che,  fa- \ncendo così,  diventerai  da  grande  un  bellissimo \nsomaro,  e  che  tutti  si  piglieranno  gioco  di  te",
+    "ref": "— Povero grullerello!Ma non sai che, facendo così, diventerai da grande un bellissimo somaro, e che tutti si piglieranno gioco di te?",
+    "hyp": "— Povero grullo!— Ma non sai che, facendo così, diventerai da grande un bellissimo somaro, e che tutti si prenderanno gioco di te?","human_annotation": 4
+  },
+  {
+    "in": "  1 \n—  Chetati,  grillaecio  del  mal'  augurio  !  —  gridò \nPinocchio. \nMa  il  grillo,  che  era  paziente  e  filosofo,  invece \ndi  aversi  a  male  di  questa  impertinenza,  con- \ntinuò con  lo  stesso  tono  di  voce: \n—  E  se  non  ti  garba  di  andare  a  scuola,  per- \nchè non  impari  almeno  un  mestiere  tanto  da \nguadagnarti  onestamente  un  pezzo  di  pane",
+    "ref": "— Chetati, Grillaccio del mal’augurio!— gridò Pinocchio.Ma il Grillo, che era paziente e filosofo, invece di aversi a male di questa impertinenza, continuò con lo stesso tono di voce:\n— E se non ti garba di andare a scuola, perchè non impari almeno un mestiere tanto da guadagnarti onestamente un pezzo di pane?",
+    "hyp": "— Chetati, grillaccio del mal’augurio!— gridò Pinocchio.Ma il grillo, che era paziente e filosofo, invece di aversene a male di questa impertinenza, continuò con lo stesso tono di voce:\n— Se non ti garba di andare a scuola, perchè non impari almeno un mestiere tanto da guadagnarti onestamente un pezzo di pane?","human_annotation": 5
+  },
+  {
+    "in": "l \n—  Vuoi  che  te  lo  dica  !  —  rei)licò  Pinocchio, \nche  cominciava  a  perdere  la  pazienza.  —  Fra  i \nmestieri  del  mondo  non  ce  n'  è  che  uno  solo,  che \nveramente  mi  vada  a  genio.",
+    "ref": "— Vuoi che te lo dica?— replicò Pinocchio, che cominciava a perdere la pazienza.— Fra tutti i mestieri del mondo non ce n’è che uno solo, che veramente mi vada a genio.",
+    "hyp": "— Vuoi che te lo dica?— replicò Pinocchio, che cominciava a perdere la pazienza.— Fra i mestieri del mondo non c’è che un solo, che veramente mi vada a genio!","human_annotation": 4
+  },
+  {
+    "in": " \n— r  E  questo  mestiere  sarebbe  1 \n—  Quello  di  mangiare,  bere,  dormire,  diver- \ntirmi, e  fare  dalla  mattina  alla  sera  la  vita  del \nvagabondo.",
+    "ref": "— E questo mestiere sarebbe?— Quello di mangiare, bere, dormire, divertirmi, e fare dalla mattina alla sera la vita del vagabondo.",
+    "hyp": "— Questo mestiere sarebbe — quello di mangiare, bere, dormire, divertirmi, e fare dalla mattina alla sera la vita del vagabondo.","human_annotation": 3
+  },
+  {
+    "in": " \n—  Per  tua  regola  —  disse  il  Grillo-parlante \ncon  la  sua  solita  calma  —  tutti  quelli  che  fanno \ncodesto  mestiere,  finiscono  quasi  sempre  allo \nspedale  o  in  prigione.",
+    "ref": "— Per tua regola — disse il Grillo-parlante con la sua solita calma — tutti quelli che fanno codesto mestiere, finiscono sempre allo spedale o in prigione.",
+    "hyp": "— Per tua regola — disse il Grillo-parlante con la sua solita calma — tutti quelli che fanno codesto mestiere, finiscono quasi sempre allo spedale o in prigione.","human_annotation": 5
+  },
+  {
+    "in": " \n\n\n—  Bada,  grillaccio  del  mal' augurio  !...  se  mi \nmonta  la  bizza,  guai  a  te!... \n—  Povero  Pinocchio:  mi  fai  proimo  compas- \nsione!... 1 \n—  Perchè  ti  faccio  compas- \nsione",
+    "ref": "— Bada, Grillaccio del mal’augurio!… se mi monta la bizza, guai a te!…\n— Povero Pinocchio!Mi fai proprio compassione!…\n— Perchè ti faccio compassione?",
+    "hyp": "— Bada, grillaccio del mal’augurio!...se mi monta la bizza, guai a te!... — Povero Pinocchio: mi fai proprio compassione!...\n— Perchè ti faccio compassione?...\n— Perchè sei un ragazzo.","human_annotation": 1
+  },
+  {
+    "in": " 1 \n—  Perchè  sei  un  burattino  e, \nquel  che  è  peggio,  perchè  hai  la \ntesta  Ui  legno.  — \nA  queste  ultime  parole,  Pi- \nnocchio saltò  su  tutt' infuriato, \ne  preso  di  sul  banco  un \nmartello  di  legno,  lo  sca- \ngliò contro  il  Grillo-par- \nlante.",
+    "ref": "— Perchè sei un burattino e, quel che è peggio, perchè hai la testa di legno.—\nA queste ultime parole, Pinocchio saltò su tutt’infuriato e preso sul banco un martello di legno, lo scagliò contro il Grillo-parlante.",
+    "hyp": "E Pinocchio si fermò, e, alzando gli occhi al cielo:\n\n— Perchè sei un burattino e, quel che è peggio, perchè hai la testa di legno?— A queste ultime parole, Pinocchio saltò su tutto infuriato, e preso di sotto al banco un martello di legno, lo scaricò contro il Grillo parlante.","human_annotation": 1
+  },
+  {
+    "in": "V. \nPiuoccliio  lia  fame  e  cerca  un  uovo  per  farsi  mia  frittata; \nma  sul  più  bello,  la  frittata  gli  vola  via  dalla  finestra.",
+    "ref": "V.\n\nPinocchio ha fame, e cerca un uovo per farsi una frittata;ma sul più bello, la frittata gli vola via dalla finestra.",
+    "hyp": "V.\nPierino, non ha più fame e cerca un uovo per farsi mia frittata; ma sul più bello, la frittata gli vola via dalla finestra.","human_annotation": 1
+  },
+  {
+    "in": " \nIntanto  cominciò  a  farsi  notte,  e  Pinocchio, \nricordandosi  che  non  aveva  mangiato  nulla,  sentì \nun' uggiolina  allo  stomaco,  che  somigliava  mol- \ntissimo all'appetito.",
+    "ref": "Intanto cominciò a farsi notte, e Pinocchio, ricordandosi che non aveva mangiato nulla, sentì un’uggiolina allo stomaco, che somigliava moltissimo all’appetito.",
+    "hyp": "Intanto cominciò a farsi notte, e Pinocchio, ricordandosi che non aveva mangiato nulla, sentì un’uggiolina allo stomaco, che somigliava molto all’appetito.","human_annotation": 4
+  },
+  {
+    "in": " \nMa  l'appetito  dei  ragazzi  cammina  presto,  e \ndifatti,  dopo  pochi  minuti  l'appetito  diventò \nfame,  e  la  fame,  dal  vedere  al  non  vedere  si \nconvertì  in  una  fame  da  lupi,  in  una  fame  da \ntagliarsi  col  coltello.",
+    "ref": "Ma l’appetito nei ragazzi cammina presto, e difatti, dopo pochi minuti l’appetito diventò fame, e la fame, dal vedere al non vedere, si convertì in una fame da lupi, una fame da tagliarsi col coltello.",
+    "hyp": "Ma l’appetito dei ragazzi cammina presto, e difatti, dopo pochi minuti, l’appetito diventò fame, e la fame, dal vedere al non vedere si convertì in una fame da lupi, in una fame da tagliarsi col coltello.","human_annotation": 4
+  },
+  {
+    "in": " \nIl  povero  Pinocchio  corse  subito  al  focolare \ndove  c'era  una  pentola  che  bolliva,  e  fece  l'atto \ndi  scoperchiarla,  per  vedere  che  cosa  ci  fosse \ndentro:  ma  la  pentola  era  dipinta  sul  muro.",
+    "ref": "Il povero Pinocchio corse subito al focolare, dove c’era una pentola che bolliva e fece l’atto di scoperchiarla, per vedere che cosa ci fosse dentro, ma la pentola era dipinta sul muro.",
+    "hyp": "Il povero Pinocchio corse subito al focolare dove c’era una pentola che bolliva, e fece l’atto di scoperchiarla, per vedere che cosa ci fosse dentro: ma la pentola era dipinta sul muro.","human_annotation": 5
+  },
+  {
+    "in": " \nImmaginatevi  come  restò.  Il  suo  naso,  che  era \ngià  lungo,  gli  diventò  più  lungo  almeno  quat- \ntro dita. \nAllora  si  détte  a  correre  per  la  stanza  e  a  fru- \ngare per  tutte  le  cassette  e  per  tutti  i  ripostigli \n\n\nili  cerca  di  un  po'  di  pane,  magari  un  po'  di  ijan \nsecco,  un  crosterello,  nn  osso  avanzato  al  cane, \nun  po'  di  polenta  muffita,  una  lisca  di  pesce,  un \nnocciolo  di  ciliegia,  insomma  qualche  cosa  da \nmasticare:  ma  non  trovò  nulla,  [il  gran  nulla, \nproprio  nulla.",
+    "ref": "Immaginatevi come restò.Il suo naso, che era già lungo, gli diventò più lungo almeno quattro dita.Allora si dette a correre per la stanza e a frugare per tutte le cassette e per tutti i ripostigli\nin cerca di un po’ di pane, magari un po’ di pan secco, un crosterello, un osso avanzato al cane, un po’ di polenta muffita, una lisca di pesce, un nocciolo di ciliegia, insomma di qualche cosa da masticare: ma non trovò nulla, il gran nulla, proprio nulla.",
+    "hyp": "Immaginatevi come restò.Il suo naso, che era già lungo, gli diventò più lungo almeno quattro dita.Allora si dètte a correre per la stanza e a frugare per tutte le cassette e per tutti i ripostigli\n\ni cerca di un pò di pane, magari un pò di jambon secco, un crostaccio, un pò di polenta muffita, una lisca di pesce, un nocciolo di ciliegia, insomma qualche cosa da masticare: ma non trovò nulla, il gran nulla, proprio nulla.","human_annotation": 2
+  },
+  {
+    "in": " \nE  intanto  la  fame  cresceva,  e  cresceva  sem- \npre: e  il  povero  Pinocchio  non  aveva  altro  sol- \nlievo che  quello  di  sbadigliare  e  faceva  degli \nsbadigli  così  lunghi,  che  qualche  volta  la  bocca \ngli  arrivava  fino  agli  orecchi.",
+    "ref": "E intanto la fame cresceva, e cresceva sempre e il povero Pinocchio non aveva altro sollievo che quello di sbadigliare: e faceva degli sbadigli così lunghi, che qualche volta la bocca gli arrivava fino agli orecchi.",
+    "hyp": "E intanto la fame cresceva, e cresceva sempre: e il povero Pinocchio non aveva altro sollievo che quello di sbadigliare e faceva degli sbadigli così lunghi, che qualche volta la bocca gli arrivava fin giù agli orecchi.","human_annotation": 5
+  },
+  {
+    "in": "  E  dopo  avere  sba- \ndigliato, sputava,  e  sentiva  che  lo  stomaco  gli \nandava  via. \nAllora  piangendo  e  disperandosi,  diceva: \n—  Il  Grillo-parlante  aveva  ragione.",
+    "ref": "E dopo avere sbadigliato, sputava, e sentiva che lo stomaco gli andava via.Allora piangendo e disperandosi, diceva:\n— Il Grillo-parlante aveva ragione.",
+    "hyp": "E dopo avere sbadigliato, sputava, e sentiva che lo stomaco gli andava via.Allora piangendo e disperandosi, diceva:\n— Il Grillo-parlante aveva ragione.","human_annotation": 5
+  },
+  {
+    "in": "  Ho  fatto \nmale  a  rivoltarmi  al  mio  babbo  e  a  fuggire  di \ncasa....  Se  il  mio  babbo  fosse  qui  ora  non  mi \ntroverei  a  morire  di  sbadigli",
+    "ref": "Ho fatto male a rivoltarmi al mio babbo e a fuggire di casa....Se il mio babbo fosse qui, ora non mi troverei a morire di sbadigli!",
+    "hyp": "Ho fatto male a rivolgermi al mio babbo e a fuggire di casa...Se il mio babbo fosse qui ora, non mi troverei a morire di sbadigli.","human_annotation": 5
+  },
+  {
+    "in": "  !  Oh  !  che  brutta \nmalattia  che  è  la  fame  !  — \nQuand'  ecco  che  gli  parve  di  vedere  nel  monte \ndella  spazzatura  qualche  cosa  di  tondo  e  di \nbianco,  che  somigliava  tutto  ad  un  uovo  di  gal- \nlina.",
+    "ref": "Oh!che brutta malattia che è la fame!—\nQuand’ecco gli parve di vedere nel monte della spazzatura qualche cosa di tondo e di bianco, che somigliava tutto a un uovo di gallina.",
+    "hyp": "Oh che brutta malattia che è la fame!—\nQuando poi gli parve di vedere nel monte della spazzatura qualche cosa di tondo e di bianco, che somigliava tutto ad un uovo di gallina.","human_annotation": 3
+  },
+  {
+    "in": " Spiccare  un  salto  e  gettarvisi  sopra,  fu  un \npunto  solo.  Era  un  uovo  davvero. \nLa  gioia  del  burattino  è  impossibile  descri- \nverla: bisogna  sapersela  figurare.",
+    "ref": "Spiccare un salto e gettarvisi sopra, fu un punto solo.Era un uovo davvero.La gioia del burattino è impossibile descriverla: bisogna sapersela figurare.",
+    "hyp": "Spiccare un salto e gettarsi sopra, fu un punto solo.Era un uovo davvero.La gioia del burattino è impossibile da descrivere: bisogna saperla figurarsela.","human_annotation": 4
+  },
+  {
+    "in": "  Credendo  quasi \nche  fosse  un  sogno,  si  rigirava   quest'uovo   fra \n\n\nle  mani,  e  lo  toccava  e  lo  baciaA^a  e  baciandolo \ndiceva  : \n—  E  ora  come  dovrò  cuocerlo?",
+    "ref": "Credendo quasi che fosse un sogno, si rigirava quest’uovo fra\nle mani, e lo toccava e lo baciava, e baciandolo diceva:\n— E ora come dovrò cuocerlo?",
+    "hyp": "Credendo quasi che fosse un sogno, si rigirava quest’uovo fra le mani, e lo toccava e lo baciava e baciandolo diceva:\n— Ora come dovrò cuocerlo?" ,"human_annotation": 4
+  },
+  {
+    "in": "  ^e  farò  una \nfrittata!...  ]S\"o,  è  meglio  cuocerlo  nel  piatto!... \no  non  sarebbe  più  saporito  se  lo  friggessi  in  pa- \ndella",
+    "ref": "Ne farò una frittata?… No, è meglio cuocerlo nel piatto!… O non sarebbe più saporito se lo friggessi in padella?",
+    "hyp": "— E farò una frittata!... — Che sia meglio cuocerlo nel piatto?... o non sarebbe più saporito se lo frigessi in padella?","human_annotation": 2
+  },
+  {
+    "in": "! O  se  invece  lo  cuocessi  a  uso  uovo  a  bere! \n^o,  la  più  lesta  di  tutte  è  di  cuocerlo  nel  piatto \no  nel  tegamino:  ho  troi^pa  voglia  di  mangiar- \nmelo !",
+    "ref": "O se invece lo cuocessi a uso uovo a bere?No, la più lesta di tutte è di cuocerlo nel piatto o nel tegamino: ho troppa voglia di mangiarmelo!",
+    "hyp": "O se invece lo cuocessi a uso di uovo a bere?— La più lesta di tutte è di cuocerlo nel piatto o nel tegamino: ho troppo voglia di mangiarmelo!","human_annotation": 3
+  },
+  {
+    "in": "  — \nDetto  fatto,  pose  un  tegamino  sopra  un  cal- \ndano pieno  di  brace  accesa  :  messe  nel  tegamino, \ninvece  d'olio  o  di  burro,  un  po'  d'acqua:  e  quando \nl'acqua  i)rincii)iò  a  fumare,  tac  !...",
+    "ref": "—\nDetto fatto, pose un tegamino sopra un caldano pieno di brace accesa: messe nel tegamino, invece d’olio o di burro, un po’ d’acqua: e quando l’acqua principiò a fumare, tac!...",
+    "hyp": "—\nDetto fatto, pose un tegamino sopra un caldano pieno di brace accesa: messe nel tegamino, invece d’olio o di burro, un pò d’acqua: e quando l’acqua cominciò a fiammeggiare, tac!...\n\n— E che cosa successe?" ,"human_annotation": 1
+  },
+  {
+    "in": "  spezzò  il  gu- \nscio dell'uovo,  e  fece  l'atto  di  scodellarvelo \ndentro. \nMa  invece  della  chiara  e  del  torlo  scappò  fuori \nun  pulcino  tutto  allegro  e  complimentoso,  il \nquale  facendo  una  bella  riverenza  disse: \n—  Mille  grazie,  signor  Pinocchio,  d' avermi \nrisparmiata  la  fatica  di  rompere  il  guscio!",
+    "ref": "spezzò il guscio dell’uovo, e fece l’atto di scodellarvelo dentro.Ma invece della chiara e del torlo scappò fuori un pulcino tutto allegro e complimentoso, il quale facendo una bella riverenza disse:\n— Mille grazie, signor Pinocchio, d’avermi risparmiata la fatica di rompere il guscio!",
+    "hyp": "Il burattino si sentì raggelare tutto all’istante, quando vide che quel grosso pesce aveva in bocca un pesciolino vivo, ancora mezzo vivo, come se fosse stato pescato così.\n— Ma allora — domandò Pinocchio al pescatore — non sarà mica vero quello che dicono i pescatori?... cioè, che noi uomini siamo nati dal fango?","human_annotation": 1
+  },
+  {
+    "in": "  Ar- \nri vedell  a,  stia  bene  e  tanti  saluti  a  casa  !  — \nCiò  detto,  distese  le  ali,  e,  infilata  la  finestra \nche  era  aperta,  se  ne  volò  via  a  perdita  d' occhio.",
+    "ref": "Arrivedella, stia bene e tanti saluti a casa!—\nCiò detto, distese le ali, e, infilata la finestra che era aperta, se ne volò via a perdita d’occhio.",
+    "hyp": "Arrivederla, stia bene e tanti saluti a casa!—\nCiò detto, distese le ali, e, infilata la finestra che era aperta, se ne volò via a perdita d’occhio.","human_annotation": 5
+  },
+  {
+    "in": " \nIl  povero  burattino  rimase  lì,  come  incantato, \ncogli  occhi  fìssi,  colla  bocca  aperta  e  coi  gusci \ndell'  uovo  in  mano.",
+    "ref": "Il povero burattino rimase lì, come incantato, cogli occhi fissi, colla bocca aperta e coi gusci dell’uovo in mano.",
+    "hyp": "Il povero burattino rimase lì, come incantato, cogli occhi fissi, colla bocca aperta e coi gusci dell’uovo in mano.","human_annotation": 5
+  },
+  {
+    "in": "  Iliavutosi,  peraltro,  dal  primo \nsbigottimento,  cominciò  a  piangere,  a  strillare, \n\n\na  battere  i  piedi  in  terra  per  la  disperazione,  e \npiangendo  diceva: \n—  Eppure  il  Grillo-parlante  aveva  ragione",
+    "ref": "Riavutosi, peraltro, dal primo sbigottimento, cominciò a piangere, a strillare,\na battere i piedi in terra per la disperazione, e piangendo diceva:\n— Eppure il Grillo-parlante aveva ragione!",
+    "hyp": "Iliavutosi, peraltro, dal primo sbigottimento, cominciò a piangere, a strillare,\na battere i piedi in terra per la disperazione, e piangendo diceva:\n— Eppure il Grillo-parlante aveva ragione.","human_annotation": 4
+  },
+  {
+    "in": "  ! \nSe  non  fossi  scappato  di  casa  e  se  il  mio  babbo \nfosse  qui,  ora  non  mi  troverei  a  morire  di  fame. \nEh  !  che  brutta  malattia  che  è  la  fame  !...",
+    "ref": "Se non fossi scappato di casa e se il mio babbo fosse qui, ora non mi troverei a morire di fame.Eh!che brutta malattia che è la fame!...",
+    "hyp": "Se non fossi scappato di casa e se il mio babbo fosse qui, ora non mi troverei a morire di fame.Eh! che brutta malattia che è la fame!...","human_annotation": 4
+  },
+  {
+    "in": "VI. \nPinocchio  si  addormenta  coi  piedi  sul  caldano, \ne  la  mattina  dopo  si  sveglia  coi  piedi  tutti  bruciati.",
+    "ref": "VI.Pinocchio si addormenta coi piedi sul caldano,\ne la mattina dopo si sveglia coi piedi tutti bruciati.",
+    "hyp": "VII.Pinocchio si addormenta coi piedi sul caldano, e la mattina dopo si sveglia coi piedi tutti bruciati.","human_annotation": 3
+  },
+  {
+    "in": " \nPer  r  appunto  era  una  nottataccia  d' inferno. \nTonava  forte  forte,  lampeggiava  come  se  il  cielo \npigliasse  fuoco,  e  un  ventaccio  freddo  e  strapaz- \nzone, fischiando  rabbiosamente  e  sollevando  un \nimmenso  nuvolo  di  polvere,  faceva  stridere  e  ci- \ngolare tutti  gli  alberi  della  campagna.",
+    "ref": "Per l’appunto era una nottataccia d’inferno.Tuonava forte forte, lampeggiava come se il cielo pigliasse fuoco, e un ventaccio freddo e strapazzone, fischiando rabbiosamente e sollevando un immenso nuvolo di polvere, faceva stridere e cigolare tutti gli alberi della campagna.",
+    "hyp": "Per l’appunto era una nottataccia d’inferno.Tornava forte forte, lampeggiava come se il cielo prendesse fuoco, e un ventaccio freddo e strapazoni, fischiando rabbiosamente e sollevando un immenso nuvolo di polvere, faceva stridere e cigolare tutti gli alberi della campagna.","human_annotation": 4
+  },
+  {
+    "in": " \nPinocchio  aveva  una  gran  paura  dei  tuoni  e \ndei  lamj)i  :  se  non  che  la  fame  era  più  forte  della \npaura:  motivo  per  cui  accostò  P uscio  di  casa,  e \npresa  la  carriera,  in  un  centinaio  di  salti  arrivò \nfino  al  paese,  colla  lingua  fuori  e  col  fiato  grosso, \ncome  un  can  da  caccia.",
+    "ref": "Pinocchio aveva una gran paura dei tuoni e dei lampi: se non che la fame era più forte della paura: motivo per cui accostò l’uscio di casa, e presa la carriera, in un centinaio di salti arrivò fino al paese, colla lingua fuori e col fiato grosso, come un can da caccia.",
+    "hyp": "Pinocchio aveva una gran paura dei tuoni e dei lampi: ma la fame era più forte della paura: motivo per cui accostò il portone di casa, e presa la carriera, in un centinaio di saltelli arrivò fino al paese, colla lingua fuori e col fiato grosso, come un cane da caccia.","human_annotation": 2
+  },
+  {
+    "in": " \nMa  trovò  tutto  buio  e  tutto  deserto.  Le  bot- \nteghe erano  chiuse;  le  porte  di  casa  chiuse,  le \nfinestre  chiuse,  e  nella  strada  nemmeno  un  cane.",
+    "ref": "Ma trovò tutto buio e tutto deserto.Le botteghe erano chiuse; le porte di casa chiuse, le finestre chiuse, e nella strada nemmeno un cane.",
+    "hyp": "Ma trovò tutto buio e tutto deserto.Le botteghe erano chiuse;le porte di casa chiuse, le finestre chiuse,e nella strada neppure un cane.","human_annotation": 5
+  },
+  {
+    "in": " \nPareva  il  paese  dei  morti. \nAllora  Pinocchio,  i)reso  dalla  disperazione  e \ndalla  fame,  si  attaccò  al  campanello  d'una  casa,  e \ncominciò  a  sonare  a  distesa,  dicendo  dentro  di  sé  : \n—  Qualcuno  si  affaccerà.",
+    "ref": "Pareva il paese dei morti.Allora Pinocchio, preso dalla disperazione e dalla fame, si attaccò al campanello d’una casa, e cominciò a suonare a distesa, dicendo dentro di sè:\n— Qualcuno si affaccerà.",
+    "hyp": "Pareva il paese dei morti.Allora Pinocchio, preso dalla disperazione e dalla fame, si attaccò al campanello d’una casa, e cominciò a sonare a distesa, dicendo dentro di sè:\n— Qualcuno si affaccerà.","human_annotation": 5
+  },
+  {
+    "in": "  — \n\nDifatti  si  affacciò  un  veccliio,  col  berretto  da \nuotte  in  capo,  il  quale  gridò  tutto  stizzito: \n—  Ohe  cosa  volete  a  quest'ora",
+    "ref": "—\nDifatti si affacciò un vecchio, col berretto da notte in capo, il quale gridò tutto stizzito:\n— Che cosa volete a quest’ora?",
+    "hyp": "— Difatti si affacciò un vecchione, coll’in capo un berretto di cotone in testa, il quale gridò tutto stizzito:\n— Che cosa volete a quest’ora?","human_annotation": 1
+  },
+  {
+    "in": "! \n\nHi  \"il     <x  mi  V»  /■ , \n\nTornò  a  casa  bagnato  come  un  pulcino.... \n\n—  Ohe  mi  fareste  il  piacere  di  darrai  un  po'  di \npane? \n—  Aspettatemi  costì  che  torno  subito,  —  rispose \nil  vecchino,  credendo  di  aver  da  fare  con  qualcuno \ndi  quei  ragazzacci  rompicolli  che  si  divertono  di \nnotte  a  sonare  i  cani  inanelli  delle  case,  per  mo- \nlestare  la  gente  per  bene,  che  se  la  dorme,  tran- \nquillamente.",
+    "ref": "Tornò a casa bagnato come un pulcino...\n\n— Che mi fareste il piacere di darmi un po’ di pane?— Aspettami costì che torno subito, — rispose il vecchino, credendo di aver da fare con qualcuno di quei ragazzacci rompicolli che si divertono di notte a suonare i campanelli delle case, per\nmolestare la gente per bene, che se la dorme tranquillamente.",
+    "hyp": "Hi!\nIl mio povero babbo tornò a casa bagnato come un pulcino...\n— Che mi fareste voi, di darvi un po’ di pane?— Aspettatemi costì che ritorno subito, — rispose il vecchino, credendo di dover fare con qualcuno di quei ragazzacci rompicolli che si divertono di notte a sonare i campanelli delle case, per molestare la gente per bene, che se la dorme tranquillamente.","human_annotation": 1
+  },
+  {
+    "in": " \nDopo  mezzo  minuto  la  finestra  si  riaprì,  e  la \nvoce  del  solito  vecchino  gridò  a  Finocchio  : \n—  Fatti  sotto  e  para  il  cappello.",
+    "ref": "Dopo mezzo minuto la finestra si riaprì, e la voce del solito vecchino gridò a Pinocchio:\n— Fàtti sotto e para il cappello.",
+    "hyp": "Dopo mezzo minuto la finestra si riaprì, e la voce del solito vecchino gridò a Finocchio:\n— Fatti sotto e para il cappello." ,"human_annotation": 3
+  },
+  {
+    "in": "  — \nPinocchio  che  non  aveva  ancora  un  cappello, \nsi  avvicinò  e  sentì  pioversi  addosso  un'enorme \ncatinellata  d'acqua  che  lo  annaffiò  tutto,  dalla \ntesta  ai  piedi,  come  se  fosse  un  vaso  di  giranio \nappassito.",
+    "ref": "—\nPinocchio che non aveva ancora un cappello, si avvicinò e sentì pioversi addosso un’enorme catinellata d’acqua che lo annaffiò tutto, dalla testa ai piedi, come se fosse un vaso di giranio appassito.",
+    "hyp": "—\nPinocchio che non aveva ancora un cappello, si avvicinò e sentì pioversi addosso un’enorme catinellata d’acqua che lo annaffiò tutto, dalla testa ai piedi, come se fosse un vaso di girasole appassito.","human_annotation": 5
+  },
+  {
+    "in": " \nTornò  a  casa  bagnato  come  un  pulcino  e  ri- \nfinito dalla  stanchezza  e  dalla  fame:  e  perchè \nnon  aveva  più  forza  di  reggersi  ritto,  si  pose  a \nsedere,  appoggiando  i  piedi  fradici  e  impillac- \ncherati sopra  un  caldano  pieno  di  brace  accesa.",
+    "ref": "Tornò a casa bagnato come un pulcino e rifinito dalla stanchezza e dalla fame: e perchè non aveva più forza di reggersi ritto, si pose a sedere, appoggiando i piedi fradici e impillaccherati sopra un caldano pieno di brace accesa.",
+    "hyp": "Tornò a casa bagnato come un pulcino e finito dalla stanchezza e dalla fame: perché non aveva più forza di reggersi ritto, si pose a sedere, appoggiando i piedi fradicci e impiastricciati sopra un caldano pieno di brace accesa.","human_annotation": 2
+  },
+  {
+    "in": " \nE  lì  si  addormentò;  e  nel  dormire  i  piedi  che \nerano  di  legno  gli  presero  fuoco,  e  adagio  adagio \ngli  si  carbonizzarono  e  diventarono  cenere.",
+    "ref": "E lì si addormentò; e nel dormire, i piedi che erano di legno, gli presero fuoco, e adagio adagio gli si carbonizzarono e diventarono cenere.",
+    "hyp": "E lì si addormentò: e nel dormire i piedi che erano di legno gli presero fuoco, e adagio adagio gli si carbonizzarono e diventarono cenere.","human_annotation": 5
+  },
+  {
+    "in": " \nE  Pinocchio  seguitava  a  dormire  e  a  russare, \ncome  se  i  suoi  piedi  fossero  quelli  d'un  altro. \nFinalmente  sul  far  del  giorno  si  svegliò,  perchè \nqualcuno  aveva  bussato  alla  porta.",
+    "ref": "E Pinocchio seguitava a dormire e a russare, come se i suoi piedi fossero quelli d’un altro.Finalmente sul far del giorno si svegliò, perchè qualcuno aveva bussato alla porta.",
+    "hyp": "E Pinocchio seguitava a dormire e a russare, come se i suoi piedi fossero quelli di un altro.Finalmente sul far del giorno si svegliò, perchè qualcuno aveva bussato alla porta." ,"human_annotation": 5
+  },
+  {
+    "in": " \n—  Chi  è?  —  domandò  sbadigliando  e  stropic- \nciandosi gli  occhi. \n—  Sono  io  !  —  rispose  una  voce. \nQuella  voce  era  la  voce  di  Geppetto",
+    "ref": "— Chi è?— domandò sbadigliando e stropicciandosi gli occhi.— Sono io!— rispose una voce.Quella voce era la voce di Geppetto.",
+    "hyp": "— Chi è?— domandò sbadigliando e stropicciandosi gli occhi.— Sono io!— rispose una voce.Quella voce era la voce di Geppetto.","human_annotation": 5
+  },
+  {
+    "in": "VII. \nGeppetto  torna  a  casa,  e  dà  al  burattino  la  colazione \nche  il  pover'  uomo  aveva  portata  per  so. \nIl  povero  Pinoccliio,  che  aveva  sempre  gii  oc- \nchi fra  il  sonno,  non  s'era  ancora  avvisto  dei \npiedi  che  gli  si  erano  tutti  brnciati:  per  cui  ap- \npena sentì  la  voce  di  suo  padre,  schizzò  giù  dallo \nsgabello  per  correre  a  tirare  il  paletto;  ma  in- \nvece, dopo  due  o  tre  traballoni,  cadde  di  picchio \ntutto  lungo  disteso  sul  pavimento.",
+    "ref": "VII.Geppetto torna a casa, e dà al burattino la colazione\nche il pover’uomo aveva portata per sè.Il povero Pinocchio, che aveva sempre gli occhi fra il sonno, non s’era ancora avvisto dei piedi, che gli si erano tutti bruciati: per cui appena sentì la voce di suo padre, schizzò giù dallo sgabello per correre a tirare il paletto; ma invece, dopo due o tre traballoni, cadde di picchio tutto lungo disteso sul pavimento.",
+    "hyp": "VIII.Pinocchio tornò a casa, e diede al burattino la colazione che il pover’uomo aveva portata per sé.Il povero Pinocchio, che aveva sempre i piedi fra le gambe, non s’era ancora avvistato dei piedini che gli si erano tutti bruciati: per cui appena sentì la voce di suo padre, schizzò giù dallo sgabello per correre a tirare il paletto; ma invece, dopo due o tre ballonzoloni, cadde di punta tutto lungo disteso sul pavimento." ,"human_annotation": 1
+  },
+  {
+    "in": " \nE  nel  battere  in  terra  fece  lo  stesso  rumore, \nche  avrebbe  fatto  un  sacco  di  mestoli,  cascato \nda  un  quinto  piano.",
+    "ref": "E nel battere in terra fece lo stesso rumore, che avrebbe fatto un sacco di mestoli, cascato da un quinto piano.",
+    "hyp": "E nel battere in terra fece lo stesso rumore, che avrebbe fatto un sacco di mestoli, cascato da un quinto piano.","human_annotation": 5
+  },
+  {
+    "in": " \n—  Aprimi  !  —  intanto  gridava  Geppetto  dalla \nstrada. \n—  Babbo  mio,  non  posso....  —  rispondeva  il  bu- \nrattino piangendo  e  ruzzolandosi  per  terra.",
+    "ref": "— Aprimi!— intanto gridava Geppetto dalla strada.— Babbo mio, non posso, — rispondeva il burattino piangendo e ruzzolandosi per terra.",
+    "hyp": "— Aprimi!— intanto gridava Geppetto dalla strada.— Babbo mio, non posso...— rispondeva il burattino piangendo e ruzzolandosi per terra.","human_annotation": 5
+  },
+  {
+    "in": " \n—  Perchè  non  puoi  ? \n—  Perchè  mi  hanno  mangiato  i  piedi, \n—  E  chi  te  li  ha  mangiati  ì \n—'Il  gatto  —  disse  Pinoccliio,  vedendo  il  gatto \nche  colle  zampine  davanti  si  divertiva  a  far  bal- \nlare alcuni  trucioli  di  legno.",
+    "ref": "— Perchè non puoi?— Perchè mi hanno mangiato i piedi.— E chi te li ha mangiati?— Il gatto, — disse Pinocchio, vedendo il gatto che colle zampine davanti si divertiva a far ballare alcuni trucioli di legno.",
+    "hyp": "— Perchè non puoi?Perchè mi hanno mangiato i piedi, — e chi te li ha mangiati?— Il gatto — disse Pinocchio, vedendo il gatto che colle zampine davanti si divertiva a fare baldoria con alcuni trucioli di legno.","human_annotation": 3
+  },
+  {
+    "in": " \n\n—  Aprimi,  ti  dico  !  —  ripetè  Geppetto  —  se  no, \nquando  vengo  in  casa,  il  gatto  te  Io  do  io  ! \n—  Non  posso  star  ritto,  credetelo.",
+    "ref": "— Aprimi, ti dico!— ripetè Geppetto — se no, quando vengo in casa, il gatto te lo do io!— Non posso star ritto, credetelo.",
+    "hyp": "— Aprimi, ti dico!— ripeté Geppetto — se no, quando vengo in casa, il gatto te lo do io!— Non posso stare ritto, credetelo.","human_annotation": 5
+  },
+  {
+    "in": "  Oh  !  povero \n\nEntrò  in  casa  dalla  finestra. \n\nme!  povero  me,  che  mi  toccherà  a  camminare \ncoi  ginocchi  per  tutta  la  vita.  — \nGeppetto,  credendo  che  tutti  questi  piagnistei \nfossero  un'  altra  monelleria  del  burattino,  pensò \nbene  di  farla  finita;  e  arrampicatosi  su  ijcr  il \nmuro,  entrò  in  casa  dalla  finestra.",
+    "ref": "Oh!povero\nEntrò in casa dalla finestra.me!povero me, che mi toccherà a camminare coi ginocchi per tutta la vita.―\nGeppetto, credendo che tutti questi piagnistei fossero un’altra monelleria del burattino, pensò bene di farla finita; e arrampicatosi su per il muro, entrò in casa dalla finestra.",
+    "hyp": "Oh! povero me, che mi toccherà a camminare coi ginocchi per tutta la vita!— Geppetto, credendo che tutti questi piagnistei fossero un’altra monelleria del burattino, pensò bene di farla finita: e arrampicatosi su per il muro, entrò in casa dalla finestra.","human_annotation": 1
+  },
+  {
+    "in": " \nDa  principio  voleva  dire  e  voleva  fare;  ma  poi, \nquando  vide  il  suo  Pinocchio  sdraiato  in  terra  e \nrimasto  senza  piedi  davvero,  allora  sentì  intene- \nrirsi; e  presolo  subito  in  collo  si  dette  a  baciarlo \ne  a  fargli  mille  carezze  e  mille  moine,  e,  coi  luc- \nciconi che  gli  cascavano  giù  per  le  gote,  gli  disse \nsinghiozzando  : \n—  Pinocchiuccio  mio",
+    "ref": "Da principio voleva dire e voleva fare; ma poi, quando vide il suo Pinocchio sdraiato in terra e rimasto senza piedi davvero, allora sentì intenerirsi; e presolo subito in collo si dette a baciarlo e a fargli mille carezze e mille moine, e, coi lucciconi che gli cascavano giù per le gote, gli disse singhiozzando:\n— Pinocchiuccio mio!",
+    "hyp": "Da principio voleva dire e voleva fare; ma poi, quando vide il suo Pinocchio sdraiato in terra e rimasto senza piedi davvero, allora sentì intenerirsi: e preso subito in collo si diede a baciarlo e a fargli mille carezze e mille moine, e, cogli occhioni che gli cascavano giù per le guance, gli disse singhiozzando:\n— Pinocchiuccio mio!","human_annotation": 3
+  },
+  {
+    "in": "  !  Gom'  è  che  ti  sei  bru- \nciato i  piedi? \n—  Non  lo  so,  babbo,  ma  credetelo  che  è  stata \nuna  nottata  d' inferno,  e  me  ne  ricorderò  fin  che \ncampo.",
+    "ref": "Com’è che ti sei bruciato i piedi?— Non lo so, babbo, ma credetelo che è stata una nottata d’inferno, e me ne ricorderò fin che campo.",
+    "hyp": "Gomè che ti sei bruciato i piedi?— Non lo so, babbo, ma credetelo che è stata una nottata d’inferno, e me ne ricorderò fin che campo.","human_annotation": 5
+  },
+  {
+    "in": "  Tonava,  balenava  e  io  avevo  una  gran \nfame,  e  allora  il  Grillo-parlante  mi  disse  :  «  Ti \nsta  bene:  sei  stato  cattivo  e  te  lo  meriti»  e  io \ngli  dissi:  «  Bada,  Grillo!...  »  e  lui  mi  disse:  «  Tu \nsei  un  burattino  e  hai  la  testa  di  legno  »  e  io \ngli  tirai  un  manico  di  martello,  e  lui  morì,  ma \nla  colpa  fu  sua,  perchè  io  non  volevo  ammaz- \nzarlo, prova  ne  sia,  che  messi  un  tegamino  sulla \nbrace  accesa  del  caldano,  ma  il  pulcino  scappò \nfuori  e  disse:  «  Arrivedella,...  e  tanti  saluti  a  ca- \nsa. »  E  la  fame  cresceva  sempre,  motivo  per  cui \nquel  vecchi  no  col  berretto  da  notte,  affacciandosi \nalla  finestra  mi  disse  :  «  Fatti  sotto  e  para  il  cap- \npello »  e  io  con  quella  catinellatà  d' acqua  sul \ncapo,  perchè  il  chiedere  im  po'  di  pane  non  è \nver",
+    "ref": "Tonava, balenava e io avevo una gran fame, e allora il Grillo-parlante mi disse: «Ti sta bene: sei stato cattivo e te lo meriti», e io gli dissi: «Bada, Grillo!…» e lui mi disse: «Tu sei un burattino e hai la testa di legno» e io gli tirai un manico di martello, e lui morì, ma la colpa fu sua, perchè io non volevo ammazzarlo, prova ne sia, che messi un tegamino sulla brace accesa del caldano, ma il pulcino scappò fuori e disse: «Arrivedella,... e tanti saluti a casa.» E la fame cresceva sempre, motivo per cui quel vecchino col berretto da notte, affacciandosi alla finestra mi disse: «Fàtti sotto e para il cappello» e io con quella catinellata d’acqua sul capo, perchè il chiedere un po’ di pane non è vergogna, non è vero?",
+    "hyp": "Tonava, balenava e io avevo una gran fame, e allora il Grillo-parlante mi disse: «Ti sta bene: sei stato cattivo e te lo meriti».E io gli dissi: «Bada, Grillo!...» e lui mi disse: «Tu sei un burattino e hai la testa di legno».Ma io non volevo ammazzarlo, prova ne sia, che messi un tegamino sulla brace accesa del caldano, ma il pulcino scappò fuori e disse: «Arrivederla, e tanti saluti a casa. »E la fame cresceva sempre, motivo per cui quel vecchio No col berretto da notte, affacciandosi alla finestra mi disse: «Fatti sotto e para il cappello» e io con quella catinella d’acqua sul capo, perchè il chiedere im pò di pane non è veramenta buona educazione.","human_annotation": 1
+  },
+  {
+    "in": "gogna,  non   è  vero?   me  ne  tornai  subito  a \n\n\ncasa,  e  perchè  avevo  sempre  una  gran  fame, \nmessi  i  piedi  sul  caldano  per  ras^igarmi,  e  voi \nsiete  tornato,  e  me  li  sono  trovati  bruciati,  e  in- \ntanto la  fame  l'ho  sempre  e  i  piedi  non  li  ho \npiù!",
+    "ref": "me ne tornai subito a\ncasa, e perchè avevo sempre una gran fame, messi i piedi sul caldano per rasciugarmi, e voi siete tornato, e me li sono trovati bruciati, e intanto la fame l’ho sempre e i piedi non li ho più!",
+    "hyp": "E’ vero che il burattino si vergognò come un cane di scuola, ma perchè aveva sempre una gran fame, messi i piedi sul caldano per rasarsi, e voi siete tornato, e me li avete trovati bruciati, e in tanto la fame l’ho sempre e i piedi non glieli più!","human_annotation": 1
+  },
+  {
+    "in": "  ih!...  ih!...  ih!...  ih!... — \nE  il  povero  Pinocchio  cominciò  a  piangere  e \na  berciare  così  forte,  che  lo  sentivano  da  cinque \nchilometri  lontano.",
+    "ref": "ih!...ih!...ih!...ih!...―\nE il povero Pinocchio cominciò a piangere e a berciare così forte, che lo sentivano da cinque chilometri lontano.",
+    "hyp": "— Ih!... ih!... ih!... ih!... —\nE il povero Pinocchio cominciò a piangere e a berciare così forte, che lo sentivano da cinque chilometri lontano.","human_annotation": 5
+  },
+  {
+    "in": " \nGeppetto,  che  di  tutto  quel  discorso  arruffato \naveva  capito  una  cosa  sola,  cioè  che  il  burattino \nsentiva  morirsi  dalla  gran  fame,  tirò  fuori  di  ta- \nsca tre  pere,  e  porgendogliele,  disse: \n—  Queste  tre  pere  erano  la  mia  colazione:  ma \nio  te  le  do  volentieri.",
+    "ref": "Geppetto, che di tutto quel discorso arruffato aveva capito una cosa sola, cioè che il burattino sentiva morirsi dalla gran fame, tirò fuori di tasca tre pere, e porgendogliele, disse:\n— Queste tre pere erano per la mia colazione: ma io te le do volentieri.",
+    "hyp": "E Geppetto, che di tutto quel discorso arruffato aveva capito una cosa sola, cioè che il burattino sentiva morirsi dalla gran fame, tirò fuori di tasca tre pere, e ponendogliele, disse:\n— Queste tre pere erano la mia colazione: ma io te le do volentieri.","human_annotation": 4
+  },
+  {
+    "in": "  Mangiale,  e  buon  prò  ti \nfaccia. \n— (Se  volete  che  le  mangi,  fatemi  il  piacere  di \nsbucciarle. \n—  Sbucciarle?",
+    "ref": "Mangiale, e buon pro ti faccia.— Se volete che le mangi, fatemi il piacere di sbucciarle.— Sbucciarle?",
+    "hyp": "Mangiale, e buon pro ti faccia.— (Se volete che le mangiate, fatemi il piacere di sbucciarle.)— Sbucciarle?","human_annotation": 4
+  },
+  {
+    "in": "  —  replicò  Geppetto  meraviglia- \nto. —  Non  avrei  mai  creduto,  ragazzo  mio,  che \ntu  fossi  così  boccuccia  e  così  schizzinoso  di  pa- \nlato.",
+    "ref": "— replicò Geppetto meravigliato.— Non avrei mai creduto, ragazzo, mio, che tu fossi così boccuccia e così schizzinoso di palato.",
+    "hyp": "— replicò Geppetto meravigliato.— Non avrei mai creduto, ragazzo mio, che tu fossi così boccuccia e così schizzinoso di pane.","human_annotation": 4
+  },
+  {
+    "in": " Male!  In  questo  mondo,  fin  da  bambini, \nbisogna  avvezzarsi  abboccati  e  a  saper  mangiar \ndi  tutto,  perchè  non  si  sa  mai  quel  che  ci  può \ncapitare.",
+    "ref": "Male!In questo mondo, fin da bambini, bisogna avvezzarsi abboccati e a saper mangiare di tutto, perchè non si sa mai quel che ci può capitare.",
+    "hyp": "Male!In questo mondo, fin da bambini, bisogna abituarsi ad abboccare e a sapersi mangiare di tutto, perchè non si sa mai quel che ci può capitare.","human_annotation": 4
+  },
+  {
+    "in": "  I  casi  son  tanti!... \n—  Voi  direte  bene,  —  soggiunse  Pinocchio  — \nma  io  non  mangerò  mai  una  frutta,  che  non  sia \nsbucciata.",
+    "ref": "I casi son tanti!...— Voi direte bene, — soggiunse Pinocchio, — ma io non mangerò mai una frutta, che non sia sbucciata.",
+    "hyp": "I casi son tanti!...— Voi direte bene, — soggiunse Pinocchio — ma io non mangerò mai una frutta, che non sia sbucciata.","human_annotation": 5
+  },
+  {
+    "in": "  Le  bucce  non  le  posso  soffrire. — \n\n\nE  quel  buon  uomo  di  Geppetto,  cavato  fuori \nun  coltellino,  e  armatosi  di  santa  pazienza,  sbuc- \nciò le  tre  pere,  e  pose  tutte  le  bucce  sopra  un \nangolo  della  tavola.",
+    "ref": "Le bucce non le posso soffrire.―\nE quel buon uomo di Geppetto, cavato fuori un coltellino, e armatosi di santa pazienza, sbucciò le tre pere, e pose tutte le bucce sopra un angolo della tavola.",
+    "hyp": "Le bucce non le posso soffrire.—\nE quel buon uomo di Geppetto, cavato fuori un coltellino, e armatosi di santa pazienza, sbuccherò le tre pere, e pose tutte le bucce sopra un angolo della tavola.","human_annotation": 4
+  },
+  {
+    "in": " \nQuando  Pinocchio  in  due  bocconi  ebbe  man- \ngiata la  prima  pera,  fece  l'atto  di  buttar  via  il \ntorsolo;  ma  Geppetto  gli  trattenne  il  braccio  di- \ncendogli : \n—  'Non  lo  buttar  via  :  tutto  in  questo  mondo \npuò  far  comodo.",
+    "ref": "Quando Pinocchio in due bocconi ebbe mangiata la prima pera, fece l’atto di buttar via il torsolo; ma Geppetto gli trattenne il braccio, dicendogli:\n— Non lo buttar via: tutto in questo mondo può far comodo.",
+    "hyp": "Quando Pinocchio in due bocconi ebbe mangiata la prima pera, fece l’atto di buttar via il torsolo; ma Geppetto gli trattenne il braccio dicendogli:\n— Non lo buttar via: tutto in questo mondo può far comodo.","human_annotation": 5
+  },
+  {
+    "in": " \n—  Ma  io  il  torsolo  non  lo  mangio  davvero  !... \n—  gridò  il  burattino  rivoltandosi  come  una  vi- \npera. \n—  Ohi  lo  sa!",
+    "ref": "— Ma io il torsolo non lo mangio davvero!...— gridò il burattino rivoltandosi come una vipera.— Chi lo sa!",
+    "hyp": "— Ma io il torsolo non lo mangio davvero!...― gridò il burattino rivolgendosi a Pinocchio.— Ohi lo sa?","human_annotation": 2
+  },
+  {
+    "in": "  I  casi  son  tanti!...  —  ripetè  Gep- \npetto, senza  riscaldarsi. \nFatto  sta  che  i  tre  torsoli,  invece  di  essere \ngettati  fuori  dalla  finestra,  vennero  posati  sul- \nl'angolo della  tavola  in  compagnia  delle  bucce.",
+    "ref": "I casi son tanti!...— ripetè Geppetto, senza riscaldarsi.Fatto sta che i tre torsoli, invece di essere gettati fuori dalla finestra, vennero posati sull’angolo della tavola in compagnia delle bucce.",
+    "hyp": "I casi son tanti!...— ripetè Geppetto, senza scaldarsi.Fatto sta che i tre torsoli, invece di essere gettati fuori dalla finestra, vennero posati sull’angolo della tavola in compagnia delle bucce.","human_annotation": 5
+  },
+  {
+    "in": " \nMangiate,  o,  per  dir  meglio,  divorate  le  tre \npere,  Pinocchio  fece  un  lunghissimo  sbadiglio  e \ndisse  piagnucolando: \n—  Ho  dell'  altra  fame",
+    "ref": "Mangiate, o, per dir meglio, divorate le tre pere, Pinocchio fece un lunghissimo sbadiglio e disse piagnucolando:\n— Ho dell’altra fame!",
+    "hyp": "Mangiate, o, per dir meglio, divorate le tre pere,Pinocchio fece un lunghissimo sbadiglio e disse piagnucolando:\n— Ho della’altra fame!","human_annotation": 4
+  },
+  {
+    "in": "  ! \n—  Ma  io,  ragazzo  mio,  non  ho  più  nulla  da \ndarti. \n—  Proprio  nulla,  nulla  ? \n—  Ci  avrei  soltanto  queste  bucce  e  questi  tor- \nsoli di  pera.",
+    "ref": "— Ma io, ragazzo mio, non ho più nulla da darti.— Proprio nulla, nulla?— Ci avrei soltanto queste bucce e questi torsoli di pera.",
+    "hyp": "— Ma io, ragazzo mio, non ho più nulla da darti.— Proprio nulla?— Ci avrei soltanto queste bucce e questi torsi d’una pera.","human_annotation": 4
+  },
+  {
+    "in": " \n\n\n—  Pazienza  !  —  disse  Pinoccliio  —  se  non  e'  è \naltro,  mangerò  una  buccia. — \nE  cominciò  a  masticare.  Da  principio  storse \nun  po'  la  bocca  :  ma  poi  una  dietro  l' altra,  spol- \nverò in  un  soffio  tutte  le  bucce  ;  e  dopo  le  bucce \nanche  i  torsoli,  e  quand'ebbe  finito  di  mangiare \nogni  cosa,  si  battè  tutto  contento  le  mani  sul \ncorpo,  e  disse  gongolando: \n—  Ora  sì,  che  sto  bene",
+    "ref": "— Pazienza!— disse Pinocchio — se non c’è altro, mangerò una buccia.—\nE cominciò a masticare.Da principio storse un po’ la bocca: ma poi, una dietro l’altra, spolverò in un soffio tutte le bucce; e dopo le bucce, anche i torsoli, e quand’ebbe finito di mangiare ogni cosa, si battè tutto contento le mani sul corpo, e disse gongolando:\n— Ora sì, che sto bene!",
+    "hyp": "— Pazienza! — disse Pinocchio — se non è altro, mangerò una buccia.—\nE cominciò a masticare.Da principio storse un po’ la bocca:ma poi una dietro l’altra, spolverò in un soffio tutte le bucce; e dopo le bucce anche i torsoli, e quand’ebbe finito di mangiare ogni cosa, si battè tutto contento le mani sul corpo, e disse gongolando:\n— Ora sì, che sto bene!","human_annotation": 3
+  },
+  {
+    "in": "  ! \n—  Yedi,  dunque,  —  osservò  Geppetto  —  che \navevo  ragione  io,  quando  ti  dicevo  che  non  bi- \nsogna avvezzarsi  ne  troppo  sofistici  né  troppo \ndelicati  di  palato.",
+    "ref": "— Vedi, dunque, — osservò Geppetto — che avevo ragione io quando ti dicevo che non bisogna avvezzarsi nè troppo sofistici nè troppo delicati di palato.",
+    "hyp": "— Dunque, dunque — osservò Geppetto — che avevo ragione io, quando ti dicevo che non bisogna aver troppa sofisticheria nè troppa delicatezza di palato.","human_annotation": 2
+  },
+  {
+    "in": "  Caro  mio,  non  si  sa  mai  quel \nche  ci  può  capitare  in  questo  mondo.  I  casi  son \ntanti  !...",
+    "ref": "Caro mio, non si sa mai quel che ci può capitare in questo mondo.I casi son tanti!...—",
+    "hyp": "Caro mio, non si sa mai quel che ci può capitare in questo mondo.I casi sono tanti!...","human_annotation": 4
+  }
 ]

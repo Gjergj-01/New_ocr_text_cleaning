@@ -2,6 +2,7 @@
 from google import genai
 import json
 import re
+import time
 
 def get_LLM(model, path_file):
     
@@ -23,11 +24,20 @@ def get_LLM(model, path_file):
 
     if model == "Gemini":
 
-        client = genai.Client(api_key="AIzaSyD_RpMJkpEldeHRq0lhwuHifcLLWWPaX2M")
+        client = genai.Client(api_key="YOUR API KEY")
 
         outputs = []
 
+        num_requests = 1
+
         for d in data:
+
+            if num_requests % 15 == 0:
+                print("Waiting 70 seconds .....")
+                time.sleep(70)      # we can make a maximum of 15 calls per minute. To be sure, 
+                                    # we wait 70 second before the next call
+
+            num_requests += 1
 
             input = d['in']
             orig_response = d['hyp']
@@ -36,6 +46,7 @@ def get_LLM(model, path_file):
             print(f"[get_LLM]: elaborating response {orig_response}...")
             response = client.models.generate_content(
                 model="gemini-2.0-flash", 
+                #model="gemini-2.5-flash-lite",
                 contents=f"""
                     ### Task Description:
                         You are given an instruction, an input given to the LLM, its corresponding response to evaluate, a reference answer (representing the ideal answer with score 5), and a detailed scoring rubric.
@@ -45,9 +56,9 @@ def get_LLM(model, path_file):
                         2. Compare the response to the reference answer and judge how well it satisfies the rubric.
                         3. Provide a justification for your score based on specific aspects of the response.
                         4. Output the result as follows:
-                        "Feedback: (your explanation) --- [SCORE] (a number from 1 to 5)"
+                        "Feedback: (your short explanation) --- [SCORE] (a number from 1 to 5)"
                         
-                        Notice that the sequence "---" must be unique inside the response, as it will be used as separator for the score.
+                        Notice that the sequence "---" must be unique (and must always be present) inside the response, as it will be used as separator for the score.
 
                         ### The instruction to evaluate:
                         {orig_instruction}
@@ -73,6 +84,10 @@ def get_LLM(model, path_file):
             print("[get_LLM] Response: ", response.text)
             feedback, score = response.text.split("---")
             score = re.search('\d', score).group()
-            outputs.append({"in": input, "hyp": orig_response, "ref": orig_reference_answer, "feedback": feedback, "score": int(score)})
+            info = {"in": input, "hyp": orig_response, "ref": orig_reference_answer, "feedback": feedback, "score": int(score)}
+            outputs.append(info)
+
+            with open("intermediate_output.jsonl", "a") as f:
+                f.write(json.dumps(info) + "\n")
     
         return outputs

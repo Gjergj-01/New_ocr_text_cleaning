@@ -45,20 +45,20 @@ def get_LLM(model, path_file):
 
             print(f"[get_LLM]: elaborating response {orig_response}...")
             response = client.models.generate_content(
-                model="gemini-2.0-flash", 
-                #model="gemini-2.5-flash-lite",
+                #model="gemini-2.0-flash", 
+                model="gemini-2.5-flash-lite",
                 contents=f"""
                     ### Task Description:
                         You are given an instruction, an input given to the LLM, its corresponding response to evaluate, a reference answer (representing the ideal answer with score 5), and a detailed scoring rubric.
 
                         Your task is to:
                         1. Evaluate the quality of the response strictly according to the given evaluation criteria and scoring rubric.
-                        2. Compare the response to the reference answer and judge how well it satisfies the rubric.
+                        2. Compare the response to the reference answer and judge how well it satisfies the rubric (be aware that sometimes the refrence answer may contain errors).
                         3. Provide a justification for your score based on specific aspects of the response.
                         4. Output the result as follows:
                         "Feedback: (your short explanation) --- [SCORE] (a number from 1 to 5)"
                         
-                        Notice that the sequence "---" must be unique (and must always be present) inside the response, as it will be used as separator for the score.
+                        Notice that the sequence "---" must be unique (and must always be present) in the feedback, as it will be used as separator for the score.
 
                         ### The instruction to evaluate:
                         {orig_instruction}
@@ -87,6 +87,7 @@ def get_LLM(model, path_file):
             info = {"in": input, "hyp": orig_response, "ref": orig_reference_answer, "feedback": feedback, "score": int(score)}
             outputs.append(info)
 
+            # Save results while executing
             with open("intermediate_output.jsonl", "a") as f:
                 f.write(json.dumps(info) + "\n")
     

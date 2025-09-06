@@ -1,0 +1,1809 @@
+[
+    {
+        "in": "I. Como andò che Maestro Ciliegia, Megnamc trovò un p",
+        "hyp": "I.Come andò che Maestro Ciliegia, Megnamc trovò un p",
+        "ref": "I.Come andò che Maestro Ciliegia, falegname trovò un p",
+        "human_annotation": 3
+    },
+    {
+        "in": "ezzo di legno che piangeva e rideva come un bambino.",
+        "hyp": "ezzo di legno che piangeva e rideva come un bambino.",
+        "ref": "ezzo di legno che piangeva e rideva come un bambino.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— C'era una volta.... — Un re!",
+        "hyp": "— C’era una volta... — Un re!",
+        "ref": "— C’era una volta.... — Un re!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "-diranno subito i miei piccoli lettori.",
+        "hyp": "diranno subito i miei piccoli lettori.",
+        "ref": "— diranno subito i miei piccoli lettori.", 
+        "human_annotation": 4
+    },
+    {
+        "in": "— Ko, ragazzi, avete sbagliato.",
+        "hyp": "— Ko, ragazzi, avete sbagliato.",
+        "ref": "— No, ragazzi, avete sbagliato.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "C'era una volta un pezzo di legno.",
+        "hyp": "C’era una volta un pezzo di legno.",
+        "ref": "C’era una volta un pezzo di legno.", 
+        "human_annotation": 5
+        
+    },
+    {
+        "in": "Kon era un legno di lusso, ma un semplice pezzo da catasta,",
+        "hyp": "Non era un legno di lusso, ma un semplice pezzo da catasta,",
+        "ref": "Non era un legno di lusso, ma un semplice pezzo da catasta,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "di quelli che d' inverno si met- tono nelle stufe e",
+        "hyp": "di quelli che d’inverno si mettono nelle stufe e",
+        "ref": "di quelli che d’inverno si mettono nelle stufe e", 
+        "human_annotation": 5
+    },
+    {
+        "in": "nei caminetti per accendere il fuoco e per riscaldare le stanze",
+        "hyp": "nei caminetti per accendere il fuoco e per riscaldare le stanze",
+        "ref": "nei caminetti per accendere il fuoco e per riscaldare le stanze", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Non so come andasse, ma il fatto gli è che un bel giorno'",
+        "hyp": "Non so come andasse, ma il fatto gli è che un bel giorno’",
+        "ref": "Non so come andasse, ma il fatto gli è che un bel giorno", 
+        "human_annotation": 4
+    },
+    {
+        "in": "questo pezzo di legno capitò nella bot- tega di un vecchio fa",
+        "hyp": "questo pezzo di legno capitò nella bottigola di un vecchio fa",
+        "ref": "questo pezzo di legno capitò nella bottega di un vecchio fa", 
+        "human_annotation": 2
+    },
+    {
+        "in": "legname, il quale aveva nome mastr' Antonio, se non che tutti lo",
+        "hyp": "legname, il quale aveva nome mastr’Antonio, se non che tutti lo",
+        "ref": "legname, il quale aveva nome mastr’Antonio, se non che tutti lo", 
+        "human_annotation": 5
+    },
+    {
+        "in": "chia- mavano maestro Ciliegia, per via della punta del",
+        "hyp": "chiamavano maestro Ciliegia, per via della punta del",
+        "ref": "chiamavano maestro Ciliegia, per via della punta del <img description", 
+        "human_annotation": 5
+    },
+    {
+        "in": "sentì nna vocina sottile sottile.",
+        "hyp": "sentì nna vocina sottile sottile.",
+        "ref": ">.... sentì una vocina sottile sottile.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "SUO naso, che era sempre lustra e paonazza, come una cili",
+        "hyp": "SUO naso, che era sempre lustra e paonazza, come una cili",
+        "ref": "suo naso, che era sempre lustra e paonazza, come una cili", 
+        "human_annotation": 4
+    },
+    {
+        "in": "egia matura.",
+        "hyp": "auria matura.",
+        "ref": "egia matura.", 
+        "human_annotation": 3
+    },
+    {
+        "in": "Appena maestro Ciliegia ebbe visto quel pezzo di legno,",
+        "hyp": "Appena maestro Ciliegia ebbe visto quel pezzo di legno,",
+        "ref": "Appena maestro Ciliegia ebbe visto quel pezzo di legno,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "si rallegrò tutto; e dandosi una fregatina di mani per",
+        "hyp": "si rallegrò tutto; e dandosi una fregatina di mani per",
+        "ref": "si rallegrò tutto; e dandosi una fregatina di mani per", 
+        "human_annotation": 5
+    },
+    {
+        "in": "la contentezza, borbottò a mezza voce: — Questo leg",
+        "hyp": "la contentezza, borbottò a mezza voce: — Questo leg",
+        "ref": "la contentezza, borbottò a mezza voce: — Questo leg", 
+        "human_annotation": 5
+    },
+    {
+        "in": "no è capitato a tempo; voglio servirmene per fare una gamba di",
+        "hyp": "no è capitato a tempo; voglio servirmene per fare una gamba di",
+        "ref": "no è capitato a tempo; voglio servirmene per fare una gamba di", 
+        "human_annotation": 5
+    },
+    {
+        "in": "tavolino.",
+        "hyp": "tavolino.",
+        "ref": "tavolino.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Detto fatto, prese subito l'ascia arrotata per cominciare",
+        "hyp": "— Detto fatto, prese subito l’ascia arrotata per cominciare",
+        "ref": "— Detto fatto, prese subito l’ascia arrotata per cominciare", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a levargli la scorza e a digrossarlo; ma quando",
+        "hyp": "a levargli la scorza e a digrossarlo; ma quando",
+        "ref": "a levargli la scorza e a digrossarlo; ma quando", 
+        "human_annotation": 5
+    },
+    {
+        "in": "fu lì per lasciare andare la prima asciata, rimase col braccio",
+        "hyp": "fu lì per lasciare andare la prima asciata, rimase col braccio",
+        "ref": "fu lì per lasciare andare la prima asciata, rimase col braccio", 
+        "human_annotation": 5
+    },
+    {
+        "in": "sospeso in aria, per- chè sentì una vocina sottile so",
+        "hyp": "sospeso in aria, perchè sentì una vocina sottile so",
+        "ref": "sospeso in aria, perchè sentì una vocina sottile so", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ttile, che disse raccomandandosi: — Non mi picchiar tanto forte!",
+        "hyp": "ttivo, che disse raccomandandosi: — Non mi picchiar tanto forte!",
+        "ref": "ttile, che disse raccomandandosi: — Non mi picchiar tanto forte!", 
+        "human_annotation": 4
+    },
+    {
+        "in": "— Figuratevi come rimase quel buon vecchio di maestro Ciliegia!",
+        "hyp": "— Figuratevi come rimase quel buon vecchio di maestro Ciliegia!",
+        "ref": "— Figuratevi come rimase quel buon vecchio di maestro Ciliegia!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Girò gli occhi smarriti intorno alla stanza per vedere di dove mai po",
+        "hyp": "Gira gli occhi smarriti intorno alla stanza per vedere di dove mai po",
+        "ref": "Girò gli occhi smarriti intorno alla stanza per vedere di dove mai po", 
+        "human_annotation": 5
+    },
+    {
+        "in": "teva essere uscita quella vo- cina, e non vide nessuno",
+        "hyp": "teva essere uscita quella vicina, e non vide nessuno",
+        "ref": "teva essere uscita quella vocina, e non vide nessuno!", 
+        "human_annotation": 3
+    },
+    {
+        "in": "! Guardò sotto il banco, e nessuno : guardò dentro",
+        "hyp": "Guardò sotto il banco, e nessuno: guardò dentro",
+        "ref": "Guardò sotto il banco, e nessuno: guardò dentro", 
+        "human_annotation": 5
+    },
+    {
+        "in": "un armadio che stava sempre chiuso, e nessuno; guardò",
+        "hyp": "un armadio che stava sempre chiuso, e nessuno; guardò",
+        "ref": "un armadio che stava sempre chiuso, e nessuno; guardò", 
+        "human_annotation": 5
+    },
+    {
+        "in": "nel corbèllo dei trucioli e della segatura, e nes",
+        "hyp": "nel corbèllo dei trucioli e della segatura, e nes",
+        "ref": "nel corbello dei trucioli e della segatura, e nes", 
+        "human_annotation": 5
+    },
+    {
+        "in": "suno; aprì l'uscio di bottega per dare un'occhiata",
+        "hyp": "suno; aprì l’uscio di bottega per dare un’occhiata",
+        "ref": "suno; aprì l’uscio di bottega per dare un’occhiata", 
+        "human_annotation": 5
+    },
+    {
+        "in": "anche sulla strada, e nessuno.",
+        "hyp": "anche sulla strada, e nessuno.",
+        "ref": "anche sulla strada, e nessuno.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "O dunque?... — Ho capito; — disse allora ridendo e g",
+        "hyp": "O dunque?... — Ho capito; — disse allora ridendo e",
+        "ref": "O dunque?...— Ho capito; — disse allora ridendo e", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Tat- tandosi la parrucca — si vede che quella vocina me",
+        "hyp": "Tatandosi la parrucca — si vede che quella vocina me",
+        "ref": "grattandosi la parrucca — si vede che quella vocina me", 
+        "human_annotation": 3
+    },
+    {
+        "in": "la son figurata io.",
+        "hyp": "la son figurata io.",
+        "ref": "la son figurata io.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Eimettiamoci a lavo- rare. — E ripresa l' as",
+        "hyp": "Emetterò a lavorare.— E ripresa l’as",
+        "ref": "Rimettiamoci a lavorare.— E ripresa l’as", 
+        "human_annotation": 3
+    },
+    {
+        "in": "cia in mano, tirò giù un solennis- simo colpo sul pezzo",
+        "hyp": "cia in mano, tirò giù un solennimo colpo sul pezzo",
+        "ref": "cia in mano, tirò giù un solennissimo colpo sul pezzo", 
+        "human_annotation": 4
+    },
+    {
+        "in": "di legno.",
+        "hyp": "di legno.",
+        "ref": "di legno.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Ohi! tu m'hai fatto male! — gridò ramma-",
+        "hyp": "— Chi!tu m’hai fatto male!— gridò ramma",
+        "ref": "— Ohi!tu m’hai fatto male!— gridò ramma", 
+        "human_annotation": 2
+    },
+    {
+        "in": "ricandosi la solita vocina.",
+        "hyp": "ricandosi la solita vocina.",
+        "ref": "ricandosi la solita vocina.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Questa volta maestro Ciliegia restò di stucco, cogli occhi fu",
+        "hyp": "Quella volta maestro Ciliegia restò di stucco, cogli occhi fu",
+        "ref": "Questa volta maestro Ciliegia restò di stucco, cogli occhi fu", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ori del capo per la paura, colla bocca spalancati e colla ling",
+        "hyp": "ori del capo per la paura, colla bocca spalancati e colla lingua",
+        "ref": "ori del capo per la paura, colla bocca spalancata e colla", 
+        "human_annotation": 5
+    },
+    {
+        "in": "na giù ciondoloni fino al mento, come nn mascherone da",
+        "hyp": "na giù ciondoloni fino al mento, come un mascherone da",
+        "ref": "lingua giù ciondoloni fino al mento, come un mascherone da", 
+        "human_annotation": 5
+    },
+    {
+        "in": "fontana.",
+        "hyp": "fontana.",
+        "ref": "fontana.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Appena riebbe l'uso della parola, cominciò a",
+        "hyp": "Appena riebbe l’uso della parola, cominciò a",
+        "ref": "Appena riebbe l’uso della parola, cominciò a", 
+        "human_annotation": 5
+    },
+    {
+        "in": "dire tremando e balbettando dallo spavento: — Ma di dove sarà",
+        "hyp": "dire tremando e balbettando dallo spavento: — Ma di dove sarà",
+        "ref": "dire tremando e balbettando dallo spavento: — Ma di dove sarà", 
+        "human_annotation": 5
+    },
+    {
+        "in": "uscita questa vocina che ha detto ohi ?...",
+        "hyp": "uscita questa vocina che ha detto ohi?...",
+        "ref": "uscita questa vocina che ha detto ohi?...", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Eppure qui non e' è anima viva.",
+        "hyp": "Eppure qui non c’è anima viva.",
+        "ref": "Eppure qui non c’è anima viva.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ohe sia per caso questo pezzo di legno che abbia imparato a",
+        "hyp": "Ohe sia per caso questo pezzo di legno che abbia imparato a",
+        "ref": "Che sia per caso questo pezzo di legno che abbia imparato a", 
+        "human_annotation": 2
+    },
+    {
+        "in": "piangere e a lamentarsi come un bam- bino?",
+        "hyp": "piangere e a lamentarsi come un babino?",
+        "ref": "piangere e a lamentarsi come un bambino?", 
+        "human_annotation": 2
+    },
+    {
+        "in": "Io non lo posso credere. Questo legno eccolo qui; è",
+        "hyp": "Io non lo posso credere.Questo legno eccolo qui; è",
+        "ref": "Io non lo posso credere.Questo legno eccolo qui; è", 
+        "human_annotation": 5
+    },
+    {
+        "in": "un pezzo di legno da caminetto, come tutti gli altri, e",
+        "hyp": "un pezzo di legno da caminetto, come tutti gli altri, e",
+        "ref": "un pezzo di legno da caminetto, come tutti gli altri, e", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a buttarlo sul fuoco, c'è da far bollire una pentola di fag",
+        "hyp": "a buttarlo sul fuoco, c’è da farbollire una pentola di fag",
+        "ref": "a buttarlo sul fuoco, c’è da far bollire una pentola di fag", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ioli.... O dunque?",
+        "hyp": "ioli... O dunque?",
+        "ref": "ioli.... O dunque?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ohe ci sia na- scosto dentro qualcuno!",
+        "hyp": "Ohe ci sia nascosto dentro qualcuno!",
+        "ref": "Che ci sia nascosto dentro qualcuno!", 
+        "human_annotation": 3
+    },
+    {
+        "in": "Se c'è nascosto qualcuno, tanto peggio per lui.",
+        "hyp": "Se c’è nascosto qualcuno, tanto peggio per lui.",
+        "ref": "Se c’è nascosto qualcuno, tanto peggio per lui.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ora l'accomodo io! — E così dicendo, agguan",
+        "hyp": "Ora l’accomodo io!— E così dicendo, agguan",
+        "ref": "Ora l’accomodo io!— E così dicendo, agguan", 
+        "human_annotation": 5
+    },
+    {
+        "in": "tò con tutt' e due le mani quel povero pezzo di legno,",
+        "hyp": "tò con tutt’e due le mani quel povero pezzo di legno,",
+        "ref": "tò con tutt’e due le mani quel povero pezzo di legno,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "e si pose a sbatacchiarlo senza carità contro le pareti",
+        "hyp": "e si pose a sbatacchiarlo senza carità contro le pareti",
+        "ref": "e si pose a sbatacchiarlo senza carità contro le pareti", 
+        "human_annotation": 5
+    },
+    {
+        "in": "della stanza.",
+        "hyp": "della stanza.",
+        "ref": "della stanza.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Poi si messe in ascolto, per sentire se c'era qualche voc",
+        "hyp": "Poi si messe in ascolto, per sentire se c’era qualche voc",
+        "ref": "Poi si messe in ascolto, per sentire se c’era qualche voc", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ina che si lamentasse.",
+        "hyp": "ina che si lamentasse.",
+        "ref": "ina che si lamentasse.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Aspettò due minuti, e nulla; cinque minuti, e nulla",
+        "hyp": "Aspettò due minuti, e nulla; cinque minuti, e nulla",
+        "ref": "Aspettò due minuti, e nulla; cinque minuti, e nulla", 
+        "human_annotation": 5
+    },
+    {
+        "in": "; dieci mi- nuti, e nulla!",
+        "hyp": "; dieci muniti, e nulla!",
+        "ref": "; dieci minuti, e nulla!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— - Ho capito — disse allora sforzandosi di ri- dere",
+        "hyp": "— Ho capito — disse allora sforzandosi di ridere",
+        "ref": "— Ho capito — disse allora sforzandosi di ridere", 
+        "human_annotation": 5
+    },
+    {
+        "in": "e arruffandosi la parrucca — si vede che quella vocina che ha",
+        "hyp": "e arruffandosi la parrucca — si vede che quella vocina che ha",
+        "ref": "e arruffandosi la parrucca — si vede che quella vocina che ha", 
+        "human_annotation": 5
+    },
+    {
+        "in": "detto olii, me la son figurata io!",
+        "hyp": "dettooli, me la son figurata io!",
+        "ref": "detto ohi, me la son figurata io!", 
+        "human_annotation": 2
+    },
+    {
+        "in": "Eimettiamoci a lavorare. — E perchè gli era entrato addosso",
+        "hyp": "Emetterò a lavorare.— E perchè gli era entrato addosso",
+        "ref": "Rimettiamoci a lavorare.— E perchè gli era entrato addosso", 
+        "human_annotation": 2
+    },
+    {
+        "in": "una gran paura, si provò a canterellare per farsi un po",
+        "hyp": "una gran paura, si provò a canterellare per farsi un po",
+        "ref": "una gran paura, si provò a canterellare per farsi un po", 
+        "human_annotation": 5
+    },
+    {
+        "in": "' di coraggio.",
+        "hyp": "’ di coraggio.",
+        "ref": "’ di coraggio.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Intanto, i^osata da una parte l'ascia, prese in",
+        "hyp": "Intanto, posata da una parte l’ascia, prese in",
+        "ref": "Intanto, posata da una parte l’ascia, prese in", 
+        "human_annotation": 5
+    },
+    {
+        "in": "mano la pialla, per piallare e tirare a pulimento il",
+        "hyp": "mano la pialla, per piallare e tirare a pulimento il",
+        "ref": "mano la pialla, per piallare e tirare a pulimento il", 
+        "human_annotation": 5
+    },
+    {
+        "in": "pezzo di legno ; ma nel mentre che lo piallava in su",
+        "hyp": "pezzo di legno; ma nel mentre che lo piallava in su",
+        "ref": "pezzo di legno; ma nel mentre che lo piallava in su", 
+        "human_annotation": 5
+    },
+    {
+        "in": "e in giù, sentì la solita vocina che gli disse ridendo :",
+        "hyp": "e in giù, sentì la solita vocina che gli disse ridendo:",
+        "ref": "e in giù, sentì la solita vocina che gli disse ridendo:", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Smetti!",
+        "hyp": "— Smetti!",
+        "ref": "— Smetti!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "tu mi fai il pizzicorino sul corpo!",
+        "hyp": "tu mi fai il pizzicorino sul corpo!",
+        "ref": "tu mi fai il pizzicorino sul corpo!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Questa volta il povero maestro Ciliegia cadde giù come fulminat",
+        "hyp": "— Questa volta il povero maestro Ciliegia cadde giù come fuminat",
+        "ref": "— Questa volta il povero maestro Ciliegia cadde giù come fulminat", 
+        "human_annotation": 5
+    },
+    {
+        "in": "o.",
+        "hyp": "o.",
+        "ref": "o.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Quando riaprì gli occhi, si trovò seduto per terra.",
+        "hyp": "Quando riaprì gli occhi, si trovò seduto per terra.",
+        "ref": "Quando riaprì gli occhi, si trovò seduto per terra.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "IL Maestro Cilirgìa regala il pezzo di legno al suo amico",
+        "hyp": "Il Maestro Cilirgìa regala il pezzo di legno al suo amico",
+        "ref": "II.Maestro Ciliegia regala il pezzo di legno al suo amico", 
+        "human_annotation": 4
+    },
+    {
+        "in": "Geppetto, il quale lo prende per fabbricarsi un burattino maravi",
+        "hyp": "Geppetto, il quale lo prende per fabbricarsi un burattino maravi",
+        "ref": "Geppetto, il quale lo prende per fabbricarsi un burattino maravi", 
+        "human_annotation": 5
+    },
+    {
+        "in": "glioso, che sappia ballare, tirar di scherma e fare",
+        "hyp": "glioso, che sappia ballare, tirar di scherma e fare",
+        "ref": "glioso, che sappia ballare, tirar di scherma e fare", 
+        "human_annotation": 5
+    },
+    {
+        "in": "i salti mortali.",
+        "hyp": "i salti salti salti salti mortali.",
+        "ref": "i salti mortali.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "In quel punto fu bussato alla porta.",
+        "hyp": "In quel punto fu bussato alla porta.",
+        "ref": "In quel punto fu bussato alla porta.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Passate pure, — disse il falegname, senza aver la forza di",
+        "hyp": "— Passate pure, — disse il falegname, senza aver la forza di",
+        "ref": "— Passate pure, — disse il falegname, senza aver la forza di", 
+        "human_annotation": 5
+    },
+    {
+        "in": "rizzarsi in piedi.",
+        "hyp": "rizzarsi in piedi.",
+        "ref": "rizzarsi in piedi.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "TJn vecchietto tutto arzillo, il quale aveva nome",
+        "hyp": "TJn vecchietto tutto arzillo, il quale aveva nome",
+        "ref": "<img description>Un vecchietto tutto arzillo, il quale aveva nome", 
+        "human_annotation": 2
+    },
+    {
+        "in": "Geppetto.",
+        "hyp": "Geppetto.",
+        "ref": "Geppetto.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Allora entrò in bottega un vecchietto tutto ar- zillo,",
+        "hyp": "Allora entrò in bottega un vecchietto tutto arrazillo,",
+        "ref": "Allora entrò in bottega un vecchietto tutto arzillo,", 
+        "human_annotation": 3
+    },
+    {
+        "in": "il quale aveva nome Geppetto ; ma i ragazzi del vicinato",
+        "hyp": "il quale aveva nome Geppetto; ma i ragazzi del vicinato",
+        "ref": "il quale aveva nome Geppetto; ma i ragazzi del vicinato", 
+        "human_annotation": 5
+    },
+    {
+        "in": ", quando lo volevano far montare su tutte le furie, lo cliiam",
+        "hyp": ", quando lo volevano far montare su tutte le furie, lo",
+        "ref": ", quando lo volevano far montare su tutte le furie, lo chiama", 
+        "human_annotation": 1
+    },
+    {
+        "in": "avano col soprannome di Polendina, a motivo della sua parrucca gi",
+        "hyp": "avano col soprannome diPolendina, a motivo della sua parrucca gi",
+        "ref": "vano col soprannome di Polendina, a motivo della sua parrucca gi", 
+        "human_annotation": 3
+    },
+    {
+        "in": "alla, che somigliava moltissimo alla polendina di gran- turco.",
+        "hyp": "alla, che somigliava moltissimo alla polndina di gran turco.",
+        "ref": "alla, che somigliava moltissimo alla polendina di granturco.", 
+        "human_annotation": 4
+    },
+    {
+        "in": "Geppetto era bizzosissimo. Guai a chiamarlo Polendina",
+        "hyp": "Geppetto era bizzosissimo. Guai a chiamarlo Polendina",
+        "ref": "Geppetto era bizzosissimo.Guai a chiamarlo Polendina!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! Diventava subito una bestia, e non c'era più",
+        "hyp": "Diventava subito una bestia, e non c’era più",
+        "ref": "Diventava subito una bestia, e non c’era più", 
+        "human_annotation": 5
+    },
+    {
+        "in": "verso di tenerlo.",
+        "hyp": "verso di tenerlo.",
+        "ref": "verso di tenerlo.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Buon giorno, mastr' Antonio, — disse Gep- petto.",
+        "hyp": "— Buon giorno, mastr’Antonio, — disse Geppetto.",
+        "ref": "— Buon giorno, mastr’Antonio, — disse Geppetto.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Ohe cosa fate costì per terra?",
+        "hyp": "— Che cosa fate costì per terra?",
+        "ref": "— Che cosa fate costì per terra?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Insegno l'abbaco alle formicole.",
+        "hyp": "— Insegno l’abbaco alle formicole.",
+        "ref": "— Insegno l’abbaco alle formicole.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Buon prò vi faccia. — Chi vi ha portato da me, compar",
+        "hyp": "— Buon pro vi faccia.— Chi vi ha portato da me, compar",
+        "ref": "— Buon pro vi faccia.— Chi vi ha portato da me, compar", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Gep- petto ?",
+        "hyp": "Geppetto?",
+        "ref": "Geppetto?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Le gambe. Sappiate, mastr' Antonio, che son venuto da",
+        "hyp": "— Le gambe.Sappiate, maestr’Antonio, che son venuto da",
+        "ref": "— Le gambe.Sappiate, mastr’Antonio, che son venuto da", 
+        "human_annotation": 4
+    },
+    {
+        "in": "voi, per chiedervi un favore.",
+        "hyp": "voi, per chiedervi un favore.",
+        "ref": "voi, per chiedervi un favore.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Eccomi qui, pronto a servirvi, — replicò il faleg",
+        "hyp": "— Eccomi qui, pronto a servirvi, — replicò il faleg",
+        "ref": "— Eccomi qui, pronto a servirvi, — replicò il faleg", 
+        "human_annotation": 5
+    },
+    {
+        "in": "name rizzandosi su i ginocchi.",
+        "hyp": "name rizzandosi su i ginocchi.",
+        "ref": "name rizzandosi su i ginocchi.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Stamani m' è piovuta nel cervello un'idea.",
+        "hyp": "— Stamani m’è piovuta nel cervello un’idea.",
+        "ref": "— Stamani m’è piovuta nel cervello un’idea.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Sentiamola. — Ho pensato di fabbricarmi da me un bel bu-",
+        "hyp": "— Sentiamola.— Ho pensato di fabbricarmi da me un bel bu",
+        "ref": "— Sentiamola.— Ho pensato di fabbricarmi da me un bel bu", 
+        "human_annotation": 5
+    },
+    {
+        "in": "rattino di legno : ma un burattino maraviglioso, che",
+        "hyp": "rattino di legno: ma un burattino maraviglioso, che",
+        "ref": "rattino di legno: ma un burattino maraviglioso, che", 
+        "human_annotation": 5
+    },
+    {
+        "in": "sappia ballare, tirar di scherma e fare i salti mortal",
+        "hyp": "sappia ballare, tirar di scherma e fare i salti mortal",
+        "ref": "sappia ballare, tirar di scherma e fare i salti mortal", 
+        "human_annotation": 5
+    },
+    {
+        "in": "i.",
+        "hyp": "i.e.)",
+        "ref": "i.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "Con questo burattino voglio girare il mondo, per buscarmi un to",
+        "hyp": "Con questo burattino voglio girare il mondo, per buscarmi un to",
+        "ref": "Con questo burattino voglio girare il mondo, per buscarmi un to", 
+        "human_annotation": 5
+    },
+    {
+        "in": "zzo di pane e un bic- chier di vino: che ve ne pare",
+        "hyp": "zzo di pane e un bicchier di vino: che ve ne pare",
+        "ref": "zzo di pane e un bicchier di vino: che ve ne pare?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! — Bravo Polendina ! — gTidò la solita vocina",
+        "hyp": "— Bravo Polendina!— gridò la solita vocina",
+        "ref": "— Bravo Polendina!— gridò la solita vocina", 
+        "human_annotation": 5
+    },
+    {
+        "in": ", che non si capiva di dove uscisse.",
+        "hyp": ", che non si capiva di dove uscisse.",
+        "ref": ", che non si capiva di dove uscisse.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "A sentirsi cliiainar Polendina, compar Geppetto diventò rosso come un",
+        "hyp": "A sentirsi chiamar Pinocchio, compar Geppetto diventò rosso come un",
+        "ref": "A sentirsi chiamar Polendina, compar Geppetto diventò rosso come un", 
+        "human_annotation": 3
+    },
+    {
+        "in": "peperone dalla bizza, e vol- tandosi verso il falegname,",
+        "hyp": "peperone dalla bizza, e voltandosi verso il falegname,",
+        "ref": "peperone dalla bizza, e voltandosi verso il falegname,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "gli disse imbestialito : — Percliè mi offendete?",
+        "hyp": "gli disse imbestialito: — Perchè mi offendete?",
+        "ref": "gli disse imbestialito: — Perchè mi offendete?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Chi vi offende? — Mi avete detto Polendina!",
+        "hyp": "— Chi vi offende?— Mi avete detto",
+        "ref": "— Chi vi offende?— Mi avete detto Polendina!", 
+        "human_annotation": 1
+    },
+    {
+        "in": "— Non sono stato io. — Sta' un po' a vedere",
+        "hyp": "— Non sono stato io.— Sta’ un po’a vedere",
+        "ref": "— Non sono stato io.— Sta’ un po’ a vedere", 
+        "human_annotation": 5
+    },
+    {
+        "in": "che sarò shito io!",
+        "hyp": "che sarò shito io!",
+        "ref": "che sarò stato io!", 
+        "human_annotation": 1
+    },
+    {
+        "in": "Io dico che siete stato voi. — No!",
+        "hyp": "Io dico che siete stato voi.— No!",
+        "ref": "Io dico che siete stato voi.— No!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Sì! — No! — Sì! — E riscaldandosi sempre piii",
+        "hyp": "— Sì!— E riscaldandosi sempre più",
+        "ref": "— Sì!— No!— Sì!— E riscaldandosi sempre più", 
+        "human_annotation": 3
+    },
+    {
+        "in": ", vennero dalle pa- role ai fatti, e acciuffatisi",
+        "hyp": ", vennero dalle parti ai fatti, e acciuffati",
+        "ref": ", vennero dalle parole ai fatti, e acciuffatisi", 
+        "human_annotation": 1
+    },
+    {
+        "in": "fra di loro, si graffia- rono, si morsero e si",
+        "hyp": "fra di loro, si graffiarono, si morsero e si",
+        "ref": "fra di loro, si graffiarono, si morsero e si", 
+        "human_annotation": 5
+    },
+    {
+        "in": "sbertucciarono.",
+        "hyp": "sbertucciarono.",
+        "ref": "sbertucciarono.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Finito il combattimento, mastr' Antonio si trovò fra le mani la parr",
+        "hyp": "Finito il combattimento, mastr’Antonio si trovò fra le mani la parr",
+        "ref": "Finito il combattimento, mastr’Antonio si trovò fra le mani la parr", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ucca gialla di Geppetto, e Gep- petto si accòrse di",
+        "hyp": "occhio gialla di Geppetto, e Geppetto si accòrse di",
+        "ref": "ucca gialla di Geppetto, e Geppetto si accòrse di", 
+        "human_annotation": 3
+    },
+    {
+        "in": "avere in bocca la parrucca brizzolata del falegname.",
+        "hyp": "avere in bocca la parrucca brizzolata del falegname.",
+        "ref": "avere in bocca la parrucca brizzolata del falegname.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Bendimi la mia parrucca! — gridò ma- str'Antonio.",
+        "hyp": "— Bendimi la mia parrucca!— gridò mastro",
+        "ref": "— Rendimi la mia parrucca!— gridò mastr’Antonio.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "— E tu rendimi la mia, e rifacciamo la pace.",
+        "hyp": "— E tu rendimi la mia, e rifacciamo la pace.",
+        "ref": "— E tu rendimi la mia, e rifacciamo la pace.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— I due vecchietti, dopo aver ripreso ognuno di loro la",
+        "hyp": "— I due vecchietti, dopo aver ripreso ognuno di loro la",
+        "ref": "— I due vecchietti, dopo aver ripreso ognuno di loro la", 
+        "human_annotation": 5
+    },
+    {
+        "in": "propria parrucca, si strinsero la mano e giu- rarono di",
+        "hyp": "proprio parrucca, si strinsero la mano e girarono di",
+        "ref": "propria parrucca, si strinsero la mano e giurarono di", 
+        "human_annotation": 2
+    },
+    {
+        "in": "rimanere buoni amici per tutta la vita.",
+        "hyp": "rimanere buoni amici per tutta la vita.",
+        "ref": "rimanere buoni amici per tutta la vita.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Dunque, compar Geppetto, — disse il fale- gname in segno",
+        "hyp": "— Dunque, compar Geppetto, — disse il foglio in segno",
+        "ref": "— Dunque, compar Geppetto, — disse il falegname in segno", 
+        "human_annotation": 1
+    },
+    {
+        "in": "di pace fatta — qua! è il piacer^ che volete da me?",
+        "hyp": "di pace fatta — qua è il piacere che volete da me?",
+        "ref": "di pace fatta — qual è il piacere che volete da me?", 
+        "human_annotation": 3
+    },
+    {
+        "in": "— Vorrei un po' di legno per fabbricare il mio burattino;",
+        "hyp": "— Vorrei un po’ di legno per fabbricare il mio burattino;",
+        "ref": "— Vorrei un po’ di legno per fabbricare il mio burattino;", 
+        "human_annotation": 5
+    },
+    {
+        "in": "me lo date",
+        "hyp": "tesse lo me me lo lo date",
+        "ref": "me lo date?", 
+        "human_annotation": 1
+    },
+    {
+        "in": "! — Mastr' Antonio, tutto contento, andò subito",
+        "hyp": "— Mastr’Antonio, tutto contento, andò subito",
+        "ref": "Mastr’Antonio, tutto contento, andò subito", 
+        "human_annotation": 4
+    },
+    {
+        "in": "a prendere sul banco quel pezzo del legno che era stato cagione",
+        "hyp": "a prendere sul banco quel pezzo del legno che era stato cagione",
+        "ref": "a prendere sul banco quel pezzo del legno che era stato cagione", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a lui di tante paure.",
+        "hyp": "a lui di tante paure.",
+        "ref": "a lui di tante paure.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ma quando fu lì per consegnarlo all'amico, il pezzo di leg",
+        "hyp": "Ma quando fu lì per consegnarlo all’amico, il pezzo di leg",
+        "ref": "Ma quando fu lì per consegnarlo all’amico, il pezzo di leg", 
+        "human_annotation": 5
+    },
+    {
+        "in": "no dette uno scossone, e sgusciandogli violente-",
+        "hyp": "no dette uno scossone, e sgusciandogli violent",
+        "ref": "no dette uno scossone, e sgusciandogli viol", 
+        "human_annotation": 4
+    },
+    {
+        "in": "mente dalle mani, andò a battere con forza negli stinchi impresciut",
+        "hyp": "mente dalle mani, andò a battere con forza negli stinchi impresciut",
+        "ref": "entemente dalle mani, andò a battere con forza negli stinchi impresciut", 
+        "human_annotation": 5
+    },
+    {
+        "in": "titi del povero Geppetto.",
+        "hyp": "ti del povero Geppetto.",
+        "ref": "titi del povero Geppetto.", 
+        "human_annotation": 4
+    },
+    {
+        "in": "— Ah! gli è con questo bel garbo, mastr' An- to",
+        "hyp": "— Ah!gli è con questo bel garbo, mastr’",
+        "ref": "— Ah!gli è con questo bel garbo, mastr’", 
+        "human_annotation": 4
+    },
+    {
+        "in": "nio, che voi regalate la vostra roba?",
+        "hyp": "naio, che voi regalate la vostra roba?",
+        "ref": "Antonio, che voi regalate la vostra roba?", 
+        "human_annotation": 3
+    },
+    {
+        "in": "M'avete quasi azzoppito !... — Vi giuro che non sono stato",
+        "hyp": "M’avete quasi azzoppito!... — Vi giuro che non sono stato",
+        "ref": "M’avete quasi azzoppito!...— Vi giuro che non sono stato", 
+        "human_annotation": 5
+    },
+    {
+        "in": "io!",
+        "hyp": "io!",
+        "ref": "io!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Allora sarò stato io!... — La colpa è tutta",
+        "hyp": "— Allora sarò stato io!... — La colpa è tutta",
+        "ref": "— Allora sarò stato io!...— La colpa è tutta", 
+        "human_annotation": 5
+    },
+    {
+        "in": "di questo legno.... — Lo so che è del legno: ma siete",
+        "hyp": "di questo legno... — Lo so che è del legno: ma siete",
+        "ref": "di questo legno.... — Lo so che è del legno: ma siete", 
+        "human_annotation": 5
+    },
+    {
+        "in": "voi che me l'avete tirato nelle gambe!",
+        "hyp": "voi che me l’avete tirato nelle gambe!",
+        "ref": "voi che me l’avete tirato nelle gambe!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Io non ve 1' ho tirato ! — Bugiardo!",
+        "hyp": "— Io non ve l’ho tirato!— Bugiardo!",
+        "ref": "— Io non ve l’ho tirato!— Bugiardo!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Geppetto, non mi offendete : se no vi chiamo Polendina!...",
+        "hyp": "— Geppetto, non mi offendete: se no vi chiamo Polendina!...",
+        "ref": "— Geppetto, non mi offendete: se no vi chiamo Polendina!...", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Asino ! — Polendina! — Somaro ! — Polendina",
+        "hyp": "— Asino!— Polendina!— Somaro!— Polendina",
+        "ref": "— Asino!— Polendina!— Somaro!— Polendina!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "w — Brutto scimmiotto! — Polendina",
+        "hyp": "— Brutto scimmiotto!-Ponella",
+        "ref": "— Brutto scimmiotto!— Polendina!", 
+        "human_annotation": 3
+    },
+    {
+        "in": "! — A sentirsi chiamar Polendina per la terza volta, Geppetto",
+        "hyp": "— A sentirsi chiamar Polendina per la terza volta, Geppetto",
+        "ref": "— A sentirsi chiamar Polendina per la terza volta, Geppetto", 
+        "human_annotation": 5
+    },
+    {
+        "in": "perse il lume degli occhi, si avventò sul falegname e",
+        "hyp": "perse il lume degli occhi, si avventò sul falegname e",
+        "ref": "perse il lume degli occhi, si avventò sul falegname e", 
+        "human_annotation": 5
+    },
+    {
+        "in": "lì se ne dettero un sacco e una sporta.",
+        "hyp": "lì se ne dettero un sacco e una sporta.",
+        "ref": "lì se ne dettero un sacco e una sporta.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "A battaglia finita, mastr' Antonio si trovò due graffi di p",
+        "hyp": "A battaglia finita, maestr’Antonio si trovò due graffi di p",
+        "ref": "A battaglia finita, mastr’Antonio si trovò due graffi di p", 
+        "human_annotation": 4
+    },
+    {
+        "in": "iù sul naso, e quell'altro due bottoni di meno al giubbetto",
+        "hyp": "iù sul naso, e quell’altro due bottoni di meno al giubbetto",
+        "ref": "iù sul naso, e quell’altro due bottoni di meno al giubbetto", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Pareggiati in questo modo i loro conti, si strinsero la mano",
+        "hyp": "Pareggiati in questo modo i loro conti, si strinsero la mano",
+        "ref": "Pareggiati in questo modo i loro conti, si strinsero la mano", 
+        "human_annotation": 5
+    },
+    {
+        "in": "e giurarono di rimanere buoni amici per tutta la vita.",
+        "hyp": "e giurarono di rimanere buoni amici per tutta la vita.",
+        "ref": "e giurarono di rimanere buoni amici per tutta la vita.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "IH. Geppetto, tornato a casa, comincia subito a",
+        "hyp": "Geppetto, tornato a casa, comincia subito a",
+        "ref": "III.Geppetto, tornato a casa, comincia subito a", 
+        "human_annotation": 3
+    },
+    {
+        "in": "fabbricarsi il bu- rattino e gli mette il nome di Pinocchio",
+        "hyp": "fabbricarsi il burattino e gli mette il nome di Pinocchio",
+        "ref": "fabbricarsi il burattino e gli mette il nome di Pinocchio", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Prime monellerie del burattino.",
+        "hyp": "Prime monellerie del burattino.",
+        "ref": "Prime monellerie del burattino.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "La casa di Geppetto era una stanzina terrena, che pigliava luce da",
+        "hyp": "La casa di Geppetto era una stanzina terrena, che pigliava luce da",
+        "ref": "La casa di Geppetto era una stanzina terrena, che pigliava luce da", 
+        "human_annotation": 5
+    },
+    {
+        "in": "un sottoscala.",
+        "hyp": "un sottoscala.",
+        "ref": "un sottoscala.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "La mobilia non poteva esser più semplice: una seggiola cat",
+        "hyp": "La mobilia non poteva esser più semplice: una seggiola cat",
+        "ref": "La mobilia non poteva esser più semplice: una seggiola", 
+        "human_annotation": 5
+    },
+    {
+        "in": "- tiva, un letto poco buono e un tavolino tutto",
+        "hyp": "tiva, un letto poco buono e un tavolino tutto",
+        "ref": "cattiva, un letto poco buono e un tavolino tutto", 
+        "human_annotation": 5
+    },
+    {
+        "in": "rovinato.",
+        "hyp": "rovinato.",
+        "ref": "rovinato.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Nella parete di fondo si vedeva un caminetto col fuoco acceso ;",
+        "hyp": "Nella parete di fondo si vedeva un caminetto col fuoco acceso;",
+        "ref": "Nella parete di fondo si vedeva un caminetto col fuoco acceso;", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ma il fuoco era dipinto, e accanto al fuoco e' era",
+        "hyp": "ma il fuoco era dipinto, e accanto al fuoco c’era",
+        "ref": "ma il fuoco era dipinto, e accanto al fuoco c’era", 
+        "human_annotation": 5
+    },
+    {
+        "in": "dipinta un pen- tola che bolliva allegramente e mandava fuori",
+        "hyp": "dipinta un penna che bolliva allegramente e mandava fuori",
+        "ref": "dipinta una pentola che bolliva allegramente e mandava fuori", 
+        "human_annotation": 1
+    },
+    {
+        "in": "una nuvola di fumo, che pareva fumo davvero.",
+        "hyp": "una nuvola di fumo, che pareva fumo davvero.",
+        "ref": "una nuvola di fumo, che pareva fumo davvero.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Appena entrato in casa, Geppetto prese subito gli arnesi e si",
+        "hyp": "Appena entrato in casa, Geppetto prese subito gli arnesi e si",
+        "ref": "Appena entrato in casa, Geppetto prese subito gli arnesi e si", 
+        "human_annotation": 5
+    },
+    {
+        "in": "pose a intagliare e a fabbricare il suo burattino.",
+        "hyp": "pose a intagliare e a fabbricare il suo burattino.",
+        "ref": "pose a intagliare e a fabbricare il suo burattino.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Che nome gli metterò ? — disse fra sé e sé.",
+        "hyp": "— Che nome gli metterò?— disse fra sè e sè.",
+        "ref": "— Che nome gli metterò?— disse fra sè e sè.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Lo voglio chiamar Pinocchio.",
+        "hyp": "— Lo voglio chiamar Pinocchio.",
+        "ref": "— Lo voglio chiamar Pinocchio.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Questo nome gli porterà fortuna.",
+        "hyp": "Questo nome gli porterà fortuna.",
+        "ref": "Questo nome gli porterà fortuna.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ho conosciuto una famiglia intera di Pinocchi: Pinocchio il padre, Pinocchia",
+        "hyp": "Ho conosciuto una famiglia intera di Pinocchio: Pinocchio il padre, Pinocchia",
+        "ref": "Ho conosciuto una famiglia intera di Pinocchi: Pinocchio il padre, Pinocchia", 
+        "human_annotation": 4
+    },
+    {
+        "in": "la madre e Pinocchi i ragazzi, e tutti se la pas",
+        "hyp": "la madre e Pinocchio i ragazzi, e tutti se la pas",
+        "ref": "la madre e Pinocchi i ragazzi, e tutti se la", 
+        "human_annotation": 4
+    },
+    {
+        "in": "- savano bene.",
+        "hyp": "- savano bene.",
+        "ref": "passavano bene.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Il più ricco di loro chiedeva l' ele- mos",
+        "hyp": "Il più ricco di loro chiedeva l’elemos",
+        "ref": "Il più ricco di loro chiedeva l’elemosina", 
+        "human_annotation": 4
+    },
+    {
+        "in": "?^ Quando ebbe trovato il nome al suo burattino, allora",
+        "hyp": "Quando ebbe trovato il nome al suo burattino, allora",
+        "ref": "Quando ebbe trovato il nome al suo burattino, allora", 
+        "human_annotation": 5
+    },
+    {
+        "in": "cominciò a lavorare a buono, e gli fece sub",
+        "hyp": "cominciò a lavorare a buono, e gli fece sub",
+        "ref": "cominciò a lavorare a buono, e gli fece sub", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ito i capelli, poi la fronte, poi gli occhi.",
+        "hyp": "ito i capelli, poi la fronte, poi gli occhi.",
+        "ref": "ito i capelli, poi la fronte, poi gli occhi.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Fatti gli occhi, figuratevi la sua maraviglia Più",
+        "hyp": "Fatti gli occhi, figuratevi la sua maraviglia Più",
+        "ref": "Fatti gli occhi, figuratevi la sua maraviglia <img description>Più", 
+        "human_annotation": 5
+    },
+    {
+        "in": "lo ritagliava e lo scorciva, e più quel naso impertinente",
+        "hyp": "lo ritagliava e lo scorciva, e più quel naso impertinente",
+        "ref": "lo ritagliava e lo scorciva, e più quel naso impertinente", 
+        "human_annotation": 5
+    },
+    {
+        "in": "diventava Inngo.",
+        "hyp": "diventava Inngo.",
+        "ref": "diventava lungo.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "quando si accòrse che gli occhi si movevano e che lo guardavano",
+        "hyp": "quando si accòrse che gli occhi si movevano e che lo guardavano",
+        "ref": "quando si accòrse che gli occhi si muovevano e che lo guardavano", 
+        "human_annotation": 5
+    },
+    {
+        "in": "fìsso fìsso.",
+        "hyp": "sso fisso fisso fisso fisso fisso.",
+        "ref": "fisso fisso.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "Geppetto vedendosi guardare da quei due oc- chi di legno, se",
+        "hyp": "Geppetto vedendosi guardare da quei due occhi di legno, se",
+        "ref": "Geppetto, vedendosi guardare da quei due occhi di legno, se", 
+        "human_annotation": 5
+    },
+    {
+        "in": "n'ebbe quasi per male, e disse con accento risentito: —",
+        "hyp": "n’ebbe quasi per male, e disse con accento risentito: —",
+        "ref": "n’ebbe quasi per male, e disse con accento risentito: —", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Occhiacci di legno, perchè mi guardate",
+        "hyp": "Occhiacci di legno, perchè mi guardate",
+        "ref": "Occhiacci di legno, perchè mi guardate?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "? — Nessuno rispose. Allora, dopo gli occhi gli fece",
+        "hyp": "— Nessuno rispose.Allora, dopo gli occhi gli fece",
+        "ref": "— Nessuno rispose.Allora, dopo gli occhi, gli fece", 
+        "human_annotation": 5
+    },
+    {
+        "in": "il naso; ma il naso, appena fatto, cominciò",
+        "hyp": "il naso; ma il naso, appena fatto, cominciò",
+        "ref": "il naso; ma il naso, appena fatto, cominciò", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a crescere: e ere- sci, cresci, cresci, divent",
+        "hyp": "a crescere: e crescere: e cresci, cresci, cresci,",
+        "ref": "a crescere: e cresci, cresci, cresci divent", 
+        "human_annotation": 4
+    },
+    {
+        "in": "ò in pochi minuti un na- sone elle non finiva mai.",
+        "hyp": "ò in pochi minuti un nasonelle che non finiva mai.",
+        "ref": "ò in pochi minuti un nasone che non finiva mai.", 
+        "human_annotation": 3
+    },
+    {
+        "in": "Il povero Geppetto si affaticava a ritagliarlo ; ma più",
+        "hyp": "Il povero Geppetto si affaticava a ritagliarlo; ma più",
+        "ref": "Il povero Geppetto si affaticava a ritagliarlo; ma più", 
+        "human_annotation": 5
+    },
+    {
+        "in": "lo ritagliava e lo scorciva, e più quel naso impertinente",
+        "hyp": "lo ritagliava e lo scorciva, e più quel naso impertinente",
+        "ref": "lo ritagliava e lo scorciva, e più quel naso impertinente", 
+        "human_annotation": 5
+    },
+    {
+        "in": "diventava lungo.",
+        "hyp": "diventava lungo.",
+        "ref": "diventava lungo.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Dopo il naso gli fece la bocca.",
+        "hyp": "Dopo il naso gli fece la bocca.",
+        "ref": "Dopo il naso, gli fece la bocca.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "La bocca non era ancora finita di fare, che co- minciò sub",
+        "hyp": "La bocca non era ancora finita di fare, che cominciò sub",
+        "ref": "La bocca non era ancora finita di fare, che cominciò sub", 
+        "human_annotation": 5
+    },
+    {
+        "in": "ito a ridere e a canzonarlo.",
+        "hyp": "ito a ridere e a canzonarlo.",
+        "ref": "ito a ridere e a canzonarlo.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Smetti di ridere ! — disse Geppetto imper- malito; ma fu",
+        "hyp": "— Smetti di ridere!— disse Geppetto impermalito; ma fu",
+        "ref": "— Smetti di ridere!— disse Geppetto impermalito; ma fu", 
+        "human_annotation": 5
+    },
+    {
+        "in": "come dire al muro.",
+        "hyp": "come dire al muro.",
+        "ref": "come dire al muro.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Smetti di ridere, ti ripeto",
+        "hyp": "— Smetti di ridere, ti ripeto",
+        "ref": "— Smetti di ridere, ti ripeto!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! — urlò con voce minacciosa. Allora la bocca",
+        "hyp": "— urlò con voce minacciosa.Allora la bocca",
+        "ref": "— urlò con voce minacciosa.Allora la bocca", 
+        "human_annotation": 5
+    },
+    {
+        "in": "smesse di ridere, ma cacciò fuori tutta la lingua.",
+        "hyp": "smesse di ridere, ma cacciò fuori tutta la lingua.",
+        "ref": "smesse di ridere, ma cacciò fuori tutta la lingua.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Gejjpetto, per non guastare i fatti suoi, finse di non",
+        "hyp": "Geppetto, per non guastare i fatti suoi, finchè di non",
+        "ref": "Geppetto, per non guastare i fatti suoi, finse di non", 
+        "human_annotation": 3
+    },
+    {
+        "in": "avvedersene, e continuò a lavorare.",
+        "hyp": "avvedersene, e continuò a lavorare.",
+        "ref": "avvedersene, e continuò a lavorare.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Dopo la bocca gli fece il mento, poi il collo, poi le",
+        "hyp": "Dopo la bocca gli fece il mento, poi il collo, poi le",
+        "ref": "Dopo la bocca, gli fece il mento, poi il collo, le", 
+        "human_annotation": 5
+    },
+    {
+        "in": "spalle, lo stomaco, le braccia e le mani.",
+        "hyp": "spalle, lo stomaco, le braccia e le mani.",
+        "ref": "spalle, lo stomaco, le braccia e le mani.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Appena finite le mani, Geppetto sentì portarsi via la parrucca",
+        "hyp": "Appena finite le mani, Geppetto sentì portarsi via la parrucca",
+        "ref": "Appena finite le mani, Geppetto sentì portarsi via la parrucca", 
+        "human_annotation": 5
+    },
+    {
+        "in": "dal capo.",
+        "hyp": "dal capo.",
+        "ref": "dal capo.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Si voltò in su, e che cosa vide?",
+        "hyp": "Si voltò in su, e che cosa vide?",
+        "ref": "Si voltò in su, e che cosa vide?", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Vide la sua parrucca gialla in mano del burattino.",
+        "hyp": "Ved la sua parrucca gialla in mano del burattino.",
+        "ref": "Vide la sua parrucca gialla in mano del burattino.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "— Pinocchio !... rendimi subito la mia par- rucca !",
+        "hyp": "— Pinocchio!... rendimi subito la mia parrucca!",
+        "ref": "— Pinocchio!...rendimi subito la mia parrucca!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— E Pinocchio, invece di rendergli la parrucca, se la messe",
+        "hyp": "— E Pinocchio, invece di rendergli la parrucca, se la messe",
+        "ref": "— E Pinocchio, invece di rendergli la parrucca, se la messe", 
+        "human_annotation": 5
+    },
+    {
+        "in": "in cai30 per sé, rimanendovi sotto mezzo affogato.",
+        "hyp": "in cacio per sè, rimanendovi sotto mezzo affogato.",
+        "ref": "in capo per sè, rimanendovi sotto mezzo affogato.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "A quel garbo insolente e derisorio, Geppetto si fece tristo",
+        "hyp": "A quel garbo insolente e derisorio, Geppetto si fece tristo",
+        "ref": "A quel garbo insolente e derisorio, Geppetto si fece tristo", 
+        "human_annotation": 5
+    },
+    {
+        "in": "e melanconico, come non era stato mai in vita sua: e volt",
+        "hyp": "e melanconico, come non era stato mai in vita sua: e volt",
+        "ref": "e melanconico, come non era stato mai in vita sua: e volt", 
+        "human_annotation": 5
+    },
+    {
+        "in": "andosi verso Pinocchio, gli disse: — Birba d' un figliuolo",
+        "hyp": "andosi verso Pinocchio, gli disse: — Birba d’un figliuolo",
+        "ref": "andosi verso Pinocchio, gli disse: — Birba d’un figliuolo!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! Non sei ancora finito E Pinocciiio, invece di rendergli",
+        "hyp": "Non sei ancora finito E Pinocchio, invece di rendergli",
+        "ref": "Non sei ancora finito <img description>E Pinocchio, invece di rendergli", 
+        "human_annotation": 5
+    },
+    {
+        "in": "la parrucca, se la messe in capo per sé.... di fare, e",
+        "hyp": "la parrucca, se la messe in capo per sè.... di fare, e",
+        "ref": "la parrucca, se la messe in capo per sè.... di fare, e", 
+        "human_annotation": 5
+    },
+    {
+        "in": "già cominci a mancar di rispetto a tuo padre!",
+        "hyp": "già cominci a mancar di rispetto a tuo padre!",
+        "ref": "già cominci a mancar di rispetto a tuo padre!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Male, ragazzo mio, male! — E si rasciugò una",
+        "hyp": "Male, ragazzo mio, male!— E si rasciugò una",
+        "ref": "Male, ragazzo mio, male!— E si rasciugò una", 
+        "human_annotation": 5
+    },
+    {
+        "in": "lacrima.",
+        "hyp": "lacrima.",
+        "ref": "lacrima.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Eestavano sempre da fare le gambe e i piedi.",
+        "hyp": "Eestavano sempre da fare le gambe e i piedi.",
+        "ref": "Restavano sempre da fare le gambe e i piedi.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "Quando Geppetto ebbe finito di fargli i piedi, sentì arriv",
+        "hyp": "Quando Geppetto ebbe finito di fargli i piedi, sentì arriv",
+        "ref": "Quando Geppetto ebbe finito di fargli i piedi, sentì arriv", 
+        "human_annotation": 5
+    },
+    {
+        "in": "arsi un talcio sulla punta del naso.",
+        "hyp": "arsi un talcio sulla punta del naso.",
+        "ref": "arsi un calcio sulla punta del naso.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "— Me lo merito — disse allora fra sé.",
+        "hyp": "— Me lo merito — disse allora fra sè.",
+        "ref": "— Me lo merito!— disse allora fra sè.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— Do- vevo pensarci prima ! Ormai è tardi",
+        "hyp": "— Dovevo pensarci prima!Ormai è tardi",
+        "ref": "— Dovevo pensarci prima!Ormai è tardi!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! — Poi prese il burattino sotto le braccia e lo posò in",
+        "hyp": "— Poi prese il burattino sotto le braccia e lo posò in",
+        "ref": "— Poi prese il burattino sotto le braccia e lo posò in", 
+        "human_annotation": 5
+    },
+    {
+        "in": "terra, sul pavimento della stanza, per farlo camminare.",
+        "hyp": "terra, sul pavimento della stanza, per farlo camminare.",
+        "ref": "terra, sul pavimento della stanza, per farlo camminare.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Pinocchio aveva le gambe aggrancliite e non sapeva muoversi",
+        "hyp": "Pinocchio aveva le gambe aggrangliatote e non sapeva muoversi",
+        "ref": "Pinocchio aveva le gambe aggranchite e non sapeva muoversi", 
+        "human_annotation": 2
+    },
+    {
+        "in": ", e Geppetto lo conduceva per — Piglialo!",
+        "hyp": ", e Geppetto lo conduceva per — Piglialo!",
+        "ref": ", e Geppetto lo conduceva per <img description>— Piglialo!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "piglialo! — urlava Geppetto. la mano per insegnargli",
+        "hyp": "piglialo!— urlava Geppetto.La mano per insegnargli",
+        "ref": "piglialo!— urlava Geppetto.la mano per insegnargli", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a mettere un passo die- tro l'altro.",
+        "hyp": "a mettere un passo dunque l’altro.",
+        "ref": "a mettere un passo dietro l’altro.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "Quando le gambe gli si furono sgranchite. Pi- nocchio",
+        "hyp": "Quando le gambe gli si furono sgranchite.Pinocchio",
+        "ref": "Quando le gambe gli si furono sgranchite, Pinocchio", 
+        "human_annotation": 5
+    },
+    {
+        "in": "cominciò a camminare da sé e a correre per la",
+        "hyp": "cominciò a camminare da sè e a correre per la",
+        "ref": "cominciò a camminare da sè e a correre per la", 
+        "human_annotation": 5
+    },
+    {
+        "in": "stanza; finché, infilata la porta di casa, saltò nella strada e",
+        "hyp": "stanza; finchè, infilata la porta di casa, saltò nella strada e",
+        "ref": "stanza; finchè, infilata la porta di casa, saltò nella strada e", 
+        "human_annotation": 5
+    },
+    {
+        "in": "si détte a scappare.",
+        "hyp": "si dètte a scappare.",
+        "ref": "si dètte a scappare.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "E il povero Geppetto a corrergli dietro senza poterlo r",
+        "hyp": "E il povero Geppetto a corrergli dietro senza poterlo r",
+        "ref": "E il povero Geppetto a corrergli dietro senza poterlo r", 
+        "human_annotation": 5
+    },
+    {
+        "in": "aggiungere, perché quel bii'ichino di Pi- nocchio andava",
+        "hyp": "iù, perchè quel bicchiere di Pinocchio andava",
+        "ref": "aggiungere, perchè quel birichino di Pinocchio andava", 
+        "human_annotation": 1
+    },
+    {
+        "in": "a salti come nna lepre, e bat- tendo i suoi",
+        "hyp": "a salti come nna lepre, e battendo i suoi",
+        "ref": "a salti come una lepre, e battendo i suoi", 
+        "human_annotation": 3
+    },
+    {
+        "in": "piedi di legno sul lastrico della strada, faceva un fracasso come",
+        "hyp": "piedi di legno sul lastrico della strada, faceva un fracasso come",
+        "ref": "piedi di legno sul lastrico della strada, faceva un fracasso, come", 
+        "human_annotation": 5
+    },
+    {
+        "in": "venti paia di zoccoli da contadini.",
+        "hyp": "venti paura di zoccoli da contadini.",
+        "ref": "venti paia di zoccoli da contadini.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "— Piglialo ! piglialo ! — urlava Geppetto ;",
+        "hyp": "— Piglialo!piglialo!",
+        "ref": "— Piglialo!piglialo!— urlava Geppetto;", 
+        "human_annotation": 1
+    },
+    {
+        "in": "ma la gente che era per la via, vedendo questo bu- rattino di",
+        "hyp": "ma la gente che era per la via, vedendo questo burattino di",
+        "ref": "ma la gente che era per la via, vedendo questo burattino di", 
+        "human_annotation": 5
+    },
+    {
+        "in": "legno, che correva come un barbero, si fermava incantata",
+        "hyp": "legno, che correva come un barbero, si fermava incantata",
+        "ref": "legno, che correva come un barbero, si fermava incantata", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a guardarlo, e rideva, ri- deva e rideva,",
+        "hyp": "a guardarlo, e rideva, rideva e rideva,",
+        "ref": "a guardarlo, e rideva, rideva e rideva,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "da non poterselo figurare.",
+        "hyp": "da da non poterselo figurare.",
+        "ref": "da non poterselo figurare.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "Alla fine, e per bidona fortuna, capitò un ca- rabiniere",
+        "hyp": "Alla fine, e per bidona fortuna, capitò un ca- rabiniere",
+        "ref": "Alla fine, e per buona fortuna, capitò un carabiniere", 
+        "human_annotation": 1
+    },
+    {
+        "in": "il quale, sentendo tutto quello schia- mazzo, e crede",
+        "hyp": "il quale, sentendo tutto quello scoiatolo, e crede",
+        "ref": "il quale, sentendo tutto quello schiamazzo, e crede", 
+        "human_annotation": 1
+    },
+    {
+        "in": "ndo si trattasse di un puledro che avesse levata la mano al padrone",
+        "hyp": "ndo si trattasse di un puledro che avesse levata la mano al padrone",
+        "ref": "ndo si trattasse di un puledro che avesse levata la mano al padrone", 
+        "human_annotation": 5
+    },
+    {
+        "in": ", si piantò co- raggiosamente a gambe larghe in mezzo",
+        "hyp": ", si piantò coraggiosamente a gambe larghe in mezzo",
+        "ref": ", si piantò coraggiosamente a gambe larghe in mezzo", 
+        "human_annotation": 5
+    },
+    {
+        "in": "alla strada, con F animo risoluto di fermarlo e di im-",
+        "hyp": "alla strada, con l’animo risoluto di fermarlo e di",
+        "ref": "alla strada, con l’animo risoluto di fermarlo e di", 
+        "human_annotation": 5
+    },
+    {
+        "in": "pedire il caso di maggiori disgrazie.",
+        "hyp": "pedire il caso di maggiori disgrazie.",
+        "ref": "impedire il caso di maggiori disgrazie.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ma Pinocchio, quando si avvide da lontano del carabiniere, che",
+        "hyp": "Ma Pinocchio, quando si avvide da lontano del carabiniere, che",
+        "ref": "Ma Pinocchio, quando si avvide da lontano del carabiniere, che", 
+        "human_annotation": 5
+    },
+    {
+        "in": "barricava tutta la strada., s'ingegnò di passargli, per",
+        "hyp": "barricava tutta la strada, s’ingegnò di passargli, per",
+        "ref": "barricava tutta la strada, s’ingegnò di passargli, per", 
+        "human_annotation": 5
+    },
+    {
+        "in": "sorpresa, framezzo alle gambe, e invece fece fiasco",
+        "hyp": "sorpresa, framezzo alle gambe, e invece fece fiasco",
+        "ref": "sorpresa, frammezzo alle gambe, e invece fece fiasco", 
+        "human_annotation": 4
+    },
+    {
+        "in": "Il carabiniere, senza punto smuoversi lo ac- ciuffò pulitamente",
+        "hyp": "Il carabiniere, senza punto smuoversi lo accrizzòpulitamente",
+        "ref": "Il carabiniere, senza punto smuoversi, lo acciuffò pulitamente",
+        "human_annotation": 1
+    },
+    {
+        "in": "per il naso (era un nasone spropositato, che pareva fatto ap",
+        "hyp": "per il naso (era un nasone spropositato, che pareva fatto ap",
+        "ref": "per il naso (era un nasone spropositato, che pareva fatto ap", 
+        "human_annotation": 5
+    },
+    {
+        "in": "posta per essere acchiappato dai carabinieri) e lo riconseg",
+        "hyp": "posta per essere acchiappato dai carabinieri) e lo riconseg",
+        "ref": "posta per essere acchiappato dai carabinieri) e lo riconseg", 
+        "human_annotation": 5
+    },
+    {
+        "in": "nò nelle proprie mani di Geppetto; il quale, a titolo di",
+        "hyp": "nò nelle proprie mani di Geppetto; il quale, a titolo di",
+        "ref": "nò nelle proprie mani di Geppetto; il quale, a titolo di", 
+        "human_annotation": 5
+    },
+    {
+        "in": "correzione, voleva dargli subito una buona tira- tina d'orecchi",
+        "hyp": "correzione, voleva dargli subito una buona tiratina d’orocchini",
+        "ref": "correzione, voleva dargli subito una buona tiratina d’orecchi", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ma figuratevi come rimase, quan- do nel cercargli gli orecchi",
+        "hyp": "Ma figuratevi come rimase, quando nel cercargli gli orecchi",
+        "ref": "Ma figuratevi come rimase, quando nel cercargli gli orecchi,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "non gli riuscì di po- terli trovare: e sapete per",
+        "hyp": "non gli riuscì di poterli trovare: e sapete per",
+        "ref": "non gli riuscì di poterli trovare: e sapete per", 
+        "human_annotation": 5
+    },
+    {
+        "in": "chè?",
+        "hyp": ",chè?chè?chè?chè?chè?chè?chè?chè?chè?chè",
+        "ref": "chè?", 
+        "human_annotation": 1
+    },
+    {
+        "in": "perchè, nella furia di scolpirlo, si era dimenticato di far",
+        "hyp": "perchè, nella furia di scolpirlo, si era dimenticato di far",
+        "ref": "perchè, nella furia di scolpirlo, si era dimenticato di far", 
+        "human_annotation": 5
+    },
+    {
+        "in": "glieli.",
+        "hyp": "Gliglieli.",
+        "ref": "glieli.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "^wevxc Lo acciuffò pulitamente per il naso.... Allora lo",
+        "hyp": "— L’acciuffò pulitamente per il naso... Allora lo",
+        "ref": "<img description>Lo acciuffò pulitamente per il naso.... Allora lo", 
+        "human_annotation": 4
+    },
+    {
+        "in": "prese per la collottola, e, mentre lo riconduceva indietro,",
+        "hyp": "prese per la collottola, e, mentre lo ricondurva indietro,",
+        "ref": "prese per la collottola, e, mentre lo riconduceva indietro,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "gli disse tentennando mi- nacciosamente il capo: — Andiamo sub",
+        "hyp": "gli disse tentennando mi- nacciosamente il capo: — Andiamo sub",
+        "ref": "gli disse tentennando minacciosamente il capo: — Andiamo sub", 
+        "human_annotation": 2
+    },
+    {
+        "in": "ito a casa.",
+        "hyp": "ito a casa.",
+        "ref": "ito a casa.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Quando saremo a casa, non dubitare che faremo i nostri conti",
+        "hyp": "Quando saremo a casa, non dubitare che faremo i nostri conti",
+        "ref": "Quando saremo a casa, non dubitare che faremo i nostri conti", 
+        "human_annotation": 5
+    },
+    {
+        "in": "— • Pinocchio, a questa antilona, si buttò per terra,",
+        "hyp": "— Pinocchio, a questa antilona, si buttò per terra,",
+        "ref": "— Pinocchio, a questa antifona, si buttò per terra,", 
+        "human_annotation": 5
+    },
+    {
+        "in": "e non volle più camminare.",
+        "hyp": "e non volpiglia più camminare.",
+        "ref": "e non volle più camminare.", 
+        "human_annotation": 1
+    },
+    {
+        "in": "Intanto i curiosi e i bighelloni principiavano a fermarsi",
+        "hyp": "Intanto i curiosi e i bighelloni principiavano a fermarsi",
+        "ref": "Intanto i curiosi e i bighelloni principiavano a fermarsi", 
+        "human_annotation": 5
+    },
+    {
+        "in": "lì dintorno e a far capannello.",
+        "hyp": "lì dintorno e a far capannello.",
+        "ref": "lì dintorno e a far capannello.", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ohi ne diceva una, chi un'altra.",
+        "hyp": "Ohi ne diceva una, chi un’altra.",
+        "ref": "Chi ne diceva una, chi un’altra.", 
+        "human_annotation": 3
+    },
+    {
+        "in": "— Povero burattino ! — dicevano alcuni — ha ragione",
+        "hyp": "— Povero burattino!— dicevano alcuni — ha ragione",
+        "ref": "— Povero burattino!— dicevano alcuni — ha ragione", 
+        "human_annotation": 5
+    },
+    {
+        "in": "a non voler tornare a casa!",
+        "hyp": "a non voler tornare a casa!",
+        "ref": "a non voler tornare a casa!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ohi lo sa come 10 picchierebbe quelP omaccio di Geppetto !...",
+        "hyp": "Ohi lo sa come 10 picchierebbe quelp omaccio di Geppetto!...",
+        "ref": "Chi lo sa come lo picchierebbe quell’omaccio di Geppetto!...", 
+        "human_annotation": 1
+    },
+    {
+        "in": "— E gli altri soggiungevano malignamente: — Quel Geppetto pare un gal",
+        "hyp": "— E gli altri soffermavano malignamente: — Quel Geppetto pare un gal",
+        "ref": "— E gli altri soggiungevano malignamente: — Quel Geppetto pare un gal", 
+        "human_annotation": 1
+    },
+    {
+        "in": "antuomo",
+        "hyp": "antuomo",
+        "ref": "antuomo!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! ma è un vero tiranno, coi ragazzi!",
+        "hyp": "ma è un vero tiranno, coi ragazzi!",
+        "ref": "ma è un vero tiranno coi ragazzi!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Se gli lasciano quel povero burattino fra le mani, è capacissimo di",
+        "hyp": "Se gli lasciano quel povero burattino fra le mani, è capacissimo di",
+        "ref": "Se gli lasciano quel povero burattino fra le mani, è capacissimo di", 
+        "human_annotation": 5
+    },
+    {
+        "in": "farlo a pezzi",
+        "hyp": "farlo a pezzi",
+        "ref": "farlo a pezzi!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! — Insomma, tanto dissero e tanto fecero, che il",
+        "hyp": "— Insomma, tanto dissero e tanto fecero, che il",
+        "ref": "— Insomma, tanto dissero e tanto fecero, che il", 
+        "human_annotation": 5
+    },
+    {
+        "in": "carabiniere rimesse in libertà Pinocchio, e con- dusse in pri",
+        "hyp": "carabiniere rimesse in libertà Pinocchio, e condusse in pri",
+        "ref": "carabiniere rimise in libertà Pinocchio, e condusse in pri", 
+        "human_annotation": 3
+    },
+    {
+        "in": "gione quel pover'uomo di Geppetto.",
+        "hyp": "ggione quell’uomo di Geppetto.",
+        "ref": "gione quel pover’uomo di Geppetto.", 
+        "human_annotation": 2
+    },
+    {
+        "in": "11 quale non avendo parole lì per lì per difen- dersi",
+        "hyp": "11 quale non avendo parole lì per lì per difendirsi",
+        "ref": "Il quale non avendo parole lì per lì per difendersi", 
+        "human_annotation": 5
+    },
+    {
+        "in": ", piangeva come un vitellino, e neir avviarsi verso il carcere",
+        "hyp": ", piangeva come un vitellino, e neir avviarsi verso il carcere",
+        "ref": ", piangeva come un vitellino, e nell’avviarsi verso il carcere", 
+        "human_annotation": 2
+    },
+    {
+        "in": ", balbettava singhiozzando: — Sciagurato figliuolo",
+        "hyp": ", balbettava singhiozzando: — Sciagurato figliuolo",
+        "ref": ", balbettava singhiozzando: — Sciagurato figliuolo!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "! E i)ensare che ho pe- nato tanto a farlo",
+        "hyp": "E insare che ho pente tanto a farlo",
+        "ref": "E pensare che ho penato tanto a farlo", 
+        "human_annotation": 1
+    },
+    {
+        "in": "un burattino per bene!",
+        "hyp": "un burattino per bene!",
+        "ref": "un burattino per bene!", 
+        "human_annotation": 5
+    },
+    {
+        "in": "Ma mi sta il dovere ! Dovevo pensarci prima !...",
+        "hyp": "Ma mi sta il dovere! Dovevo pensarci prima!...",
+        "ref": "Ma mi sta il dovere!Dovevo pensarci prima!...", 
+        "human_annotation": 5
+    }
+]

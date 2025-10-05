@@ -1,40 +1,8 @@
-# New_ocr_text_cleaning
-Fine-tuning mt5 for cleaning italian ocr-text.
+# OCR Text Cleaning (of italian text)
 
-SOME Data augmentation suggestions.
-1. Randomly remove a pre-defined pecentage of characters
-2. Randomly remove a pre-defined percentage of words (This can be too much, maybe we can set a very small percentage)
-3. Manually introduce some common erros committed by OCR-systems e.g.:
-    i → 1
-    o → 0
-    and so on.
+**OCR** stands for *Optical Character Recognition* and is a technology designed to extract text from images or scanned documents. However, the output of such systems is usually very noisy and contains errors, and so here we takle the problem of cleaning and correcting it. 
 
-I think we should consider using also the english dataset. All models we are using are trained also on english data, so this 
-shouldn't introduce issues with the italian text, but, I think, it will only make the model more robust and lead to better 
-performances.
-
-
-### Italian OCR datasets
-
-[Datasets](https://drive.google.com/drive/folders/1nbIdLEnXTd2VFUdXcLwYYQ9FpWI3npQ_?usp=drive_link)
-
-
-
-
-
-#### Results
-{'rouge1': 0.7368431375193767, 'rouge2': 0.6642079181152278, 'rougeL': 0.7340623540540256, 'rougeLsum': 0.7342041097832374}
-
-
-finished computed scores {'human': [1, 1, 5, 5, 2, 5, 5, 3, 4, 4, 5, 3, 2, 2, 4, 1, 2, 5, 4, 4, 2, 3, 5, 5, 1, 4, 5, 4, 2, 1, 5, 1, 1, 5, 4, 3, 5, 1, 1, 4, 5, 4, 5, 3, 5, 5, 5, 5, 3, 4, 5, 5, 5, 4, 3, 5, 4, 3, 5, 5, 5, 4, 4, 2, 5, 2, 1, 1, 5, 3, 3, 5, 1, 5, 4, 4, 1, 5, 4, 5, 5, 5, 5, 5, 5, 3, 3, 4, 3, 3, 2, 5, 4, 5, 5, 5, 5, 4, 5, 3, 5, 3, 3, 5, 3, 5, 5, 5, 2, 2, 3, 2, 1, 2, 5, 5, 2, 5, 5, 2, 4, 5, 4, 3, 3, 2, 5, 5, 1, 1, 2, 2, 5, 1, 4, 5, 5, 5, 5, 3, 2, 4, 4, 4, 5, 5, 5, 5, 5, 5], 'score_rouge1': [4, 3, 5, 5, 4, 5, 5, 4, 4, 5, 4, 4, 4, 3, 4, 2, 4, 4, 5, 5, 3, 4, 5, 5, 4, 5, 4, 5, 3, 4, 4, 3, 4, 3, 4, 4, 2, 2, 3, 3, 4, 5, 4, 4, 5, 5, 5, 4, 4, 4, 5, 5, 4, 2, 4, 5, 5, 4, 5, 5, 5, 4, 5, 3, 4, 4, 4, 3, 4, 2, 4, 3, 4, 4, 5, 5, 0, 5, 4, 3, 4, 4, 5, 5, 5, 4, 4, 3, 4, 3, 3, 4, 4, 2, 5, 5, 5, 4, 0, 4, 5, 4, 4, 5, 5, 4, 4, 5, 3, 3, 3, 4, 2, 2, 5, 5, 3, 5, 5, 3, 4, 0, 5, 4, 4, 3, 5, 5, 3, 4, 4, 4, 5, 2, 4, 4, 4, 5, 4, 4, 2, 4, 4, 5, 5, 5, 5, 5, 5, 5], 'score_rouge2': [3, 3, 5, 5, 3, 5, 5, 3, 4, 5, 4, 4, 4, 3, 4, 0, 4, 4, 5, 5, 0, 4, 5, 4, 4, 5, 4, 5, 2, 3, 4, 3, 4, 2, 4, 4, 0, 1, 2, 2, 3, 5, 4, 3, 5, 5, 5, 3, 4, 4, 5, 4, 4, 0, 4, 5, 5, 3, 5, 5, 5, 3, 5, 1, 4, 4, 3, 3, 4, 0, 3, 3, 4, 3, 5, 4, 0, 5, 3, 3, 4, 3, 5, 5, 5, 4, 4, 3, 4, 3, 3, 4, 4, 0, 5, 5, 5, 4, 0, 4, 5, 4, 4, 5, 5, 4, 4, 5, 2, 2, 3, 4, 1, 1, 5, 5, 0, 5, 5, 2, 4, 0, 4, 3, 4, 2, 5, 5, 3, 4, 3, 3, 5, 0, 4, 4, 3, 4, 4, 4, 0, 4, 4, 5, 0, 5, 5, 5, 5, 5], 'score_rougeL': [4, 3, 5, 5, 4, 5, 5, 4, 4, 5, 4, 4, 4, 3, 4, 2, 4, 4, 5, 5, 3, 4, 5, 5, 4, 5, 4, 5, 3, 4, 4, 3, 4, 3, 4, 4, 2, 2, 3, 3, 4, 5, 4, 4, 5, 5, 5, 4, 4, 4, 5, 5, 4, 2, 4, 5, 5, 4, 5, 5, 5, 4, 5, 3, 4, 4, 4, 3, 4, 2, 4, 3, 4, 4, 5, 5, 0, 5, 4, 3, 4, 4, 5, 5, 5, 4, 4, 3, 4, 3, 3, 4, 4, 2, 5, 5, 5, 4, 0, 4, 5, 4, 4, 5, 5, 4, 4, 5, 3, 3, 3, 4, 2, 2, 5, 5, 3, 5, 5, 3, 4, 0, 5, 4, 4, 3, 5, 5, 3, 4, 4, 4, 5, 2, 4, 4, 4, 5, 4, 4, 2, 4, 4, 5, 5, 5, 5, 5, 5, 5], 'cohen_rouge1': 0.1489997014034039, 'cohen_rouge2': 0.22841290024274663, 'cohen_rougeL': 0.1489997014034039, 'cohen_llm': 0.2547781869191653, 'score_llm': [4, 1, 5, 5, 1, 5, 5, 4, 4, 5, 1, 4, 3, 1, 1, 1, 4, 4, 1, 1, 1, 4, 5, 5, 1, 1, 5, 5, 3, 2, 1, 3, 3, 1, 1, 3, 1, 2, 1, 4, 1, 5, 1, 3, 5, 5, 5, 1, 1, 4, 1, 5, 1, 4, 4, 5, 5, 4, 5, 5, 5, 1, 5, 2, 5, 2, 1, 1, 2, 1, 2, 1, 1, 1, 5, 5, 5, 5, 4, 4, 1, 1, 5, 5, 5, 5, 3, 1, 1, 2, 4, 5, 4, 1, 5, 5, 5, 3, 4, 4, 5, 5, 1, 5, 3, 2, 4, 5, 4, 5, 1, 1, 1, 2, 5, 4, 1, 5, 5, 4, 4, 1, 5, 1, 4, 4, 5, 5, 4, 4, 4, 4, 5, 1, 4, 1, 1, 5, 1, 1, 3, 4, 3, 4, 5, 1, 5, 5, 5, 5]}
-
-
-
-#### mt5-base
-
-rouge scores:
-{'rouge1': 0.8634264766648513, 'rouge2': 0.7998622516553808, 'rougeL': 0.8636810955720213, 'rougeLsum': 0.8629993709460015}
-
-
-**Minerva**
-{'rouge1': 0.9005852515102277, 'rouge2': 0.8460793808017917, 'rougeL': 0.8978804948440431, 'rougeLsum': 0.8973991446212246}
+## Methodology
+To tackle the problem we adopt an approach based on the use of LLMs; precisely we fine-tune two base models:
+- **mt5-base**: a multilingual varian of the "Text-to-Text Transfer Transformer (T5)" which is designed to map text into other text, such as in translation tasks. Therefore, it can be a strong candidate for cleaning Italian OCR-text, since also here we have a "text to text" problem ( mapping the ocr text to its cleaned version).
+- **Minerva-3B-base**: an only-decoder model traned on Italian and English text. Here we adopt a generative approach to solve the problem. 

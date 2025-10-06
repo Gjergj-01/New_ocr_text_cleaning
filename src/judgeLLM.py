@@ -11,8 +11,11 @@ def get_LLM(model, path_file):
     with open('datasets/LLMasjudge_instructions.json') as file:
         instructions = json.load(file)
 
-    with open(path_file) as file:
-        data = json.load(file)
+    #with open(path_file) as file:
+    #    data = json.load(file)
+
+
+    data = data[86:]
 
     orig_instruction = instructions["orig_instructions"]
     orig_criteria = instructions["orig_criteria"]
@@ -88,7 +91,7 @@ def get_LLM(model, path_file):
             outputs.append(info)
 
             # Save results while executing
-            with open("intermediate_output.jsonl", "a") as f:
+            with open("gemini_output.jsonl", "a") as f:
                 f.write(json.dumps(info) + "\n")
     
         return outputs

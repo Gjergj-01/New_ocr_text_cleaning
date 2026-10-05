@@ -1,4 +1,7 @@
 # OCR Text Cleaning (of italian text)
+### Cleaning Collodi's *Le avventure di pinocchio*.
+
+### OCR
 
 **OCR** stands for *Optical Character Recognition* and is a technology designed to extract text from images or scanned documents. However, the output of such systems is usually very noisy and contains errors, and so here we takle the problem of cleaning and correcting it. 
 
@@ -12,6 +15,7 @@ To tackle the problem we adopt an approach based on the use of LLMs; precisely w
 A said before, *mt5* is a storng candidate for this task, since we can interpret the problem of cleaning ocr text as a translation problem, i.e. transalting the ocr-text into clean italian text. 
 However, mt5 has some limitations, and the main one is surely the limited window size, which consists of only 20 tokens. So, we make a first preprocessing by slitting the original dataset into smaller samples of the kind `(orc_sample, clean_sample)`, where the criterion it's simply splitting at the end of a sentence. However, since these samples easlily exceed the windows' size, we make an additional splitting, in order to have samples of no more than 20 tokens. This however raises an additional complication, the difficulty of matching the samples, since usually we need more tokens to encode the `ocr_sample` than the ones needed to encode the tokens of the `clean_samples`. \\
 In order to do so, we first encoded each sample produced in the first preprocessing step and generated the token ids. Then we used the **sequence-alignment** algorithm (used in biology to align sequences of genes) proposed by Needlman and Wunsch, to align the tokens corresponding to the ocr sample with those corresponding to the clean one. Finally, once we aligned the two sequences, we proceeded in splitting them in chunks of 20 tokens. It might seem counter-intuitive that we aligned tokens instead of the characters of the plain text, but we noticed that this leads to much better results.
+For more detail see file `mt5-finetuning`.
 
 #### Example
 ocr:  

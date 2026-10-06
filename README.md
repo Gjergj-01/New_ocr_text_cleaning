@@ -36,3 +36,58 @@ clean_tokens: ['iscono', '▁quasi', '▁sempre', '▁', 'o', '▁in', '▁', 'c
 
 ### Notes on Minerva3B-base
 In this case, since the model is too big and we have limited computational resource, we couldn't perform a full fine-tuning. Therefore, we relied on **unsloth**, a library that provides a simple and efficient framework for fine-tuning LLMs. One of the key features of this library is the possibility to add LoRA adapters, which allow to train only a small number of parameters. More precisely, the idea behind **LoRA** (*Low Rank Adaption*) is that of freezing the pre-trained model's wheights and introduce a few new traineable parameters. In practice this means that we train only a small percentage of the model's paramters (1 to 10%) making the fine-tuning much faster and efficient while still keeping good performances.
+
+
+## Evaluation
+
+To evaluate the results we used different metrics:
+- **Human annotations** (made by us)
+- **Rouge-N**: measures the number of matching *n-grams* between the model-generated text and human-produced reference.
+    -   Here we consider **rouge-1**, **rouge-2** and **rouge-L** (where rougeL measures the longest common subsequence).
+- **Gemini 2.5 flash-lite** and **Prometheus as judges.
+- **Cohen's kappa score** which measures how much two different scores agree between them. `-1` means complete disagreement, `1` total agreement. We used it to compare our scores with all the others.
+
+### mt5 results
+
+```json
+{
+    "human": 0.8724252491694353,
+    "score_rouge1": 0.9215946843853822,
+    "score_rouge2": 0.8445182724252491,
+    "score_rougeL": 0.9215946843853822,
+    "cohen_rouge1": 0.32277245907661234,
+    "cohen_rouge2": 0.3032407407407407,
+    "cohen_rougeL": 0.32277245907661234,
+    "cohen_llm": 0.27873653636693696,
+    "cohen_prometheus": 0.09990367612174178,
+    "score_llm": 0.826578073089701,
+    "score_prometheus": 0.47308970099667774
+}
+```
+
+
+<p align="center">
+    <img src="scores_plot/mt5_scores.png" alt="mt5 scores" width=800 />
+</p>
+
+### Minerva3B results
+
+```json
+{
+    "human": 0.7535999999999999,
+    "score_rouge1": 0.8944000000000001,
+    "score_rouge2": 0.8160000000000001,
+    "score_rougeL": 0.8944000000000001,
+    "cohen_rouge1": 0.22418657137483544,
+    "cohen_rouge2": 0.18136570031435573,
+    "cohen_rougeL": 0.22418657137483544,
+    "cohen_llm": -0.04379065928730941,
+    "cohen_prometheus": 0.14972955253237186,
+    "score_llm": 0.8400000000000001,
+    "score_prometheus": 0.5584
+}
+```
+
+<p align="center">
+    <img src="scores_plot/minerva3B_scores.png", alt="Minerva3B scores", width=800 />
+</p>
